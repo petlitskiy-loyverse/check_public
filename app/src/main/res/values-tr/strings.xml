@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="email">E-posta</string>
+    <string name="password">Şifre</string>
+    <string name="login">Giriş Yap</string>
+    <string name="logout">Oturumu Kapat</string>
+    <string name="loading">Yükleniyor...</string>
+    <string name="item">Ürün</string>
+    <string name="forward">Yönlendir</string>
+    <string name="backward">Geri</string>
+    <string name="top_5_products">Ürünler</string>
+    <string name="top_5_categories">Kategoriler</string>
+    <string name="top_5_employees">Personel</string>
+    <string name="forgot_password_text">Şifrenizi mi unuttunuz?</string>
+    <string name="new_to_loyverse_text">Loyverse\'te yeni misiniz?</string>
+    <!--Metrics name-->
+    <string name="sales_summary_gross_sales">Brüt satış</string>
+    <string name="sales_summary_refunds">İadeler</string>
+    <string name="sales_summary_discounts">İndirimler</string>
+    <string name="sales_summary_net_sales">Net Satış</string>
+    <string name="sales_summary_cost_of_goods">Ürünlerin maliyeti</string>
+    <string name="sales_summary_gross_profit">Brüt kar</string>
+    <string name="sales_summary_taxes">Vergiler</string>
+    <string name="sales_summary_tips">Bahşişler</string>
+    <string name="sales_summary_total_tendered">Toplam İşlem</string>
+    <string-array name="period_array">
+        <item>@string/today</item>
+        <item>@string/this_week</item>
+        <item>@string/this_month</item>
+        <item>@string/this_year</item>
+        <item>@string/custom_period</item>
+    </string-array>
+    <!--Reset password activity-->
+    <string name="reset_password_activity_title">Şifre Sıfırla</string>
+    <string name="reset_email">Şifrenizi sıfırlama bildirimi almak için e-posta adresinizi giriniz.</string>
+    <!--Send Email dialog-->
+    <string name="email_sent_dialog_title">E-posta gönderildi</string>
+    <string name="email_sent_dialog_msg">Daha fazla talimat için e-posta adresiniz kontrol ediniz.</string>
+    <!--Logout dialog-->
+    <string name="logout_dialog_title">Oturumu Kapat</string>
+    <string name="logout_dialog_msg">Oturumu kapatmak istediğinizden emin misiniz?</string>
+    <!--Retry dialog-->
+    <string name="retry_dialog_no_internet_msg">İnternet bağlantısı yok.</string>
+    <string name="retry_dialog_msg">An unexpected error occurred. Please try again later.</string>
+    <string name="retry">Yeniden dene</string>
+    <!--Bottom bar tab titles-->
+    <string name="tab_reports">Satışlar</string>
+    <string name="tab_products">Ürünler</string>
+    <string name="tab_settings">Ayarlar</string>
+    <!--Product item-->
+    <string name="product_item_stock">%s stokta var</string>
+    <string name="product_divider">"\u200a\" | \"\u200a"</string>
+    <!--Product variants-->
+    <string name="product_variants">%s türevler</string>
+    <string name="variant_track_stock_off"> \"\u200a\"</string>
+    <!--Products activity-->
+    <string name="product_filter_type_empty_stock">Stokta yok</string>
+    <string name="product_filter_type_low_stock">Düşük stok</string>
+    <string name="product_filter_type_all">Tüm ürünler</string>
+    <!--Settings fragment-->
+    <string name="setting_stock_notification_title">Stok bildirimleri</string>
+    <string name="setting_stock_notification_description">Ürünler düşük veya stok dışı olduğunda haber ver.</string>
+    <string name="today">Bugün</string>
+    <string name="this_week">Bu hafta</string>
+    <string name="this_month">Bu Ay</string>
+    <string name="this_year">Bu Yıl</string>
+    <string name="custom_period">Özel dönem</string>
+    <string name="name">Personel</string>
+    <string name="product">Ürün</string>
+    <string name="category">Kategori</string>
+    <string name="net">Net Satış</string>
+    <string name="main_indicators">Satış Özeti</string>
+    <string name="total">Toplam</string>
+    <string name="select_range">Dönem seçin</string>
+    <string name="send">Gönder</string>
+    <!--Main dashboard charts-->
+    <string name="main_operations_chart_title">Makbuzlar</string>
+    <string name="main_total_sales_chart_title">Net Satış</string>
+    <string name="main_average_ticket_chart_title">Ortalama satış</string>
+    <string name="employees_sales">Personele göre satışlar</string>
+    <string name="categories_sales">Kategoriye göre satışlar</string>
+    <string name="products_sales">Ürüne göre satışlar</string>
+    <string name="sales_summary">Satış Özeti</string>
+    <string name="outlet_selection">Mağaza seç</string>
+    <!--Error msg-->
+    <string name="error_invalid_email">Geçerli bir e-posta girin.</string>
+    <string name="error_wrong_password">Hatalı posta adresi ya da şifre. Lütfen tekrar deneyiniz.</string>
+    <string name="error_unknown">Bilinmeyen bir hata oluştu.</string>
+    <string name="error_bad_auth">Yetkilendirme hatası.</string>
+    <string name="error_email_not_exist">Girmiş olduğunuz e-posta hesabı mevcut değil. Lütfen tekrar deneyiniz.</string>
+    <string name="error_owner_already_deleted">Hesap kilitlendi. Destek ekibi ile iletişime geçin.</string>
+    <string name="no_network">Ağ kullanılabilir değil.</string>
+    <string name="no_such_device">Bilinmeyen bir hata oluştu.</string>
+    <string name="no_connection">İnternet bağlantısı yok.</string>
+    <string name="unknown_login_email">Bilinmeyen e-posta.</string>
+    <string name="blocked_by_billing">Blocked by billing.</string>
+    <string name="user_was_blocked">Kullanıcı engellenmiş.</string>
+    <string name="access_denied">Erişim engellendi.</string>
+    <string name="access_rights_required">Erişim hakları gerekli</string>
+    <string name="access_rights_required_msg">Hesap sahibinden gerekli izinleri isteyebilirsiniz.</string>
+    <string name="default_zero_value">0</string>
+    <string name="hour">Saat</string>
+    <string name="day">Gün</string>
+    <string name="month">Ay</string>
+    <string name="quarter">Çeyrek</string>
+    <string name="year">Yıl</string>
+    <string-array name="large_value_suffixes">
+        <item></item>
+        <item>K</item>
+        <item>M</item>
+        <item>B</item>
+        <item>P</item>
+    </string-array>
+    <!--crowdin compatible tags?-->
+    <string name="low_stock_push">Ürün <xliff:g example="mango" id="ware">%s </xliff:g> azalıyor. <xliff:g example="5" id="count"> %s </xliff:g> stokta kaldı.</string>
+    <string name="out_of_stock_push">Ürün <xliff:g example="mango" id="ware">%s </xliff:g> stok dışı.</string>
+    <string name="multishop_low_stock_push">Ürün <xliff:g example="mango" id="ware">%s </xliff:g> <xliff:g example="Magic shop" id="outlet"> %s </xliff:g> da azalıyor. <xliff:g example="5" id="count"> %s </xliff:g> stokta kaldı.</string>
+    <string name="multishop_out_of_stock_push">Ürün <xliff:g example="mango" id="ware">%s </xliff:g> <xliff:g example="Magic shop" id="outlet"> %s </xliff:g>, da stok dışı.</string>
+    <string name="stock_item_warning">Ürün stok uyarısı</string>
+    <string name="search">Ara</string>
+    <!-- Billing-->
+    <string name="subscription">Erişim engellendi</string>
+    <string name="upgrade_Account">Please update your account in the Back Office.</string>
+    <string name="update_Account">Hesabını güncelle</string>
+    <string name="contact_account_owner">Hesap sahibine başvurun</string>
+    <string name="exit">Oturumu Kapat</string>
+    <string name="billing_out_dialog_msg">Çıkmak istediğinizden emin misiniz?</string>
+    <string name="confirmation_exit">Oturumu Kapat</string>
+    <string name="no">İptal</string>
+    <plurals name="variantCount">
+        <item quantity="one">%d değişken</item>
+        <item quantity="other">%d değişkenler</item>
+    </plurals>
+    <!--New to Loyverse-->
+    <string name="description_kds_l1">Loyverse Dashboard is a complementary app to Loyverse POS.</string>
+    <string name="description_kds_l2">To get started, please install the Loyverse POS app.</string>
+    <!--Vertical Calendar-->
+    <string name="sun">Pzr</string>
+    <string name="mon">Pzt</string>
+    <string name="tue">Sal</string>
+    <string name="wed">Çrş</string>
+    <string name="thu">Prş</string>
+    <string name="fri">Cum</string>
+    <string name="sat">Cmt</string>
+    <string name="apply">Uygula</string>
+    <string name="setting_use_darktheme">Karanlık temayı kullan</string>
+    <string name="all_day">Tüm gün</string>
+    <string name="start">Başlangıç</string>
+    <string name="end">Son</string>
+    <string name="ok">Tamam</string>
+    <string name="cancel">İptal</string>
+    <string name="select_start_endtime">Lütfen Başlangıç ​​Saati ve Bitiş Saatini Seçin</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+</resources>

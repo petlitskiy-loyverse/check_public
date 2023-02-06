@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="login">साइन इन करें</string>
+    <string name="logout">साइन आउट करें</string>
+    <string name="loading">लोड हो रहा है</string>
+    <string name="item">आइटम</string>
+    <string name="forward">फारवर्ड</string>
+    <string name="backward">पिछड़े</string>
+    <string name="top_5_products">आइटम</string>
+    <string name="top_5_categories">श्रेणियाँ</string>
+    <string name="top_5_employees">कर्मचारी</string>
+    <string name="forgot_password_text">पासवर्ड भूल गए?</string>
+    <string name="new_to_loyverse_text">Loyverse करने के लिए नए हैं?</string>
+    <!--Metrics name-->
+    <string name="sales_summary_gross_sales">कुल बिक्री</string>
+    <string name="sales_summary_refunds">धन-वापसी</string>
+    <string name="sales_summary_discounts">छूट</string>
+    <string name="sales_summary_net_sales">नेट बिक्री</string>
+    <string name="sales_summary_cost_of_goods">माल की लागत</string>
+    <string name="sales_summary_gross_profit">सकल लाभ</string>
+    <string name="sales_summary_taxes">करों</string>
+    <string name="sales_summary_tips">संकेत</string>
+    <string name="sales_summary_total_tendered">कुल दी गई</string>
+    <string-array name="period_array">
+        <item>@string/today</item>
+        <item>@string/this_week</item>
+        <item>@string/this_month</item>
+        <item>@string/this_year</item>
+        <item>@string/custom_period</item>
+    </string-array>
+    <!--Reset password activity-->
+    <string name="reset_password_activity_title">पासवर्ड रीसेट करें</string>
+    <string name="reset_email">अपना पासवर्ड रीसेट करने के लिए निर्देश प्राप्त करने के लिए अपना ईमेल पता दर्ज करें।</string>
+    <!--Send Email dialog-->
+    <string name="email_sent_dialog_title">ईमेल भेज दिया गया है|</string>
+    <string name="email_sent_dialog_msg">आगे निर्देश के लिए अपने इनबॉक्स की जाँच करें।</string>
+    <!--Logout dialog-->
+    <string name="logout_dialog_title">साइन अप करें</string>
+    <string name="logout_dialog_msg">आप सुनिश्चित करें कि आप छूट को हटाना चाहते हैं?</string>
+    <!--Retry dialog-->
+    <string name="retry_dialog_no_internet_msg">कोई इंटरनेट कनेक्शन नहीं</string>
+    <string name="retry_dialog_msg">An unexpected error occurred. Please try again later.</string>
+    <string name="retry">पुन: प्रयास करें</string>
+    <!--Bottom bar tab titles-->
+    <string name="tab_reports">बिक्री</string>
+    <string name="tab_products">मदों</string>
+    <string name="tab_settings">व्यवस्था</string>
+    <!--Product item-->
+    <string name="product_item_stock">शेयर में %s</string>
+    <string name="product_divider">"\u200a\" | \"\u200a"</string>
+    <!--Product variants-->
+    <string name="product_variants">%s variants</string>
+    <string name="variant_track_stock_off"> \"\u200a\"</string>
+    <!--Products activity-->
+    <string name="product_filter_type_empty_stock">स्टॉक से बाहर</string>
+    <string name="product_filter_type_low_stock">कम शेयर</string>
+    <string name="product_filter_type_all">सभी आइटम</string>
+    <!--Settings fragment-->
+    <string name="setting_stock_notification_title">स्टॉक सूचना</string>
+    <string name="setting_stock_notification_description">जब आइटम कम हैं या शेयर से बाहर को सूचित करें।</string>
+    <string name="today">आज</string>
+    <string name="this_week">इस सप्ताह</string>
+    <string name="this_month">इस महीने</string>
+    <string name="this_year">इस वर्ष</string>
+    <string name="custom_period">कस्टम अवधि</string>
+    <string name="name">कर्मचारी</string>
+    <string name="product">आइटम</string>
+    <string name="category">श्रेणी</string>
+    <string name="net">शुद्ध बिक्री</string>
+    <string name="main_indicators">बिक्री सारांश</string>
+    <string name="total">कुल</string>
+    <string name="select_range">अवधि का चयन करें</string>
+    <string name="send">भेजें</string>
+    <!--Main dashboard charts-->
+    <string name="main_operations_chart_title">प्राप्ति सूचना</string>
+    <string name="main_total_sales_chart_title">शुद्ध बिक्री</string>
+    <string name="main_average_ticket_chart_title">औसत बिक्री</string>
+    <string name="employees_sales">कर्मचारी द्वारा बिक्री</string>
+    <string name="categories_sales">श्रेणी द्वारा बिक्री</string>
+    <string name="products_sales">आइटम द्वारा बिक्री</string>
+    <string name="sales_summary">बिक्री सारांश</string>
+    <string name="outlet_selection">संग्रह का चयन करें</string>
+    <!--Error msg-->
+    <string name="error_invalid_email">एक मान्य ईमेल दर्ज करें।</string>
+    <string name="error_wrong_password">गलत पासवर्ड। कृपया पुन: प्रयास करें</string>
+    <string name="error_unknown">कोई अज्ञात त्रुटि हुई।</string>
+    <string name="error_bad_auth">प्रमाणन त्रुटि</string>
+    <string name="error_email_not_exist">इस ईमेल के साथ खाता मौजूद नहीं है। कृपया पुन: प्रयास करें।</string>
+    <string name="error_owner_already_deleted">उस खाते को अवरोधित किया है। समर्थन टीम के साथ संपर्क करें।</string>
+    <string name="no_network">नेटवर्क उपलब्ध नहीं है</string>
+    <string name="no_such_device">कोई अज्ञात त्रुटि हुई।</string>
+    <string name="no_connection">कोई इंटरनेट कनेक्शन नहीं</string>
+    <string name="unknown_login_email">अज्ञात ई-मेल।</string>
+    <string name="blocked_by_billing">Blocked by billing.</string>
+    <string name="user_was_blocked">प्रयोक्ता को ब्लॉक किया है</string>
+    <string name="access_denied">Access denied.</string>
+    <string name="access_rights_required">पहुँच अधिकार आवश्यक</string>
+    <string name="access_rights_required_msg">आपको आवश्यक अनुमति खाते के मालिक से अनुरोध कर सकते हैं।</string>
+    <string name="default_zero_value">0</string>
+    <string name="hour">घंटा</string>
+    <string name="day">दिन</string>
+    <string name="month">माह</string>
+    <string name="quarter">तिमाही</string>
+    <string name="year">वर्ष</string>
+    <string-array name="large_value_suffixes">
+        <item></item>
+        <item>क</item>
+        <item>एम</item>
+        <item>बी</item>
+        <item>टी</item>
+    </string-array>
+    <!--crowdin compatible tags?-->
+    <string name="low_stock_push">आइटम <xliff:g example="mango" id="ware">%s </xliff:g> कम चल रहा है। <xliff:g example="5" id="count"> %s </xliff:g> स्टॉक में रहते हैं।</string>
+    <string name="out_of_stock_push">आइटम <xliff:g example="mango" id="ware">%s </xliff:g> स्टॉक से बाहर है।</string>
+    <string name="multishop_low_stock_push">मद <xliff:g example="mango" id="ware">%s </xliff:g> <xliff:g example="Magic shop" id="outlet"> %s </xliff:g> पर कम चल रहा है। <xliff:g example="5" id="count"> %s </xliff:g> स्टॉक में रहते हैं।</string>
+    <string name="multishop_out_of_stock_push">मद <xliff:g example="mango" id="ware">%s </xliff:g> <xliff:g example="Magic shop" id="outlet"> %s </xliff:g> पर स्टॉक से बाहर है।</string>
+    <string name="stock_item_warning">स्टॉक आइटम चेतावनी</string>
+    <string name="search">खोज</string>
+    <!-- Billing-->
+    <string name="subscription">पहुंच अस्वीकृत</string>
+    <string name="upgrade_Account">Please update your account in the Back Office.</string>
+    <string name="update_Account">अपना खाता अपडेट करें</string>
+    <string name="contact_account_owner">Contact account owner</string>
+    <string name="exit">साइन आउट करें</string>
+    <string name="billing_out_dialog_msg">क्या आपको पूरा यकीन है कि आप निर्गम करना चाहते हैं?</string>
+    <string name="confirmation_exit">साइन आउट करें</string>
+    <string name="no">रद्द करें</string>
+    <plurals name="variantCount">
+        <item quantity="one">%d variant</item>
+        <item quantity="other">%d variants</item>
+    </plurals>
+    <!--New to Loyverse-->
+    <string name="description_kds_l1">Loyverse Dashboard is a complementary app to Loyverse POS.</string>
+    <string name="description_kds_l2">To get started, please install the Loyverse POS app.</string>
+    <!--Vertical Calendar-->
+    <string name="sun">रवि</string>
+    <string name="mon">सोम</string>
+    <string name="tue">Tue</string>
+    <string name="wed">बुध</string>
+    <string name="thu">गुरु</string>
+    <string name="fri">शुक्र</string>
+    <string name="sat">शनि</string>
+    <string name="apply">लागू करें</string>
+    <string name="setting_use_darktheme">डार्क थीम का इस्तेमाल करें</string>
+    <string name="all_day">पूरे दिन</string>
+    <string name="start">शुरू</string>
+    <string name="end">समाप्त</string>
+    <string name="ok">ठीक है</string>
+    <string name="cancel">रद्द</string>
+    <string name="select_start_endtime">कृपया प्रारंभ समय और समाप्ति समय चुनें</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+</resources>

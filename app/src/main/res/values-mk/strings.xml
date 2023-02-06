@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="email">Емаил</string>
+    <string name="password">Лозинка</string>
+    <string name="login">Најави се</string>
+    <string name="logout">Одјави се</string>
+    <string name="loading">Вчитувам...</string>
+    <string name="item">Артикал</string>
+    <string name="forward">Препрати</string>
+    <string name="backward">Назад</string>
+    <string name="top_5_products">Артикли</string>
+    <string name="top_5_categories">Категории</string>
+    <string name="top_5_employees">Вработени</string>
+    <string name="forgot_password_text">Заборавена лозинка?</string>
+    <string name="new_to_loyverse_text">За прв пат со Loyverse?</string>
+    <!--Metrics name-->
+    <string name="sales_summary_gross_sales">Бруто продажба</string>
+    <string name="sales_summary_refunds">Поврати</string>
+    <string name="sales_summary_discounts">Попусти</string>
+    <string name="sales_summary_net_sales">Нето продажба</string>
+    <string name="sales_summary_cost_of_goods">Цена на стока</string>
+    <string name="sales_summary_gross_profit">Бруто добивка</string>
+    <string name="sales_summary_taxes">Даноци</string>
+    <string name="sales_summary_tips">Бакшиш</string>
+    <string name="sales_summary_total_tendered">Вкупно понудени</string>
+    <string-array name="period_array">
+        <item>@string/today</item>
+        <item>@string/this_week</item>
+        <item>@string/this_month</item>
+        <item>@string/this_year</item>
+        <item>@string/custom_period</item>
+    </string-array>
+    <!--Reset password activity-->
+    <string name="reset_password_activity_title">Ресетирај лозинка</string>
+    <string name="reset_email">Внесете ја вашата емаил адреса за да добиете инструкции за да ја ресетирате лозинката.</string>
+    <!--Send Email dialog-->
+    <string name="email_sent_dialog_title">Испратен имејл</string>
+    <string name="email_sent_dialog_msg">Проверете го вашето сандаче за понатамошни инструкции.</string>
+    <!--Logout dialog-->
+    <string name="logout_dialog_title">Одјави се</string>
+    <string name="logout_dialog_msg">Дали сте сигурни дека сакате да се одјавите?</string>
+    <!--Retry dialog-->
+    <string name="retry_dialog_no_internet_msg">Нема интернет-врска.</string>
+    <string name="retry_dialog_msg">An unexpected error occurred. Please try again later.</string>
+    <string name="retry">Обиди се повторно</string>
+    <!--Bottom bar tab titles-->
+    <string name="tab_reports">Продажби</string>
+    <string name="tab_products">Артикли</string>
+    <string name="tab_settings">Подесувања</string>
+    <!--Product item-->
+    <string name="product_item_stock">%s на залиха</string>
+    <string name="product_divider">"\u200a\" | \"\u200a"</string>
+    <!--Product variants-->
+    <string name="product_variants">%s варијанти</string>
+    <string name="variant_track_stock_off"> \"\u200a\"</string>
+    <!--Products activity-->
+    <string name="product_filter_type_empty_stock">Го нема во залиха</string>
+    <string name="product_filter_type_low_stock">Мала залиха</string>
+    <string name="product_filter_type_all">Сите артикли</string>
+    <!--Settings fragment-->
+    <string name="setting_stock_notification_title">Известувања за залиха</string>
+    <string name="setting_stock_notification_description">Известувајте кога артиклите се со мала залиха или ги нема.</string>
+    <string name="today">Денес</string>
+    <string name="this_week">Оваа недела</string>
+    <string name="this_month">Овој месец</string>
+    <string name="this_year">Оваа година</string>
+    <string name="custom_period">Прилагоден период</string>
+    <string name="name">Вработен</string>
+    <string name="product">Артикал</string>
+    <string name="category">Категорија</string>
+    <string name="net">Нето продажба</string>
+    <string name="main_indicators">Резиме на продажбата</string>
+    <string name="total">Вкупно</string>
+    <string name="select_range">Изберете период</string>
+    <string name="send">Испрати</string>
+    <!--Main dashboard charts-->
+    <string name="main_operations_chart_title">Сметки</string>
+    <string name="main_total_sales_chart_title">Нето продажба</string>
+    <string name="main_average_ticket_chart_title">Просечна продажба</string>
+    <string name="employees_sales">Продажби по вработен</string>
+    <string name="categories_sales">Продажби по категорија</string>
+    <string name="products_sales">Продажба по производ</string>
+    <string name="sales_summary">Резиме на продажбата</string>
+    <string name="outlet_selection">Изберете продавница</string>
+    <!--Error msg-->
+    <string name="error_invalid_email">Внесете валидна емаил адреса.</string>
+    <string name="error_wrong_password">Грешна емаил адреса или лозинка. Обидете се повторно.</string>
+    <string name="error_unknown">Настана непозната грешка.</string>
+    <string name="error_bad_auth">Грешка во авторизацијата.</string>
+    <string name="error_email_not_exist">Сметка со оваа емаил адреса не постои. Обидете се повторно.</string>
+    <string name="error_owner_already_deleted">Сметката е блокирана. Поврзете се со тимот за поддршка.</string>
+    <string name="no_network">Network not available.</string>
+    <string name="no_such_device">Настана непозната грешка.</string>
+    <string name="no_connection">Нема интернет-врска.</string>
+    <string name="unknown_login_email">Unknown email.</string>
+    <string name="blocked_by_billing">Blocked by billing.</string>
+    <string name="user_was_blocked">User is blocked.</string>
+    <string name="access_denied">Пристапот е одбиен.</string>
+    <string name="access_rights_required">Потребни се права за пристап</string>
+    <string name="access_rights_required_msg">Можете да побарате потребни дозволи од сопственикот на сметката.</string>
+    <string name="default_zero_value">0</string>
+    <string name="hour">Час</string>
+    <string name="day">Ден</string>
+    <string name="month">Месец</string>
+    <string name="quarter">Тримесечје</string>
+    <string name="year">Година</string>
+    <string-array name="large_value_suffixes">
+        <item></item>
+        <item>K</item>
+        <item>M</item>
+        <item>B</item>
+        <item>T</item>
+    </string-array>
+    <!--crowdin compatible tags?-->
+    <string name="low_stock_push">Item <xliff:g example="mango" id="ware">%s</xliff:g> is running low. <xliff:g example="5" id="count">%s</xliff:g> remain in stock.</string>
+    <string name="out_of_stock_push">Item <xliff:g example="mango" id="ware">%s</xliff:g> is out of stock.</string>
+    <string name="multishop_low_stock_push">Item <xliff:g example="mango" id="ware">%s</xliff:g> is running low at <xliff:g example="Magic shop" id="outlet">%s</xliff:g>. <xliff:g example="5" id="count">%s</xliff:g> remain in stock.</string>
+    <string name="multishop_out_of_stock_push">Артикалот <xliff:g example="mango" id="ware">%s</xliff:g> нема залиха <xliff:g example="Magic shop" id="outlet">%s</xliff:g>.</string>
+    <string name="stock_item_warning">Stock item warning</string>
+    <string name="search">Пребарај</string>
+    <!-- Billing-->
+    <string name="subscription">Пристапот е одбиен</string>
+    <string name="upgrade_Account">Please update your account in the Back Office.</string>
+    <string name="update_Account">Ажурирај сметка</string>
+    <string name="contact_account_owner">Контактирај друг сопственик</string>
+    <string name="exit">Одјави се</string>
+    <string name="billing_out_dialog_msg">Дали си сигурен дека сакаш да излезеш?</string>
+    <string name="confirmation_exit">Одјави се</string>
+    <string name="no">Откажи</string>
+    <plurals name="variantCount">
+        <item quantity="one">%d варијанта</item>
+        <item quantity="other">%d варијанти</item>
+    </plurals>
+    <!--New to Loyverse-->
+    <string name="description_kds_l1">Loyverse Dashboard е сродна апликација со Loyverse POS.</string>
+    <string name="description_kds_l2">За да започнете, инсталирајте ја апликацијата Loyverse POS.</string>
+    <!--Vertical Calendar-->
+    <string name="sun">Нед</string>
+    <string name="mon">Пон</string>
+    <string name="tue">Вто</string>
+    <string name="wed">Сре</string>
+    <string name="thu">Чет</string>
+    <string name="fri">Пет</string>
+    <string name="sat">Саб</string>
+    <string name="apply">Примени</string>
+    <string name="setting_use_darktheme">Користете темна тема</string>
+    <string name="all_day">Цел ден</string>
+    <string name="start">Започнете</string>
+    <string name="end">Крај</string>
+    <string name="ok">Добро</string>
+    <string name="cancel">Откажи</string>
+    <string name="select_start_endtime">Ве молиме изберете Време на започнување и Време на завршување</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+</resources>

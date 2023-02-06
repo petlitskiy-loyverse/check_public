@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="loading">جار التحميل…</string>
+    <string name="item">العنصر</string>
+    <string name="forward">المتابعة</string>
+    <string name="backward">العودة</string>
+    <string name="top_5_products">العناصر</string>
+    <string name="top_5_categories">الفئات</string>
+    <string name="top_5_employees">الموظفين</string>
+    <string name="forgot_password_text">نسيت كلمة المرور؟</string>
+    <string name="new_to_loyverse_text">جديد على Loyverse؟</string>
+    <!--Metrics name-->
+    <string name="sales_summary_gross_sales">إجمالي المبيعات</string>
+    <string name="sales_summary_refunds">المبالغ المستردة</string>
+    <string name="sales_summary_discounts">الخصومات</string>
+    <string name="sales_summary_net_sales">صافي المبيعات</string>
+    <string name="sales_summary_cost_of_goods">تكلفة البضاعة المباعة</string>
+    <string name="sales_summary_gross_profit">إجمالي الربح</string>
+    <string name="sales_summary_taxes">الضرائب</string>
+    <string name="sales_summary_tips">الإكراميات</string>
+    <string name="sales_summary_total_tendered">القيمة الإجمالية</string>
+    <string-array name="period_array">
+        <item>اليوم</item>
+        <item>@string/this_week</item>
+        <item>@string/this_month</item>
+        <item>@string/this_year</item>
+        <item>@string/custom_period</item>
+    </string-array>
+    <!--Reset password activity-->
+    <string name="reset_password_activity_title">إعادة ضبط كلمة المرور</string>
+    <string name="reset_email">قم بإدخال عنوان بريدك الإلكتروني لتلقي التعليمات لإعادة ضبط كلمة السر الخاصة بك.</string>
+    <!--Send Email dialog-->
+    <string name="email_sent_dialog_title">تم إرسال البريد الإلكتروني</string>
+    <string name="email_sent_dialog_msg">تحقق من صندوق الوارد الخاص بك للمزيد من الإرشادات.</string>
+    <!--Logout dialog-->
+    <string name="logout_dialog_title">تسجيل الخروج</string>
+    <string name="logout_dialog_msg">هل أنت متأكد من أنك ترغب في تسجيل الخروج؟</string>
+    <!--Retry dialog-->
+    <string name="retry_dialog_no_internet_msg">لا يوجد إتصال بالإنترنت.</string>
+    <string name="retry_dialog_msg">حدث خطأ غير متوقّع. الرجاء المحاولة لاحقًا.</string>
+    <string name="retry">اعادة المحاولة</string>
+    <!--Bottom bar tab titles-->
+    <string name="tab_reports">المبيعات</string>
+    <string name="tab_products">العناصر</string>
+    <string name="tab_settings">الإعدادات</string>
+    <!--Product item-->
+    <string name="product_item_stock">%s متوفر بالمخزن</string>
+    <string name="product_divider">"\u200a\" | \"\u200a"</string>
+    <!--Product variants-->
+    <string name="product_variants">%s متغير</string>
+    <string name="variant_track_stock_off"> \"\u200a\"</string>
+    <!--Products activity-->
+    <string name="product_filter_type_empty_stock">غير متوفر</string>
+    <string name="product_filter_type_low_stock">مخزون منخفض</string>
+    <string name="product_filter_type_all">كافة العناصر</string>
+    <!--Settings fragment-->
+    <string name="setting_stock_notification_title">إشعارات المخزون</string>
+    <string name="setting_stock_notification_description">الإعلام عندما يكون مخزون العناصر منخفضاً أو غير متوفر.</string>
+    <string name="today">اليوم</string>
+    <string name="this_week">هذا الاسبوع</string>
+    <string name="this_month">هذا الشهر</string>
+    <string name="this_year">هذه السنة</string>
+    <string name="custom_period">فترة مخصصة</string>
+    <string name="name">الموظف</string>
+    <string name="product">العنصر</string>
+    <string name="category">الفئة</string>
+    <string name="net">صافي المبيعات</string>
+    <string name="main_indicators">ملخص المبيعات</string>
+    <string name="total">المجموع</string>
+    <string name="select_range">حدد فترة زمنية</string>
+    <string name="send">إرسال</string>
+    <!--Main dashboard charts-->
+    <string name="main_operations_chart_title">إيصالات</string>
+    <string name="main_total_sales_chart_title">صافي المبيعات</string>
+    <string name="main_average_ticket_chart_title">متوسط البيع</string>
+    <string name="employees_sales">المبيعات حسب الموظف</string>
+    <string name="categories_sales">المبيعات حسب الفئة</string>
+    <string name="products_sales">المبيعات حسب العنصر</string>
+    <string name="sales_summary">ملخص المبيعات</string>
+    <string name="outlet_selection">اختر المتجر</string>
+    <!--Error msg-->
+    <string name="error_invalid_email">أدخل بريد إلكتروني صحيح.</string>
+    <string name="error_wrong_password">البريد الإلكتروني أو كلمة المرور غير صحيحين. الرجاء المحاولة مرة أخرى.</string>
+    <string name="error_unknown">لقد حدث خطأ غير معروف.</string>
+    <string name="error_bad_auth">خطأ في التصريح.</string>
+    <string name="error_email_not_exist">لا يوجد حساب بهذا البريد الإلكتروني. الرجاء المحاولة مرة أخرى.</string>
+    <string name="error_owner_already_deleted">تم حظر الحساب. الرجاء الإتصال بفريق الدعم.</string>
+    <string name="no_network">الشبكة غير متاحة.</string>
+    <string name="no_such_device">لقد حدث خطأ غير معروف.</string>
+    <string name="no_connection">لا يوجد إتصال بالإنترنت.</string>
+    <string name="unknown_login_email">البريد الإلكتروني غير معروف.</string>
+    <string name="blocked_by_billing">محظور بالفواتير.</string>
+    <string name="user_was_blocked">تم حظر المستخدم.</string>
+    <string name="access_denied">غير مسموح بالدخول.</string>
+    <string name="access_rights_required">حقوق الوصول مطلوبة</string>
+    <string name="access_rights_required_msg">يمكنك طلب الأذونات اللازمة من صاحب الحساب.</string>
+    <string name="default_zero_value">0</string>
+    <string name="hour">ساعة</string>
+    <string name="day">يوم</string>
+    <string name="month">شهر</string>
+    <string name="quarter">ربع سنوي</string>
+    <string name="year">سنة</string>
+    <string-array name="large_value_suffixes">
+        <item></item>
+        <item>كيلوا</item>
+        <item>متر</item>
+        <item>باوند</item>
+        <item>طن</item>
+    </string-array>
+    <!--crowdin compatible tags?-->
+    <string name="low_stock_push">كمية المخزون من العنصر <xliff:g example="mango" id="ware">%s</xliff:g> في إنخفاض. تبقى <xliff:g example="5" id="count">%s</xliff:g> في المخزون.</string>
+    <string name="out_of_stock_push">العنصر <xliff:g example="mango" id="ware">%s</xliff:g> غير متوفر بالمخزون.</string>
+    <string name="multishop_low_stock_push">العنصر <xliff:g example="mango" id="ware">%s</xliff:g> على وشك النفاذ في <xliff:g example="Magic shop" id="outlet">%s</xliff:g>. <xliff:g example="5" id="count">%s</xliff:g> متوفر في المخزون.</string>
+    <string name="multishop_out_of_stock_push">العنصر <xliff:g example="mango" id="ware">%s</xliff:g> غير متوفر في المخزون في <xliff:g example="Magic shop" id="outlet">%s</xliff:g>.</string>
+    <string name="stock_item_warning">تحذير مخزون العنصر</string>
+    <string name="search">بحث</string>
+    <!-- Billing-->
+    <string name="subscription">الوصول مرفوض</string>
+    <string name="upgrade_Account">الرجاء تحديث حسابك في المكتب الخلفي.</string>
+    <string name="update_Account">تجديد الحساب</string>
+    <string name="contact_account_owner">الإتصال بمالك الحساب</string>
+    <string name="exit">تسجيل الخروج</string>
+    <string name="billing_out_dialog_msg">هل أنت متأكد من أنك تريد تسحيل الخروج؟</string>
+    <string name="confirmation_exit">تسجيل الخروج</string>
+    <string name="no">إلغاء</string>
+    <plurals name="variantCount">
+        <item quantity="zero">%d المتغيرات</item>
+        <item quantity="one">%d المتغير</item>
+        <item quantity="two">%d المتغيرات</item>
+        <item quantity="few">%d المتغيرات</item>
+        <item quantity="many">%d المتغيرات</item>
+        <item quantity="other">%d المتغيرات</item>
+    </plurals>
+    <!--New to Loyverse-->
+    <string name="description_kds_l1">Loyverse Dashboard هو تطبيق مكمل ل Loyverse POS.</string>
+    <string name="description_kds_l2">لبدء الإستخدام، الرجاء تثبيت تطبيق Loyverse POS.</string>
+    <!--Vertical Calendar-->
+    <string name="sun">الأحد</string>
+    <string name="mon">الإثنين</string>
+    <string name="tue">الثلاثاء</string>
+    <string name="wed">الأربعاء</string>
+    <string name="thu">الخميس</string>
+    <string name="fri">الجمعة</string>
+    <string name="sat">السبت</string>
+    <string name="apply">تطبيق</string>
+    <string name="setting_use_darktheme">استخدم المظهر الداكن</string>
+    <string name="all_day">طوال اليوم</string>
+    <string name="start">يبدأ</string>
+    <string name="end">نهاية</string>
+    <string name="ok">حسنا</string>
+    <string name="cancel">يلغي</string>
+    <string name="select_start_endtime">يرجى تحديد وقت البدء ووقت الانتهاء</string>
+    <string name="privacy_policy">سياسة خاصة</string>
+    <string name="terms_of_use">تعليمات الاستخدام</string>
+</resources>

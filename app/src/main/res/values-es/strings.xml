@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="loading">Cargando…</string>
+    <string name="item">Artículo</string>
+    <string name="forward">Siguiente</string>
+    <string name="backward">Atrás</string>
+    <string name="top_5_products">Artículos</string>
+    <string name="top_5_categories">Categorías</string>
+    <string name="top_5_employees">Empleados</string>
+    <string name="forgot_password_text">¿Has olvidado la contraseña?</string>
+    <string name="new_to_loyverse_text">¿Nuevo en Loyverse?</string>
+    <!--Metrics name-->
+    <string name="sales_summary_gross_sales">Ventas brutas</string>
+    <string name="sales_summary_refunds">Reembolsos</string>
+    <string name="sales_summary_discounts">Descuentos</string>
+    <string name="sales_summary_net_sales">Ventas netas</string>
+    <string name="sales_summary_cost_of_goods">Costo de bienes</string>
+    <string name="sales_summary_gross_profit">Beneficio bruto</string>
+    <string name="sales_summary_taxes">Impuestos</string>
+    <string name="sales_summary_tips">Propinas</string>
+    <string name="sales_summary_total_tendered">Total licitado</string>
+    <string-array name="period_array">
+        <item>@string/today</item>
+        <item>@string/this_week</item>
+        <item>@string/this_month</item>
+        <item>@string/this_year</item>
+        <item>@string/custom_period</item>
+    </string-array>
+    <!--Reset password activity-->
+    <string name="reset_password_activity_title">Reestablecer la contraseña</string>
+    <string name="reset_email">Introduce tu correo electrónico para recibir instrucciones en cómo restablecer tu contraseña.</string>
+    <!--Send Email dialog-->
+    <string name="email_sent_dialog_title">Correo electrónico enviado</string>
+    <string name="email_sent_dialog_msg">Revisa tu bandeja de entrada para instrucciones adicionales.</string>
+    <!--Logout dialog-->
+    <string name="logout_dialog_title">Cerrar sesión</string>
+    <string name="logout_dialog_msg">¿Estás seguro de cerrar sesión?</string>
+    <!--Retry dialog-->
+    <string name="retry_dialog_no_internet_msg">Sin conexión a internet.</string>
+    <string name="retry_dialog_msg">An unexpected error occurred. Please try again later.</string>
+    <string name="retry">Reintentar</string>
+    <!--Bottom bar tab titles-->
+    <string name="tab_reports">Ventas</string>
+    <string name="tab_products">Artículos</string>
+    <string name="tab_settings">Configuración</string>
+    <!--Product item-->
+    <string name="product_item_stock">%s de existencias</string>
+    <string name="product_divider">"\u200a\" | \"\u200a"</string>
+    <!--Product variants-->
+    <string name="product_variants">%s variantes</string>
+    <string name="variant_track_stock_off"> \"\u200a\"</string>
+    <!--Products activity-->
+    <string name="product_filter_type_empty_stock">Agotado</string>
+    <string name="product_filter_type_low_stock">Inventario bajo</string>
+    <string name="product_filter_type_all">Todos los artículos</string>
+    <!--Settings fragment-->
+    <string name="setting_stock_notification_title">Notificaciones de inventario</string>
+    <string name="setting_stock_notification_description">Notificar cuando los artículos están agotados o bajos de existencias.</string>
+    <string name="today">Hoy</string>
+    <string name="this_week">Esta semana</string>
+    <string name="this_month">Este mes</string>
+    <string name="this_year">Este año</string>
+    <string name="custom_period">Periodo personalizado</string>
+    <string name="name">Empleado</string>
+    <string name="product">Artículo</string>
+    <string name="category">Categoría</string>
+    <string name="net">Ventas netas</string>
+    <string name="main_indicators">Resumen de ventas</string>
+    <string name="total">Total</string>
+    <string name="select_range">Seleccionar periodo</string>
+    <string name="send">Enviar</string>
+    <!--Main dashboard charts-->
+    <string name="main_operations_chart_title">Recibos</string>
+    <string name="main_total_sales_chart_title">Ventas netas</string>
+    <string name="main_average_ticket_chart_title">Venta promedio</string>
+    <string name="employees_sales">Ventas por empleado</string>
+    <string name="categories_sales">Ventas por categoría</string>
+    <string name="products_sales">Ventas por artículo</string>
+    <string name="sales_summary">Resumen de ventas</string>
+    <string name="outlet_selection">Seleccionar tienda</string>
+    <!--Error msg-->
+    <string name="error_invalid_email">Introduzca un correo electrónico válido.</string>
+    <string name="error_wrong_password">Correo electrónico o contraseña incorrectos. Por favor, inténtelo de nuevo.</string>
+    <string name="error_unknown">Se ha producido un error desconocido.</string>
+    <string name="error_bad_auth">Error de autorización.</string>
+    <string name="error_email_not_exist">No existe ninguna cuenta con este correo electrónico. Por favor, inténtelo de nuevo.</string>
+    <string name="error_owner_already_deleted">La cuenta está bloqueada. Contacta con el equipo de ayuda.</string>
+    <string name="no_network">Red no disponible.</string>
+    <string name="no_such_device">Ha ocurrido un error desconocido.</string>
+    <string name="no_connection">Sin conexión a internet.</string>
+    <string name="unknown_login_email">Correo electrónico desconocido.</string>
+    <string name="blocked_by_billing">Bloqueado por facturación.</string>
+    <string name="user_was_blocked">Usuario bloqueado.</string>
+    <string name="access_denied">Acceso denegado.</string>
+    <string name="access_rights_required">Derechos de acceso requeridos</string>
+    <string name="access_rights_required_msg">Puede solicitar los permisos necesarios al propietario de la cuenta.</string>
+    <string name="default_zero_value">0</string>
+    <string name="hour">Hora</string>
+    <string name="day">Día</string>
+    <string name="month">Mes</string>
+    <string name="quarter">Cuarto</string>
+    <string name="year">Año</string>
+    <string-array name="large_value_suffixes">
+        <item></item>
+        <item>K</item>
+        <item>M</item>
+        <item>B</item>
+        <item>T</item>
+    </string-array>
+    <!--crowdin compatible tags?-->
+    <string name="low_stock_push">Artículo <xliff:g example="mango" id="ware">%s</xliff:g> se está agotando. <xliff:g example="5" id="count">%s</xliff:g> en inventario.</string>
+    <string name="out_of_stock_push">Artículo <xliff:g example="mango" id="ware">%s </xliff:g> está agotado.</string>
+    <string name="multishop_low_stock_push">Artículo <xliff:g example="mango" id="ware">%s </xliff:g> se está agotando en <xliff:g example="Magic shop" id="outlet"> %s </xliff:g>. <xliff:g example="5" id="count"> %s </xliff:g> quedan en stock.</string>
+    <string name="multishop_out_of_stock_push">Artículo <xliff:g example="mango" id="ware">%s </xliff:g> se ha agotado en <xliff:g example="Magic shop" id="outlet"> %s </xliff:g>.</string>
+    <string name="stock_item_warning">Advertencia de existencias del artículo</string>
+    <string name="search">Buscar</string>
+    <!-- Billing-->
+    <string name="subscription">Acceso denegado</string>
+    <string name="upgrade_Account">Por favor, actualice su cuenta en la Back Office.</string>
+    <string name="update_Account">Actualizar suscripción</string>
+    <string name="contact_account_owner">Contacte con el titular de la cuenta</string>
+    <string name="exit">Cerrar sesión</string>
+    <string name="billing_out_dialog_msg">¿Estás seguro de que deseas salir?</string>
+    <string name="confirmation_exit">Cerrar sesión</string>
+    <string name="no">Cancelar</string>
+    <plurals name="variantCount">
+        <item quantity="one">%d variante</item>
+        <item quantity="other">%d variantes</item>
+    </plurals>
+    <!--New to Loyverse-->
+    <string name="description_kds_l1">Loyverse Dashboard es una aplicación complementaria a Loyverse TPV.</string>
+    <string name="description_kds_l2">Para comenzar, instale la aplicación Loyverse TPV.</string>
+    <!--Vertical Calendar-->
+    <string name="sun">Dom</string>
+    <string name="mon">Lun</string>
+    <string name="tue">Mar</string>
+    <string name="wed">Mié</string>
+    <string name="thu">Jue</string>
+    <string name="fri">Vie</string>
+    <string name="sat">Sáb</string>
+    <string name="apply">Aplicar</string>
+    <string name="setting_use_darktheme">Usar tema oscuro</string>
+    <string name="all_day">Todo el día</string>
+    <string name="start">Comienzo</string>
+    <string name="end">Fin</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="select_start_endtime">Seleccione Hora de inicio y Hora de finalizacióne</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="terms_of_use">Términos de uso</string>
+</resources>

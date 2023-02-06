@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SmellBaseline>
+  <ManuallySuppressedIssues/>
+  <CurrentIssues>
+    <ID>CommentSpacing:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:170</ID>
+    <ID>FinalNewline:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:1</ID>
+    <ID>FinalNewline:com.loyverse.dashboard.mvp.calendar.CalendarDay.kt:1</ID>
+    <ID>FinalNewline:com.loyverse.dashboard.mvp.calendar.DateModel.kt:1</ID>
+    <ID>FinalNewline:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:1</ID>
+    <ID>FinalNewline:com.loyverse.dashboard.mvp.views.PosInformationActivity.kt:1</ID>
+    <ID>ForbiddenComment:CalendarAdapter.kt$CalendarAdapter$//FIXME: Side effect</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:129</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:130</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:160</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:161</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:162</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:163</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:164</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:165</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:166</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:167</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:168</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:182</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:183</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:184</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:185</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:223</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:224</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:34</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:35</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:36</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:37</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:39</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:40</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:41</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:42</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:43</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:44</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:45</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:46</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:47</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:48</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:49</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:50</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:51</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:52</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:53</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:54</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:55</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:56</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:57</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:58</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:59</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:78</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:79</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:80</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:81</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:82</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:83</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:84</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:19</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:20</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:21</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:29</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:59</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:60</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:61</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:62</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:74</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:75</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:86</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:87</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:88</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:89</ID>
+    <ID>Indentation:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:90</ID>
+    <ID>MagicNumber:CalendarAdapter.kt$CalendarAdapter$7</ID>
+    <ID>MagicNumber:VerticalCalendarView.kt$VerticalCalendarView$7</ID>
+    <ID>MagicNumber:VerticalCalendarView.kt$VerticalCalendarView.&lt;no name provided>$7</ID>
+    <ID>MaxLineLength:CalendarAdapter.kt$CalendarAdapter$class</ID>
+    <ID>MaxLineLength:VerticalCalendarView.kt$VerticalCalendarView$calendarAdapter.monthTitleTextColor = typedArray.getColor(R.styleable.AttrCalendarView_monthTitleTextColor, resources.getColor(R.color.calanderTextColor))</ID>
+    <ID>MaxLineLength:VerticalCalendarView.kt$VerticalCalendarView$calendarAdapter.monthTitleViewHeight = typedArray.getDimensionPixelSize(R.styleable.AttrCalendarView_monthTitleViewHeight, resources.getDimensionPixelSize(R.dimen.month_title_view_height))</ID>
+    <ID>MaxLineLength:VerticalCalendarView.kt$VerticalCalendarView$layoutParams = ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, resources.getDimensionPixelSize(R.dimen.divider_height))</ID>
+    <ID>MaximumLineLength:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:18</ID>
+    <ID>MaximumLineLength:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:109</ID>
+    <ID>MaximumLineLength:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:110</ID>
+    <ID>MaximumLineLength:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:96</ID>
+    <ID>NewLineAtEndOfFile:CalendarAdapter.kt$com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt</ID>
+    <ID>NewLineAtEndOfFile:CalendarDay.kt$com.loyverse.dashboard.mvp.calendar.CalendarDay.kt</ID>
+    <ID>NewLineAtEndOfFile:DateModel.kt$com.loyverse.dashboard.mvp.calendar.DateModel.kt</ID>
+    <ID>NewLineAtEndOfFile:PosInformationActivity.kt$com.loyverse.dashboard.mvp.views.PosInformationActivity.kt</ID>
+    <ID>NewLineAtEndOfFile:VerticalCalendarView.kt$com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt</ID>
+    <ID>NoBlankLineBeforeRbrace:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:243</ID>
+    <ID>NoBlankLineBeforeRbrace:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:129</ID>
+    <ID>NoBlankLineBeforeRbrace:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:54</ID>
+    <ID>NoConsecutiveBlankLines:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:177</ID>
+    <ID>NoConsecutiveBlankLines:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:193</ID>
+    <ID>NoConsecutiveBlankLines:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:27</ID>
+    <ID>NoConsecutiveBlankLines:com.loyverse.dashboard.mvp.calendar.CalendarDay.kt:6</ID>
+    <ID>NoConsecutiveBlankLines:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:114</ID>
+    <ID>NoConsecutiveBlankLines:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:28</ID>
+    <ID>NoMultipleSpaces:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:72</ID>
+    <ID>SpacingAroundColon:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:153</ID>
+    <ID>SpacingAroundColon:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:62</ID>
+    <ID>SpacingAroundCurly:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:156</ID>
+    <ID>SpacingAroundCurly:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:158</ID>
+    <ID>SpacingAroundKeyword:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:158</ID>
+    <ID>SpacingAroundKeyword:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:221</ID>
+    <ID>SpacingAroundKeyword:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:70</ID>
+    <ID>SpacingAroundKeyword:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:92</ID>
+    <ID>SpacingAroundKeyword:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:98</ID>
+    <ID>SpacingAroundKeyword:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:47</ID>
+    <ID>SpacingAroundOperators:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:156</ID>
+    <ID>SpacingAroundParens:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:226</ID>
+    <ID>UnusedPrivateMember:DateModel.kt$DateModel$i</ID>
+    <ID>UseCheckOrError:CalendarAdapter.kt$CalendarAdapter$throw IllegalStateException("wrong view holder type")</ID>
+    <ID>VariableNaming:PosInformationActivity.kt$PosInformationActivity$private val SEPARATE = "\n"</ID>
+    <ID>WildcardImport:PosInformationActivity.kt$import kotlinx.android.synthetic.main.activity_new_loyverse.*</ID>
+    <ID>Wrapping:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:71</ID>
+    <ID>Wrapping:com.loyverse.dashboard.mvp.calendar.CalendarAdapter.kt:76</ID>
+    <ID>Wrapping:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:86</ID>
+    <ID>Wrapping:com.loyverse.dashboard.mvp.calendar.VerticalCalendarView.kt:90</ID>
+  </CurrentIssues>
+</SmellBaseline>

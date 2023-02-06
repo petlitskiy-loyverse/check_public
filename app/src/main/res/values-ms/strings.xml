@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="email">E-mel</string>
+    <string name="password">Kata Laluan</string>
+    <string name="login">Log Masuk</string>
+    <string name="logout">Log Keluar</string>
+    <string name="loading">Loading...</string>
+    <string name="item">Barang</string>
+    <string name="forward">Ke hadapan</string>
+    <string name="backward">Ke belakang</string>
+    <string name="top_5_products">Barangan</string>
+    <string name="top_5_categories">Kategori</string>
+    <string name="top_5_employees">Pekerja-pekerja</string>
+    <string name="forgot_password_text">Terlupa kata laluan?</string>
+    <string name="new_to_loyverse_text">Baru di Loyverse?</string>
+    <!--Metrics name-->
+    <string name="sales_summary_gross_sales">Jualan kasar</string>
+    <string name="sales_summary_refunds">Bayaran balik</string>
+    <string name="sales_summary_discounts">Diskaun</string>
+    <string name="sales_summary_net_sales">Jualan bersih</string>
+    <string name="sales_summary_cost_of_goods">Harga barangan</string>
+    <string name="sales_summary_gross_profit">Untung kasar</string>
+    <string name="sales_summary_taxes">Cukai</string>
+    <string name="sales_summary_tips">Petua</string>
+    <string name="sales_summary_total_tendered">Jumlah yang ditender</string>
+    <string-array name="period_array">
+        <item>@string/today</item>
+        <item>@string/this_week</item>
+        <item>@string/this_month</item>
+        <item>@string/this_year</item>
+        <item>@string/custom_period</item>
+    </string-array>
+    <!--Reset password activity-->
+    <string name="reset_password_activity_title">Menetapkan semula kata laluan</string>
+    <string name="reset_email">Masukkan alamat email anda untuk menerima arahan untuk menetapkan semula kata laluan anda.</string>
+    <!--Send Email dialog-->
+    <string name="email_sent_dialog_title">E-mel dihantar</string>
+    <string name="email_sent_dialog_msg">Semak Peti Masuk anda untuk arahan selanjutnya.</string>
+    <!--Logout dialog-->
+    <string name="logout_dialog_title">Log keluar</string>
+    <string name="logout_dialog_msg">Adakah anda pasti anda mahu log keluar?</string>
+    <!--Retry dialog-->
+    <string name="retry_dialog_no_internet_msg">Tiada sambungan internet.</string>
+    <string name="retry_dialog_msg">An unexpected error occurred. Please try again later.</string>
+    <string name="retry">Cuba lagi</string>
+    <!--Bottom bar tab titles-->
+    <string name="tab_reports">Jualan</string>
+    <string name="tab_products">Barangan</string>
+    <string name="tab_settings">Tetapan</string>
+    <!--Product item-->
+    <string name="product_item_stock">%s dalam stok</string>
+    <string name="product_divider">"\u200a\" | \"\u200a"</string>
+    <!--Product variants-->
+    <string name="product_variants">%s variasi</string>
+    <string name="variant_track_stock_off"> \"\u200a\"</string>
+    <!--Products activity-->
+    <string name="product_filter_type_empty_stock">Tiada dalam stok</string>
+    <string name="product_filter_type_low_stock">Stok rendah</string>
+    <string name="product_filter_type_all">Semua barangan</string>
+    <!--Settings fragment-->
+    <string name="setting_stock_notification_title">Pemberitahuan saham</string>
+    <string name="setting_stock_notification_description">Beritahu apabila barangan yang rendah atau tiada dalam stok.</string>
+    <string name="today">Hari ini</string>
+    <string name="this_week">Minggu Ini</string>
+    <string name="this_month">Bulan ini</string>
+    <string name="this_year">Tahun Ini</string>
+    <string name="custom_period">Tempoh adat</string>
+    <string name="name">Pekerja</string>
+    <string name="product">Barang</string>
+    <string name="category">Kategori</string>
+    <string name="net">Jualan bersih</string>
+    <string name="main_indicators">Jualan ringkasan</string>
+    <string name="total">Jumlah</string>
+    <string name="select_range">Pilih tempoh</string>
+    <string name="send">Hantar</string>
+    <!--Main dashboard charts-->
+    <string name="main_operations_chart_title">Resit</string>
+    <string name="main_total_sales_chart_title">Jualan bersih</string>
+    <string name="main_average_ticket_chart_title">Jualan purata</string>
+    <string name="employees_sales">Jualan oleh para pekerja</string>
+    <string name="categories_sales">Jualan mengikut Kategori</string>
+    <string name="products_sales">Jualan oleh barangan</string>
+    <string name="sales_summary">Jualan ringkasan</string>
+    <string name="outlet_selection">Pilih stor</string>
+    <!--Error msg-->
+    <string name="error_invalid_email">Masukkan e-mel yang sah.</string>
+    <string name="error_wrong_password">Betul e-mel atau kata laluan. Sila cuba sekali lagi.</string>
+    <string name="error_unknown">Ralat tidak diketahui telah berlaku.</string>
+    <string name="error_bad_auth">Ralat Pengesahan.</string>
+    <string name="error_email_not_exist">Akaun e-mel ini tidak wujud. Sila cuba sekali lagi.</string>
+    <string name="error_owner_already_deleted">Akaun yang disekat. Hubungi pasukan sokongan.</string>
+    <string name="no_network">Rangkaian yang tidak ada.</string>
+    <string name="no_such_device">Ralat tidak diketahui telah berlaku.</string>
+    <string name="no_connection">Tiada sambungan internet.</string>
+    <string name="unknown_login_email">E-mel yang tidak diketahui.</string>
+    <string name="blocked_by_billing">Disekat oleh pengebilan.</string>
+    <string name="user_was_blocked">Pengguna disekat.</string>
+    <string name="access_denied">Capaian ditolak.</string>
+    <string name="access_rights_required">Hak capaian yang diperlukan</string>
+    <string name="access_rights_required_msg">Anda boleh meminta kebenaran yang diperlukan daripada pemilik akaun.</string>
+    <string name="default_zero_value">0</string>
+    <string name="hour">Jam</string>
+    <string name="day">Hari</string>
+    <string name="month">Bulan</string>
+    <string name="quarter">Suku</string>
+    <string name="year">Tahun</string>
+    <string-array name="large_value_suffixes">
+        <item></item>
+        <item>K</item>
+        <item>M</item>
+        <item>B</item>
+        <item>T</item>
+    </string-array>
+    <!--crowdin compatible tags?-->
+    <string name="low_stock_push">Barangan<xliff:g example="mango" id="ware">%s </xliff:g> semakin lemah. <xliff:g example="5" id="count"> %s </xliff:g> kekal dalam stok.</string>
+    <string name="out_of_stock_push">Barangan<xliff:g example="mango" id="ware">%s </xliff:g> ini tiada dalam stok.</string>
+    <string name="multishop_low_stock_push">Barangan<xliff:g example="mango" id="ware">%s </xliff:g> semakin lemah di <xliff:g example="Magic shop" id="outlet"> %s </xliff:g>. <xliff:g example="5" id="count"> %s </xliff:g> kekal dalam stok.</string>
+    <string name="multishop_out_of_stock_push">Barangan<xliff:g example="mango" id="ware">%s </xliff:g> ini tiada dalam stok pada <xliff:g example="Magic shop" id="outlet"> %s </xliff:g>.</string>
+    <string name="stock_item_warning">Amaran item stok</string>
+    <string name="search">Cari</string>
+    <!-- Billing-->
+    <string name="subscription">Akses ditolak</string>
+    <string name="upgrade_Account">Sila kemas kini akaun anda di Back Office.</string>
+    <string name="update_Account">Kemaskini akaun</string>
+    <string name="contact_account_owner">Hubungi pemilik akaun</string>
+    <string name="exit">Log keluar</string>
+    <string name="billing_out_dialog_msg">Adakah anda pasti anda mahu keluar?</string>
+    <string name="confirmation_exit">Log keluar</string>
+    <string name="no">Batal</string>
+    <plurals name="variantCount">
+        <item quantity="other">%d variasi</item>
+    </plurals>
+    <!--New to Loyverse-->
+    <string name="description_kds_l1">Loyverse Dashboard adalah aplikasi pelengkap kepada Loyverse POS.</string>
+    <string name="description_kds_l2">Untuk memulakan, sila pasang aplikasi Loyverse POS dahulu.</string>
+    <!--Vertical Calendar-->
+    <string name="sun">Aha</string>
+    <string name="mon">Isn</string>
+    <string name="tue">Sel</string>
+    <string name="wed">Rab</string>
+    <string name="thu">Kha</string>
+    <string name="fri">Jum</string>
+    <string name="sat">Sab</string>
+    <string name="apply">Tetapkan</string>
+    <string name="setting_use_darktheme">Gunakan tema gelap</string>
+    <string name="all_day">Sepanjang hari</string>
+    <string name="start">Mulakan</string>
+    <string name="end">Tamat</string>
+    <string name="ok">Okey</string>
+    <string name="cancel">Batal</string>
+    <string name="select_start_endtime">Sila Pilih Waktu Mula dan Waktu Tamat</string>
+    <string name="privacy_policy">Dasar privasi</string>
+    <string name="terms_of_use">Syarat Penggunaan</string>
+</resources>

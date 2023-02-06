@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:isScrollContainer="true"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/colorPrimary1"
+            android:gravity="center"
+            android:padding="@dimen/small_margin">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="160dp"
+                android:layout_height="43dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dashboard_land_logo" />
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/parent_margin"
+            android:layout_marginTop="@dimen/common_padding_large"
+            android:layout_marginEnd="@dimen/parent_margin"
+            android:textColorHint="@color/hint_color_login"
+            app:hintTextAppearance="@style/TextLabel">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/login_field"
+                style="@style/BaseTextStyle.EditText"
+                android:backgroundTint="@color/hint_color_login"
+                android:hint="@string/email"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="textEmailAddress"
+                android:textAlignment="viewStart"
+                tools:text="oleksandr.ovonord@gmail.com" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/parent_margin"
+            android:layout_marginTop="@dimen/common_margin"
+            android:layout_marginEnd="@dimen/parent_margin"
+            android:textColorHint="@color/hint_color_login"
+            app:hintTextAppearance="@style/TextLabel"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/hint_color_login">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password_field"
+                style="@style/BaseTextStyle.EditText"
+                android:hint="@string/password"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="textPassword"
+                android:textAlignment="viewStart"
+                android:backgroundTint="@color/hint_color_login"
+                tools:text="asdzxqwe" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login_button"
+            style="@style/ButtonResetPassword"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/login" />
+
+        <TextView
+            android:id="@+id/forgot_password"
+            style="@style/BaseTextStyle.ItemName_Login"
+            android:layout_marginTop="28dp"
+            android:gravity="center_horizontal"
+            android:text="@string/forgot_password_text" />
+
+        <TextView
+            android:id="@+id/new_to_loyverse"
+            style="@style/BaseTextStyle.ItemName_Login"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center_horizontal"
+            android:text="@string/new_to_loyverse_text" />
+    </LinearLayout>
+</ScrollView>

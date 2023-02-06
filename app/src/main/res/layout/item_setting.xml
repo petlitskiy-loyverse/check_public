@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_setting_notificaiton_bg"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/edge_margin_item_settings"
+    android:paddingTop="@dimen/edge_margin_item_settings"
+    android:paddingEnd="@dimen/edge_margin_item_settings"
+    android:paddingBottom="@dimen/edge_margin_item_settings">
+
+    <RelativeLayout
+        android:id="@+id/layout_stock_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/item_setting_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:checked="true"
+            app:theme="@style/AppTheme.SwitchOverlay" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="@dimen/common_margin"
+            android:layout_toStartOf="@id/item_setting_value"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_setting_title"
+                style="@style/BaseTextStyle.ItemName"
+                android:text="@string/setting_stock_notification_title" />
+
+            <TextView
+                android:id="@+id/item_setting_description"
+                style="@style/BaseTextStyle.SecondaryName"
+                android:text="@string/setting_stock_notification_description" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_stock_notification"
+        android:layout_marginTop="@dimen/item_setting_top_padding">
+
+        <TextView
+            android:id="@+id/item_use_darktheme"
+            style="@style/BaseTextStyle.ItemName"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:textAlignment="viewStart"
+            android:text="@string/setting_use_darktheme" />
+
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/item_use_darktheme_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            app:theme="@style/AppTheme.SwitchOverlay" />
+    </LinearLayout>
+</RelativeLayout>

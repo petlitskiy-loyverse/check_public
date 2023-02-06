@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="email">อีเมล์</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="login">ลงชื่อเข้าใช้</string>
+    <string name="logout">ออกจากระบบ</string>
+    <string name="loading">กำลังโหลด...</string>
+    <string name="item">รายการ</string>
+    <string name="forward">ถัดไป</string>
+    <string name="backward">ย้อนกลับ</string>
+    <string name="top_5_products">รายการสินค้า</string>
+    <string name="top_5_categories">หมวดหมู่</string>
+    <string name="top_5_employees">พนักงาน</string>
+    <string name="forgot_password_text">ลืมรหัสผ่าน?</string>
+    <string name="new_to_loyverse_text">พึ่งรู้จัก Loyverse?</string>
+    <!--Metrics name-->
+    <string name="sales_summary_gross_sales">ยอดขายรวม</string>
+    <string name="sales_summary_refunds">คืนเงิน</string>
+    <string name="sales_summary_discounts">ส่วนลด</string>
+    <string name="sales_summary_net_sales">ยอดขายสุทธิ</string>
+    <string name="sales_summary_cost_of_goods">ต้นทุนของสินค้า</string>
+    <string name="sales_summary_gross_profit">กำไรรวม</string>
+    <string name="sales_summary_taxes">ภาษี</string>
+    <string name="sales_summary_tips">เงินทิป</string>
+    <string name="sales_summary_total_tendered">ระยะเวลารวม</string>
+    <string-array name="period_array">
+        <item>@string/today</item>
+        <item>@string/this_week</item>
+        <item>@string/this_month</item>
+        <item>@string/this_year</item>
+        <item>@string/custom_period</item>
+    </string-array>
+    <!--Reset password activity-->
+    <string name="reset_password_activity_title">กำหนดรหัสผ่านใหม่</string>
+    <string name="reset_email">ใส่อีเมลของคุณเพื่อรับวิธีการตั้งรหัสผ่านใหม่</string>
+    <!--Send Email dialog-->
+    <string name="email_sent_dialog_title">ส่งอีเมล์สำเร็จ</string>
+    <string name="email_sent_dialog_msg">กรุณาตรวจสอบกล่องขาเข้าสำหรับข้อมูลเพิ่มเติม</string>
+    <!--Logout dialog-->
+    <string name="logout_dialog_title">ออกจากระบบ</string>
+    <string name="logout_dialog_msg">คุณแน่ใจว่าต้องการออกจากระบบหรือไม่?</string>
+    <!--Retry dialog-->
+    <string name="retry_dialog_no_internet_msg">ไม่ได้เชื่อมต่ออินเตอร์เน็ต</string>
+    <string name="retry_dialog_msg">An unexpected error occurred. Please try again later.</string>
+    <string name="retry">ลองใหม่อีกครั้ง</string>
+    <!--Bottom bar tab titles-->
+    <string name="tab_reports">ขาย</string>
+    <string name="tab_products">รายการสินค้า</string>
+    <string name="tab_settings">การตั้งค่า</string>
+    <!--Product item-->
+    <string name="product_item_stock">%s ในสต็อก</string>
+    <string name="product_divider">"\u200a\" | \"\u200a"</string>
+    <!--Product variants-->
+    <string name="product_variants">%sตัวแปร</string>
+    <string name="variant_track_stock_off"> \"\u200a\"</string>
+    <!--Products activity-->
+    <string name="product_filter_type_empty_stock">สินค้าหมด</string>
+    <string name="product_filter_type_low_stock">ปริมาณสต็อกเหลือน้อย</string>
+    <string name="product_filter_type_all">รายการทั้งหมด</string>
+    <!--Settings fragment-->
+    <string name="setting_stock_notification_title">แจ้งเตือนสต็อก</string>
+    <string name="setting_stock_notification_description">แจ้เตือนเมื่อสินค้าสต็อกเหลือน้อยหรือหมด</string>
+    <string name="today">วันนี้</string>
+    <string name="this_week">สัปดาห์นี้</string>
+    <string name="this_month">เดือนนี้</string>
+    <string name="this_year">ปีนี้</string>
+    <string name="custom_period">ระยะเวลาที่กำหนด</string>
+    <string name="name">พนักงาน</string>
+    <string name="product">รายการ</string>
+    <string name="category">หมวดหมู่</string>
+    <string name="net">ยอดขายสุทธิ</string>
+    <string name="main_indicators">สรุปยอดขาย</string>
+    <string name="total">รวมทั้งหมด</string>
+    <string name="select_range">เลือกช่วงเวลา</string>
+    <string name="send">ส่ง</string>
+    <!--Main dashboard charts-->
+    <string name="main_operations_chart_title">ใบเสร็จ</string>
+    <string name="main_total_sales_chart_title">ยอดขายสุทธิ</string>
+    <string name="main_average_ticket_chart_title">ยอดขายโดยเฉลี่ย</string>
+    <string name="employees_sales">การขาย โดยพนักงาน</string>
+    <string name="categories_sales">ยอดขาย แยกตาม หมวดหมู่</string>
+    <string name="products_sales">ยอดขายตามสินค้า</string>
+    <string name="sales_summary">สรุปยอดขาย</string>
+    <string name="outlet_selection">เลือกร้านค้า</string>
+    <!--Error msg-->
+    <string name="error_invalid_email">ใส่อีเมลล์ให้ถูกต้อง</string>
+    <string name="error_wrong_password">อีเมลล์และรหัสผ่านผิดพลาด. โปรดลองอีกครั้ง</string>
+    <string name="error_unknown">เกิดข้อผิดพลาดที่ไม่สามารถระบุได้</string>
+    <string name="error_bad_auth">การอนุมัติพบข้อผิดพลาด.</string>
+    <string name="error_email_not_exist">ไม่มีบัญชีอีเมลล์นี้ โปรดลองอีกครั้ง</string>
+    <string name="error_owner_already_deleted">บัญชีถูกบล็อค ติดต่อกับทีมสนับสนุน</string>
+    <string name="no_network">เครือข่ายไม่สามารถใช้งานได้</string>
+    <string name="no_such_device">เกิดข้อผิดพลาดที่ไม่สามารถระบุได้</string>
+    <string name="no_connection">ไม่ได้เชื่อมต่ออินเตอร์เน็ต</string>
+    <string name="unknown_login_email">อีเมล์ที่ไม่รู้จัก</string>
+    <string name="blocked_by_billing">Blocked by billing.</string>
+    <string name="user_was_blocked">ผู้ใช้ถูกบล็อก</string>
+    <string name="access_denied">ปฏิเสธการเข้าใช้</string>
+    <string name="access_rights_required">ต้องมีสิทธิการเข้าถึงที่จำเป็น</string>
+    <string name="access_rights_required_msg">คุณสามารถขอรับอนุญาตสิทธิจากเจ้าของบัญชี</string>
+    <string name="default_zero_value">0</string>
+    <string name="hour">ชั่วโมง</string>
+    <string name="day">วัน</string>
+    <string name="month">เดือน</string>
+    <string name="quarter">ไตรมาส</string>
+    <string name="year">ปี</string>
+    <string-array name="large_value_suffixes">
+        <item></item>
+        <item>K</item>
+        <item>M</item>
+        <item>B</item>
+        <item>T</item>
+    </string-array>
+    <!--crowdin compatible tags?-->
+    <string name="low_stock_push">สินค้า<xliff:g example="mango" id="ware">%s</xliff:g> เหลือน้อย <xliff:g example="5" id="count">%s</xliff:g> ยังคงอยู่ในสต็อก</string>
+    <string name="out_of_stock_push">สินค้า<xliff:g example="mango" id="ware">%s</xliff:g> หมดสต็อกแล้ว</string>
+    <string name="multishop_low_stock_push">สินค้า<xliff:g example="mango" id="ware">%s</xliff:g> เหลือน้อย <xliff:g example="Magic shop" id="outlet">%s</xliff:g>.<xliff:g example="5" id="count">%s</xliff:g> ยังคงอยู่ในสต็อก</string>
+    <string name="multishop_out_of_stock_push">สินค้า<xliff:g example="mango" id="ware">%s</xliff:g> สต็อกหมดที่ <xliff:g example="Magic shop" id="outlet">%s</xliff:g></string>
+    <string name="stock_item_warning">แจ้งเตือนสต็อกสินค้า</string>
+    <string name="search">ค้นหา</string>
+    <!-- Billing-->
+    <string name="subscription">ปฏิเสธการเข้าใช้</string>
+    <string name="upgrade_Account">โปรดอัปเดตบัญชีของคุณในระบบหลังร้าน Back Office</string>
+    <string name="update_Account">ปรับปรุงบัญชี</string>
+    <string name="contact_account_owner">ติดต่อเจ้าของบัญชี</string>
+    <string name="exit">ออกจากระบบ</string>
+    <string name="billing_out_dialog_msg">คุณแน่ใจหรือว่าจะออกจากระบบ?</string>
+    <string name="confirmation_exit">ออกจากระบบ</string>
+    <string name="no">ยกเลิก</string>
+    <plurals name="variantCount">
+        <item quantity="other">%d ตัวแปร</item>
+    </plurals>
+    <!--New to Loyverse-->
+    <string name="description_kds_l1">Loyverse Dashboard เป็นแอพเสริมสำหรับ Loyverse POS</string>
+    <string name="description_kds_l2">ในการเริ่มต้นโปรดติดตั้งแอป Loyverse POS</string>
+    <!--Vertical Calendar-->
+    <string name="sun">อาทิตย์</string>
+    <string name="mon">จันทร์</string>
+    <string name="tue">อังคาร</string>
+    <string name="wed">พุธ</string>
+    <string name="thu">พฤหัส</string>
+    <string name="fri">ศุกร์</string>
+    <string name="sat">เสาร์</string>
+    <string name="apply">นำไปใช้</string>
+    <string name="setting_use_darktheme">ใช้ธีมสีเข้ม</string>
+    <string name="all_day">ทั้งวัน</string>
+    <string name="start">เริ่ม</string>
+    <string name="end">จบ</string>
+    <string name="ok">ตกลง</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="select_start_endtime">โปรดเลือกเวลาเริ่มต้นและเวลาสิ้นสุด</string>
+    <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="terms_of_use">เงื่อนไขการใช้</string>
+</resources>

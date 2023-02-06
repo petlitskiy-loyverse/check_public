@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="email">E-Pasts</string>
+    <string name="password">Parole</string>
+    <string name="login">Ielogoties</string>
+    <string name="logout">Izlogoties</string>
+    <string name="loading">Notiek ielāde...</string>
+    <string name="item">Prece</string>
+    <string name="forward">Pārsūtīt</string>
+    <string name="backward">Atpakaļ</string>
+    <string name="top_5_products">Preces</string>
+    <string name="top_5_categories">Kategorijas</string>
+    <string name="top_5_employees">Darbinieki</string>
+    <string name="forgot_password_text">Aizmirsi paroli?</string>
+    <string name="new_to_loyverse_text">Vai esat jauns Loyverse lietotājs?</string>
+    <!--Metrics name-->
+    <string name="sales_summary_gross_sales">Bruto pārdošanas apjomi</string>
+    <string name="sales_summary_refunds">Naudas atgriešana</string>
+    <string name="sales_summary_discounts">Atlaides</string>
+    <string name="sales_summary_net_sales">Neto apgrozījums</string>
+    <string name="sales_summary_cost_of_goods">Preču izmaksas</string>
+    <string name="sales_summary_gross_profit">Bruto peļņa</string>
+    <string name="sales_summary_taxes">Nodokļi</string>
+    <string name="sales_summary_tips">Tips</string>
+    <string name="sales_summary_total_tendered">Total tendered</string>
+    <string-array name="period_array">
+        <item>@string/today</item>
+        <item>@string/this_week</item>
+        <item>@string/this_month</item>
+        <item>@string/this_year</item>
+        <item>@string/custom_period</item>
+    </string-array>
+    <!--Reset password activity-->
+    <string name="reset_password_activity_title">Atiestatīt paroli</string>
+    <string name="reset_email">Ievadiet savu e-pasta adresi, lai saņemtu norādījumus paroles atiestatīšanai.</string>
+    <!--Send Email dialog-->
+    <string name="email_sent_dialog_title">E-pasts nosūtīts</string>
+    <string name="email_sent_dialog_msg">Instrukcijas par paroles atgūšanu tika nosūtītas uz Jūsu norādīto e-pastu.</string>
+    <!--Logout dialog-->
+    <string name="logout_dialog_title">Izrakstīties</string>
+    <string name="logout_dialog_msg">Vai tiešām vēlaties iziet?</string>
+    <!--Retry dialog-->
+    <string name="retry_dialog_no_internet_msg">Nav savienojuma ar internetu.</string>
+    <string name="retry_dialog_msg">An unexpected error occurred. Please try again later.</string>
+    <string name="retry">Atkārtot</string>
+    <!--Bottom bar tab titles-->
+    <string name="tab_reports">Pārdošanas</string>
+    <string name="tab_products">Preces</string>
+    <string name="tab_settings">Iestatījumi</string>
+    <!--Product item-->
+    <string name="product_item_stock">%s ir krājumā</string>
+    <string name="product_divider">"\u200a\" | \"\u200a"</string>
+    <!--Product variants-->
+    <string name="product_variants">%s varianti</string>
+    <string name="variant_track_stock_off"> \"\u200a\"</string>
+    <!--Products activity-->
+    <string name="product_filter_type_empty_stock">Nav krājumos</string>
+    <string name="product_filter_type_low_stock">Zemi krājumi</string>
+    <string name="product_filter_type_all">Visas preces</string>
+    <!--Settings fragment-->
+    <string name="setting_stock_notification_title">Zemu atlikumu paziņojums</string>
+    <string name="setting_stock_notification_description">Paziņojiet, kad preču ir zemi vai to nav krājumos.</string>
+    <string name="today">Šodien</string>
+    <string name="this_week">Šajā nedēļā</string>
+    <string name="this_month">Šis mēnesis</string>
+    <string name="this_year">Šajā gadā</string>
+    <string name="custom_period">Pielāgots periods</string>
+    <string name="name">Darbinieks</string>
+    <string name="product">Prece</string>
+    <string name="category">Kategorija</string>
+    <string name="net">Neto apgrozījums</string>
+    <string name="main_indicators">Tirdzniecības kopsavilkums</string>
+    <string name="total">Kopā</string>
+    <string name="select_range">Izvēlieties periodu</string>
+    <string name="send">Sūtīt</string>
+    <!--Main dashboard charts-->
+    <string name="main_operations_chart_title">Kvītis</string>
+    <string name="main_total_sales_chart_title">Neto apgrozījums</string>
+    <string name="main_average_ticket_chart_title">Vidēja pirkuma summa</string>
+    <string name="employees_sales">Pārdošanas rādītāji pa darbiniekiem</string>
+    <string name="categories_sales">Pārdošana pa kategorijām</string>
+    <string name="products_sales">Tirdzniecība pa precēm</string>
+    <string name="sales_summary">Tirdzniecības kopsavilkums</string>
+    <string name="outlet_selection">Izvēlieties veikalu</string>
+    <!--Error msg-->
+    <string name="error_invalid_email">Ievadiet derīgu e-pastu.</string>
+    <string name="error_wrong_password">Jūsu norādītā E-pasta adrese vai parole ir nepareiza. Lūdzu mēģiniet vēlreiz.</string>
+    <string name="error_unknown">Radās nezināma kļūda.</string>
+    <string name="error_bad_auth">Autorizācijas kļūda.</string>
+    <string name="error_email_not_exist">Konts ar šo e-pastu neeksistē. Lūdzu mēģiniet vēlreiz.</string>
+    <string name="error_owner_already_deleted">Konts ir bloķēts. Sazinieties ar atbalsta komandu.</string>
+    <string name="no_network">Tīkls nav pieejams.</string>
+    <string name="no_such_device">Radās nezināma kļūda.</string>
+    <string name="no_connection">Nav savienojuma ar internetu.</string>
+    <string name="unknown_login_email">Unknown email.</string>
+    <string name="blocked_by_billing">Blocked by billing.</string>
+    <string name="user_was_blocked">User is blocked.</string>
+    <string name="access_denied">Pieeja liegta.</string>
+    <string name="access_rights_required">Access rights required</string>
+    <string name="access_rights_required_msg">You can request necessary permissions from the account owner.</string>
+    <string name="default_zero_value">0</string>
+    <string name="hour">Stunda</string>
+    <string name="day">Diena</string>
+    <string name="month">Mēnesis</string>
+    <string name="quarter">Ceturksnis</string>
+    <string name="year">Gads</string>
+    <string-array name="large_value_suffixes">
+        <item></item>
+        <item>K</item>
+        <item>M</item>
+        <item>B</item>
+        <item>T</item>
+    </string-array>
+    <!--crowdin compatible tags?-->
+    <string name="low_stock_push">Item <xliff:g example="mango" id="ware">%s</xliff:g> is running low. <xliff:g example="5" id="count">%s</xliff:g> remain in stock.</string>
+    <string name="out_of_stock_push">Item <xliff:g example="mango" id="ware">%s</xliff:g> is out of stock.</string>
+    <string name="multishop_low_stock_push">Item <xliff:g example="mango" id="ware">%s</xliff:g> is running low at <xliff:g example="Magic shop" id="outlet">%s</xliff:g>. <xliff:g example="5" id="count">%s</xliff:g> remain in stock.</string>
+    <string name="multishop_out_of_stock_push">Item <xliff:g example="mango" id="ware">%s</xliff:g> is out of stock at <xliff:g example="Magic shop" id="outlet">%s</xliff:g>.</string>
+    <string name="stock_item_warning">Stock item warning</string>
+    <string name="search">Meklēt</string>
+    <!-- Billing-->
+    <string name="subscription">Pieeja liegta</string>
+    <string name="upgrade_Account">Please update your account in the Back Office.</string>
+    <string name="update_Account">Atjauniniet kontu</string>
+    <string name="contact_account_owner">Contact account owner</string>
+    <string name="exit">Izrakstīties</string>
+    <string name="billing_out_dialog_msg">Vai tiešām vēlaties iziet?</string>
+    <string name="confirmation_exit">Izrakstīties</string>
+    <string name="no">Atcelt</string>
+    <plurals name="variantCount">
+        <item quantity="zero">%d varianti</item>
+        <item quantity="one">%d variants</item>
+        <item quantity="other">%d varianti</item>
+    </plurals>
+    <!--New to Loyverse-->
+    <string name="description_kds_l1">Loyverse Dashboard is a complementary app to Loyverse POS.</string>
+    <string name="description_kds_l2">Lai sāktu, lūdzu, instalējiet Loyverse POS aplikāciju.</string>
+    <!--Vertical Calendar-->
+    <string name="sun">Sv</string>
+    <string name="mon">Pr</string>
+    <string name="tue">Ot</string>
+    <string name="wed">Tr</string>
+    <string name="thu">Ce</string>
+    <string name="fri">Pk</string>
+    <string name="sat">Se</string>
+    <string name="apply">Lietot</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="setting_use_darktheme">Izmantojiet tumšo motīvu</string>
+    <string name="all_day">Visu dienu</string>
+    <string name="start">Sākt</string>
+    <string name="end">Beigas</string>
+    <string name="ok">Labi</string>
+    <string name="cancel">Atcelt</string>
+    <string name="select_start_endtime">Lūdzu, izvēlieties sākuma laiku un beigu laiku</string>
+</resources>

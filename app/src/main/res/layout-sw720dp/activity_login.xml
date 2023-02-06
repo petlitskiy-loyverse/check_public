@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:descendantFocusability="beforeDescendants"
+    android:fadeScrollbars="true"
+    android:fillViewport="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    android:overScrollMode="never"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary1"
+            android:gravity="center"
+            android:padding="@dimen/small_margin">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="402dp"
+                android:layout_height="320dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dashboard_signin_logo_port3x" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_layout_login"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@color/hint_color_login"
+                app:hintTextAppearance="@style/TextLabel"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_max="@dimen/max_width_login_container">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/login_field"
+                    style="@style/BaseTextStyle.EditText"
+                    android:backgroundTint="@color/hint_color_login"
+                    android:hint="@string/email"
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="textEmailAddress"
+                    android:textAlignment="viewStart"
+                    tools:text="oleksandr.ovonord@gmail.com" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_layout_password"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textColorHint="@color/hint_color_login"
+                app:hintTextAppearance="@style/TextLabel"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/input_layout_login"
+                app:layout_constraintWidth_max="@dimen/max_width_login_container"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/hint_color_login">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password_field"
+                    style="@style/BaseTextStyle.EditText"
+                    android:backgroundTint="@color/hint_color_login"
+                    android:hint="@string/password"
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="textPassword"
+                    android:textAlignment="viewStart"
+                    tools:text="asdzxqwe" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/login_button"
+                style="@style/ButtonResetPassword"
+                android:layout_width="0dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginEnd="4dp"
+                android:text="@string/login"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/input_layout_password"
+                app:layout_constraintWidth_max="@dimen/max_width_login_container" />
+
+            <TextView
+                android:id="@+id/forgot_password"
+                style="@style/BaseTextStyle.ItemName_Login"
+                android:layout_width="0dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center_horizontal"
+                android:text="@string/forgot_password_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/login_button"
+                app:layout_constraintWidth_max="@dimen/max_width_login_container" />
+
+            <TextView
+                android:id="@+id/new_to_loyverse"
+                style="@style/BaseTextStyle.ItemName_Login"
+                android:layout_width="0dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:text="@string/new_to_loyverse_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/forgot_password"
+                app:layout_constraintWidth_max="@dimen/max_width_login_container" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>

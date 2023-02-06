@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="email">ელ-ფოსტა</string>
+    <string name="password">პაროლი</string>
+    <string name="login">შესვლა</string>
+    <string name="logout">გამოსვლა</string>
+    <string name="loading">იტვირთება...</string>
+    <string name="item">საქონელი</string>
+    <string name="forward">წინ</string>
+    <string name="backward">უკან</string>
+    <string name="top_5_products">საქონელი</string>
+    <string name="top_5_categories">კატეგორიები</string>
+    <string name="top_5_employees">თანამშრომლები</string>
+    <string name="forgot_password_text">დაგავიწყდათ პაროლი?</string>
+    <string name="new_to_loyverse_text">ახალი Loyverse-ში?</string>
+    <!--Metrics name-->
+    <string name="sales_summary_gross_sales">გაყიდვების ჯამი</string>
+    <string name="sales_summary_refunds">დაბრუნება</string>
+    <string name="sales_summary_discounts">ფასდაკლება</string>
+    <string name="sales_summary_net_sales">შემოსავალი</string>
+    <string name="sales_summary_cost_of_goods">საქონლის ღირებულება</string>
+    <string name="sales_summary_gross_profit">მოგება</string>
+    <string name="sales_summary_taxes">გადასახადები</string>
+    <string name="sales_summary_tips">მომსახურება</string>
+    <string name="sales_summary_total_tendered">სულ ტენდერში</string>
+    <string-array name="period_array">
+        <item>@string/today</item>
+        <item>@string/this_week</item>
+        <item>@string/this_month</item>
+        <item>@string/this_year</item>
+        <item>@string/custom_period</item>
+    </string-array>
+    <!--Reset password activity-->
+    <string name="reset_password_activity_title">პაროლის განულება</string>
+    <string name="reset_email">შეიყვანეთ თქვენი ელ-ფოსტა პაროლის შეცვლის ინსტრუქციის მისაღებად.</string>
+    <!--Send Email dialog-->
+    <string name="email_sent_dialog_title">ელ-ფოსტა გაგზავნილია</string>
+    <string name="email_sent_dialog_msg">შეამოწმეთ თქვენი ელ-ფოსტა შემდეგი ინსტრუქციებისთვის.</string>
+    <!--Logout dialog-->
+    <string name="logout_dialog_title">გამოსვლა</string>
+    <string name="logout_dialog_msg">ნამდვილად გსურთ გასვლა?</string>
+    <!--Retry dialog-->
+    <string name="retry_dialog_no_internet_msg">ინტერნეტთან კავშირი არ არის.</string>
+    <string name="retry_dialog_msg">An unexpected error occurred. Please try again later.</string>
+    <string name="retry">განმეორება</string>
+    <!--Bottom bar tab titles-->
+    <string name="tab_reports">გაყიდვები</string>
+    <string name="tab_products">საქონელი</string>
+    <string name="tab_settings">პარამეტრები</string>
+    <!--Product item-->
+    <string name="product_item_stock">%s საწყობშია</string>
+    <string name="product_divider">"\u200a\" | \"\u200a"</string>
+    <!--Product variants-->
+    <string name="product_variants">%s ვარიანტი</string>
+    <string name="variant_track_stock_off"> \"\u200a\"</string>
+    <!--Products activity-->
+    <string name="product_filter_type_empty_stock">დამთავრდა</string>
+    <string name="product_filter_type_low_stock">მთავრდება</string>
+    <string name="product_filter_type_all">ყველა საქონელი</string>
+    <!--Settings fragment-->
+    <string name="setting_stock_notification_title">საქონლის დამთავრების შეტყობინება</string>
+    <string name="setting_stock_notification_description">შემახსენე, როცა საქონელი მთავრდება ან დამთავრდა.</string>
+    <string name="today">დღეს</string>
+    <string name="this_week">მიმდინარე კვირა</string>
+    <string name="this_month">მიმდინარე თვე</string>
+    <string name="this_year">მიმდინარე წელი</string>
+    <string name="custom_period">მომხმარებლის პერიოდი</string>
+    <string name="name">თანამშრომელი</string>
+    <string name="product">საქონელი</string>
+    <string name="category">კატეგორია</string>
+    <string name="net">შემოსავალი</string>
+    <string name="main_indicators">გაყიდვების შედეგები</string>
+    <string name="total">ჯამში</string>
+    <string name="select_range">აირჩიეთ პერიოდი</string>
+    <string name="send">გაგზავნა</string>
+    <!--Main dashboard charts-->
+    <string name="main_operations_chart_title">ჩეკები</string>
+    <string name="main_total_sales_chart_title">შემოსავალი</string>
+    <string name="main_average_ticket_chart_title">საშუალო ჩეკი</string>
+    <string name="employees_sales">გაყიდვები თანამშრომლის მიხედვით</string>
+    <string name="categories_sales">გაყიდვები კატეგორიის მიხედვით</string>
+    <string name="products_sales">გაყიდვები საქონლის მიხედვით</string>
+    <string name="sales_summary">გაყიდვების შედეგები</string>
+    <string name="outlet_selection">აირჩიეთ მაღაზია</string>
+    <!--Error msg-->
+    <string name="error_invalid_email">შეიყვანოთ მოქმედი ელ-ფოსტა.</string>
+    <string name="error_wrong_password">არასწორი ელ-ფოსტა ან პაროლი. სცადეთ ხელახლა.</string>
+    <string name="error_unknown">დაფიქსირდა უცნობი შეცდომა.</string>
+    <string name="error_bad_auth">ავტორიზაციის შეცდომა.</string>
+    <string name="error_email_not_exist">აქაუნთი ესეთი ელ-ფოსტით არ არსებობს. გთხოვთ სცადოთ ხელახლა.</string>
+    <string name="error_owner_already_deleted">აქაუნთი დაბლოკილია. დაუკავშირდით მხარდაჭერის ჯგუფს.</string>
+    <string name="no_network">ქსელი მიუწვდომელია.</string>
+    <string name="no_such_device">დაფიქსირდა უცნობი შეცდომა.</string>
+    <string name="no_connection">ინტერნეტთან კავშირი არ არის.</string>
+    <string name="unknown_login_email">უცნობი ელ-ფოსტა.</string>
+    <string name="blocked_by_billing">Blocked by billing.</string>
+    <string name="user_was_blocked">მომხმარებელი დაბლოკილია.</string>
+    <string name="access_denied">შესვლა აკრძალულია.</string>
+    <string name="access_rights_required">საჭიროა წვდომის უფლებები</string>
+    <string name="access_rights_required_msg">თქვენ შეგიძლიათ მოითხოვოთ საჭირო უფლებები აქაუნთის მესაკუთრისგან.</string>
+    <string name="default_zero_value">0</string>
+    <string name="hour">საათი</string>
+    <string name="day">დღე</string>
+    <string name="month">თვე</string>
+    <string name="quarter">კვარტალი</string>
+    <string name="year">წელი</string>
+    <string-array name="large_value_suffixes">
+        <item></item>
+        <item>K</item>
+        <item>M</item>
+        <item>B</item>
+        <item>T</item>
+    </string-array>
+    <!--crowdin compatible tags?-->
+    <string name="low_stock_push">საქონელი <xliff:g example="mango" id="ware">%s</xliff:g> მთავრდება. <xliff:g example="5" id="count">%s</xliff:g> დარჩ საწყობში.</string>
+    <string name="out_of_stock_push">საქონელი <xliff:g example="mango" id="ware">%s</xliff:g> დამთავრდა.</string>
+    <string name="multishop_low_stock_push">საქონელი <xliff:g example="mango" id="ware">%s</xliff:g> მთავრდება <xliff:g example="Magic shop" id="outlet">%s</xliff:g>. საწყობში დარჩა <xliff:g example="5" id="count">%s</xliff:g>.</string>
+    <string name="multishop_out_of_stock_push">საქონელი <xliff:g example="mango" id="ware">%s</xliff:g> მთავრდება <xliff:g example="Magic shop" id="outlet">%s</xliff:g>.</string>
+    <string name="stock_item_warning">საქონლის დამთავრების გაფრთხილება</string>
+    <string name="search">ძიება</string>
+    <!-- Billing-->
+    <string name="subscription">დაშვება აკრძალულია</string>
+    <string name="upgrade_Account">Please update your account in the Back Office.</string>
+    <string name="update_Account">აქაუნთის განახლება</string>
+    <string name="contact_account_owner">დაუკავშირდით აქაუნთის მფლობელს</string>
+    <string name="exit">გამოსვლა</string>
+    <string name="billing_out_dialog_msg">ნამდვილად გსურთ გასვლა?</string>
+    <string name="confirmation_exit">გამოსვლა</string>
+    <string name="no">გაუქმება</string>
+    <plurals name="variantCount">
+        <item quantity="one">%d ვარიანტი</item>
+        <item quantity="other">%d ვარიანტი</item>
+    </plurals>
+    <!--New to Loyverse-->
+    <string name="description_kds_l1">Loyverse Dashboard is a complementary app to Loyverse POS.</string>
+    <string name="description_kds_l2">To get started, please install the Loyverse POS app.</string>
+    <!--Vertical Calendar-->
+    <string name="sun">კვ</string>
+    <string name="mon">ორშ</string>
+    <string name="tue">სამ</string>
+    <string name="wed">ოთხ</string>
+    <string name="thu">ხუთ</string>
+    <string name="fri">პარ</string>
+    <string name="sat">შაბ</string>
+    <string name="apply">გამოყენება</string>
+    <string name="setting_use_darktheme">გამოიყენეთ მუქი თემა</string>
+    <string name="all_day">Მთელი დღე</string>
+    <string name="start">დაწყება</string>
+    <string name="end">Დასასრული</string>
+    <string name="ok">Კარგი</string>
+    <string name="cancel">გაუქმება</string>
+    <string name="select_start_endtime">გთხოვთ შეარჩიოთ დაწყების დრო და დასრულების დრო</string>
+    <string name="privacy_policy">მოხმარების პირობები</string>
+    <string name="terms_of_use">უსაფრთხოების პოლიტიკა</string>
+</resources>

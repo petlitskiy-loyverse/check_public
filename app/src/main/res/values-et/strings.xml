@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="email">E-mail</string>
+    <string name="password">Salasõna</string>
+    <string name="login">Logi sisse</string>
+    <string name="logout">Logi välja</string>
+    <string name="loading">Laeb…</string>
+    <string name="item">Ühik</string>
+    <string name="forward">Edasi</string>
+    <string name="backward">Tagasi</string>
+    <string name="top_5_products">Artiklid</string>
+    <string name="top_5_categories">Kategooriad</string>
+    <string name="top_5_employees">Töötajad</string>
+    <string name="forgot_password_text">Unustasite salasõna?</string>
+    <string name="new_to_loyverse_text">Uus Loyverse kasutaja?</string>
+    <!--Metrics name-->
+    <string name="sales_summary_gross_sales">Kogumüük</string>
+    <string name="sales_summary_refunds">Tagasimaksed</string>
+    <string name="sales_summary_discounts">Soodustused</string>
+    <string name="sales_summary_net_sales">Neto müük</string>
+    <string name="sales_summary_cost_of_goods">Kauba maksumus</string>
+    <string name="sales_summary_gross_profit">Brutokasum</string>
+    <string name="sales_summary_taxes">Maksud</string>
+    <string name="sales_summary_tips">Tip (jootraha)</string>
+    <string name="sales_summary_total_tendered">Pakkumused kokku</string>
+    <string-array name="period_array">
+        <item>@string/today</item>
+        <item>@string/this_week</item>
+        <item>@string/this_month</item>
+        <item>@string/this_year</item>
+        <item>@string/custom_period</item>
+    </string-array>
+    <!--Reset password activity-->
+    <string name="reset_password_activity_title">Lähesta parool</string>
+    <string name="reset_email">Sisesta oma meiliaadress, et saada parooli lähtestamise juhiseid.</string>
+    <!--Send Email dialog-->
+    <string name="email_sent_dialog_title">Email aadetud</string>
+    <string name="email_sent_dialog_msg">Kontrollige oma eposti täiendavate juhiste saamiseks.</string>
+    <!--Logout dialog-->
+    <string name="logout_dialog_title">Logi välja</string>
+    <string name="logout_dialog_msg">Kas oled kindel, et soovid välja logida?</string>
+    <!--Retry dialog-->
+    <string name="retry_dialog_no_internet_msg">Internetiühendus puudub.</string>
+    <string name="retry_dialog_msg">An unexpected error occurred. Please try again later.</string>
+    <string name="retry">Proovi uuesti</string>
+    <!--Bottom bar tab titles-->
+    <string name="tab_reports">Müügid</string>
+    <string name="tab_products">Tooted</string>
+    <string name="tab_settings">Sätted</string>
+    <!--Product item-->
+    <string name="product_item_stock">%s laos</string>
+    <string name="product_divider">"\u200a\" | \"\u200a"</string>
+    <!--Product variants-->
+    <string name="product_variants">%s variandid</string>
+    <string name="variant_track_stock_off"> \"\u200a\"</string>
+    <!--Products activity-->
+    <string name="product_filter_type_empty_stock">Toode otsas</string>
+    <string name="product_filter_type_low_stock">Laovaru väike</string>
+    <string name="product_filter_type_all">Kõik artiklid</string>
+    <!--Settings fragment-->
+    <string name="setting_stock_notification_title">Varude vähenemise teadaanne</string>
+    <string name="setting_stock_notification_description">Teatada, kui toodete laovaru on madal või toode on otsas.</string>
+    <string name="today">Täna</string>
+    <string name="this_week">See nädal</string>
+    <string name="this_month">See kuu</string>
+    <string name="this_year">See aasta</string>
+    <string name="custom_period">Kohandatud periood</string>
+    <string name="name">Töötaja</string>
+    <string name="product">Ühik</string>
+    <string name="category">Kategooria</string>
+    <string name="net">Netokäive</string>
+    <string name="main_indicators">Müügikokkuvõte</string>
+    <string name="total">Kokku</string>
+    <string name="select_range">Vali periood</string>
+    <string name="send">Saada</string>
+    <!--Main dashboard charts-->
+    <string name="main_operations_chart_title">Kviitungid</string>
+    <string name="main_total_sales_chart_title">Netokäive</string>
+    <string name="main_average_ticket_chart_title">Keskmine müük</string>
+    <string name="employees_sales">Müük töötaja lõikes</string>
+    <string name="categories_sales">Müük kategooria lõikes</string>
+    <string name="products_sales">Müük kaupade lõikes</string>
+    <string name="sales_summary">Müügikokkuvõte</string>
+    <string name="outlet_selection">Vali pood</string>
+    <!--Error msg-->
+    <string name="error_invalid_email">Sisestage kehtiv e-posti aadress.</string>
+    <string name="error_wrong_password">Vale e-mail või parool. Palun proovi uuesti.</string>
+    <string name="error_unknown">Ilmnes tundmatu tõrge.</string>
+    <string name="error_bad_auth">Autoriseerimisviga.</string>
+    <string name="error_email_not_exist">Sellise meiliaadressiga kontot ei eksisteeri. Palun proovi uuesti.</string>
+    <string name="error_owner_already_deleted">Konto on blokeeritud. Võta ühendust klienditoega.</string>
+    <string name="no_network">Võrguühendus puudub.</string>
+    <string name="no_such_device">Ilmnes tundmatu tõrge.</string>
+    <string name="no_connection">Internetiühendus puudub.</string>
+    <string name="unknown_login_email">Tundmatu e-mail.</string>
+    <string name="blocked_by_billing">Blocked by billing.</string>
+    <string name="user_was_blocked">Kasutajakonto on blokeeritud.</string>
+    <string name="access_denied">Juurdepääs keelatud.</string>
+    <string name="access_rights_required">Juurdepääsuõiguste olemasolu vajalik</string>
+    <string name="access_rights_required_msg">Taotle õigused konto omanikult.</string>
+    <string name="default_zero_value">0</string>
+    <string name="hour">Tund</string>
+    <string name="day">Päev</string>
+    <string name="month">Kuu</string>
+    <string name="quarter">Kvartal</string>
+    <string name="year">Aasta</string>
+    <string-array name="large_value_suffixes">
+        <item></item>
+        <item>K</item>
+        <item>M</item>
+        <item>B</item>
+        <item>T</item>
+    </string-array>
+    <!--crowdin compatible tags?-->
+    <string name="low_stock_push">Ühik <xliff:g example="mango" id="ware">%s</xliff:g> hakkab otsa saama. <xliff:g example="5" id="count">%s</xliff:g> ühikut on veel laos.</string>
+    <string name="out_of_stock_push">Ühik <xliff:g example="mango" id="ware">%s</xliff:g> on laost otsas.</string>
+    <string name="multishop_low_stock_push">Ühik <xliff:g example="mango" id="ware">%s</xliff:g> hakkab otsa saama <xliff:g example="Magic shop" id="outlet">%s</xliff:g>. <xliff:g example="5" id="count">%s</xliff:g> on veel laoseisus.</string>
+    <string name="multishop_out_of_stock_push">Ühik <xliff:g example="mango" id="ware">%s</xliff:g> hakkab otsa saama poes <xliff:g example="Magic shop" id="outlet">%s</xliff:g>.</string>
+    <string name="stock_item_warning">Toote laoseisu hoiatus</string>
+    <string name="search">Otsi</string>
+    <!-- Billing-->
+    <string name="subscription">Juurdepääs keelatud</string>
+    <string name="upgrade_Account">Värskendage oma konto üksikasju oma Back Office\'iga.</string>
+    <string name="update_Account">Värskenda kontot</string>
+    <string name="contact_account_owner">Contact account owner</string>
+    <string name="exit">Logi välja</string>
+    <string name="billing_out_dialog_msg">Kas soovite tõesti lahkuda?</string>
+    <string name="confirmation_exit">Logi välja</string>
+    <string name="no">Loobu</string>
+    <plurals name="variantCount">
+        <item quantity="one">%d variant</item>
+        <item quantity="other">%d variandid</item>
+    </plurals>
+    <!--New to Loyverse-->
+    <string name="description_kds_l1">Loyverse Dashboard on Loyverse POS -i täiendav rakendus.</string>
+    <string name="description_kds_l2">Alustamiseks installige rakendus Loyverse POS.</string>
+    <!--Vertical Calendar-->
+    <string name="sun">Püh</string>
+    <string name="mon">Esm</string>
+    <string name="tue">Tei</string>
+    <string name="wed">Kol</string>
+    <string name="thu">Nel</string>
+    <string name="fri">Ree</string>
+    <string name="sat">Lau</string>
+    <string name="apply">Rakenda</string>
+    <string name="setting_use_darktheme">Kasutage tumedat teemat</string>
+    <string name="all_day">Terve päev</string>
+    <string name="start">Alusta</string>
+    <string name="end">Lõpp</string>
+    <string name="ok">Okei</string>
+    <string name="cancel">Tühista</string>
+    <string name="select_start_endtime">Palun valige algusaeg ja lõppaeg</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+</resources>

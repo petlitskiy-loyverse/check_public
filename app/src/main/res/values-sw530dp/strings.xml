@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setting_use_darktheme">Use dark theme</string>
+    <string name="all_day">All day</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_start_endtime">Please Select Start Time and End Time</string>
+</resources>

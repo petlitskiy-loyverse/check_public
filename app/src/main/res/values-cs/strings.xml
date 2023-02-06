@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="email">E-mail</string>
+    <string name="password">Heslo</string>
+    <string name="login">Přihlásit se</string>
+    <string name="logout">Odhlásit se</string>
+    <string name="loading">Načítání…</string>
+    <string name="item">Položka</string>
+    <string name="forward">Vpřed</string>
+    <string name="backward">Zpět</string>
+    <string name="top_5_products">Položky</string>
+    <string name="top_5_categories">Kategorie</string>
+    <string name="top_5_employees">Zaměstnanci</string>
+    <string name="forgot_password_text">Zapomněli jste heslo?</string>
+    <string name="new_to_loyverse_text">Jste v Loyverse noví?</string>
+    <!--Metrics name-->
+    <string name="sales_summary_gross_sales">Hrubá tržba</string>
+    <string name="sales_summary_refunds">Vratky</string>
+    <string name="sales_summary_discounts">Slevy</string>
+    <string name="sales_summary_net_sales">Čisté tržby</string>
+    <string name="sales_summary_cost_of_goods">Náklady na prodané zboží</string>
+    <string name="sales_summary_gross_profit">Hrubý zisk</string>
+    <string name="sales_summary_taxes">Daně</string>
+    <string name="sales_summary_tips">Spropitné</string>
+    <string name="sales_summary_total_tendered">Celková částka</string>
+    <string-array name="period_array">
+        <item>@string/today</item>
+        <item>@string/this_week</item>
+        <item>@string/this_month</item>
+        <item>@string/this_year</item>
+        <item>@string/custom_period</item>
+    </string-array>
+    <!--Reset password activity-->
+    <string name="reset_password_activity_title">Resetovat heslo</string>
+    <string name="reset_email">Zadejte vaši e-mailovou adresu pro zaslaní instrukcí pro resetování vašeho hesla.</string>
+    <!--Send Email dialog-->
+    <string name="email_sent_dialog_title">E-mail odeslán</string>
+    <string name="email_sent_dialog_msg">Check your inbox for further instructions.</string>
+    <!--Logout dialog-->
+    <string name="logout_dialog_title">Odhlásit se</string>
+    <string name="logout_dialog_msg">Opravdu se chcete odhlásit?</string>
+    <!--Retry dialog-->
+    <string name="retry_dialog_msg">Žádné připojení k Internetu.</string>
+    <string name="retry">Opakovat</string>
+    <!--Bottom bar tab titles-->
+    <string name="tab_reports">Prodeje</string>
+    <string name="tab_products">Položky</string>
+    <string name="tab_settings">Nastavení</string>
+    <!--Product item-->
+    <string name="product_item_stock">%s na skladě</string>
+    <string name="product_divider">"\u200a\" | \"\u200a"</string>
+    <!--Product variants-->
+    <string name="product_variants">%s variant</string>
+    <string name="variant_track_stock_off"> \"\u200a\"</string>
+    <!--Products activity-->
+    <string name="product_filter_type_empty_stock">Vyprodáno</string>
+    <string name="product_filter_type_low_stock">Nízké zásoby</string>
+    <string name="product_filter_type_all">Všechny položky</string>
+    <!--Settings fragment-->
+    <string name="setting_stock_notification_title">Oznámení o stavu skladu</string>
+    <string name="setting_stock_notification_description">Upozornit na nedostatek zboží nebo vyprodání zásob.</string>
+    <string name="today">Dnes</string>
+    <string name="this_week">Tento týden</string>
+    <string name="this_month">Tento měsíc</string>
+    <string name="this_year">Tento rok</string>
+    <string name="custom_period">Vlastní období</string>
+    <string name="name">Zaměstnanec</string>
+    <string name="product">Položka</string>
+    <string name="category">Kategorie</string>
+    <string name="net">Čisté tržby</string>
+    <string name="main_indicators">Přehled tržeb</string>
+    <string name="total">Celkem</string>
+    <string name="select_range">Vybrat období</string>
+    <string name="send">Odeslat</string>
+    <!--Main dashboard charts-->
+    <string name="main_operations_chart_title">Doklady</string>
+    <string name="main_total_sales_chart_title">Čisté tržby</string>
+    <string name="main_average_ticket_chart_title">Průměrný prodej</string>
+    <string name="employees_sales">Prodeje podle zaměstnanců</string>
+    <string name="categories_sales">Prodeje podle kategorie</string>
+    <string name="products_sales">Prodeje podle položky</string>
+    <string name="sales_summary">Přehled tržeb</string>
+    <string name="outlet_selection">Vybrat obchod</string>
+    <!--Error msg-->
+    <string name="error_invalid_email">Zadejte platný e-mail.</string>
+    <string name="error_wrong_password">Nesprávný e-mail nebo heslo. Zkuste to prosím znovu.</string>
+    <string name="error_unknown">Došlo k neznámé chybě.</string>
+    <string name="error_bad_auth">Chyba ověření.</string>
+    <string name="error_email_not_exist">Účet s tímto e-mailem neexistuje. Zkuste to prosím znovu.</string>
+    <string name="error_owner_already_deleted">The account is blocked. Contact with the support team.</string>
+    <string name="no_network">Síť není k dispozici.</string>
+    <string name="no_such_device">Došlo k neznámé chybě.</string>
+    <string name="no_connection">Žádné připojení k Internetu.</string>
+    <string name="unknown_login_email">Neznámý e-mail.</string>
+    <string name="blocked_by_billing">Blocked by billing.</string>
+    <string name="user_was_blocked">Uživatel je blokován.</string>
+    <string name="access_denied">Přístup zakázán.</string>
+    <string name="access_rights_required">Jsou vyžadována přístupová práva</string>
+    <string name="access_rights_required_msg">Můžete požádat o potřebná oprávnění od vlastníka účtu.</string>
+    <string name="default_zero_value">0</string>
+    <string name="hour">Hodina</string>
+    <string name="day">Den</string>
+    <string name="month">Měsíc</string>
+    <string name="quarter">Čtvrtina</string>
+    <string name="year">Rok</string>
+    <string-array name="large_value_suffixes">
+        <item></item>
+        <item>K</item>
+        <item>M</item>
+        <item>B</item>
+        <item>T</item>
+    </string-array>
+    <!--crowdin compatible tags?-->
+    <string name="low_stock_push">Item <xliff:g example="mango" id="ware">%s</xliff:g> is running low. <xliff:g example="5" id="count">%s</xliff:g> remain in stock.</string>
+    <string name="out_of_stock_push">Item <xliff:g example="mango" id="ware">%s</xliff:g> is out of stock.</string>
+    <string name="multishop_low_stock_push">Item <xliff:g example="mango" id="ware">%s</xliff:g> is running low at <xliff:g example="Magic shop" id="outlet">%s</xliff:g>. <xliff:g example="5" id="count">%s</xliff:g> remain in stock.</string>
+    <string name="multishop_out_of_stock_push">Položka <xliff:g example="mango" id="ware">%s</xliff:g> není vyprodáno <xliff:g example="Magic shop" id="outlet">%s</xliff:g>.</string>
+    <string name="stock_item_warning">Stock item warning</string>
+    <string name="search">Hledat</string>
+    <!-- Billing-->
+    <string name="subscription">Přístup zakázán</string>
+    <string name="upgrade_Account">Please update your account in the Back Office.</string>
+    <string name="update_Account">Aktualizovat účet</string>
+    <string name="contact_account_owner">Contact account owner</string>
+    <string name="exit">Odhlásit se</string>
+    <string name="billing_out_dialog_msg">Určitě se chcete odhlásit?</string>
+    <string name="confirmation_exit">Odhlásit se</string>
+    <string name="no">Zrušit</string>
+    <plurals name="variantCount" xliff:ignore="UnusedQuantity">
+        <item quantity="one">%d varianta</item>
+        <item quantity="few">%d variant</item>
+        <item quantity="many">%d variant</item>
+        <item quantity="other">%d variant</item>
+    </plurals>
+    <!--New to Loyverse-->
+    <string name="description_kds_l1">Loyverse Dashboard is a complementary app to Loyverse POS.</string>
+    <string name="description_kds_l2">To get started, please install the Loyverse POS app.</string>
+    <!--Vertical Calendar-->
+    <string name="sun">Ne</string>
+    <string name="mon">Po</string>
+    <string name="tue">Út</string>
+    <string name="wed">St</string>
+    <string name="thu">Čt</string>
+    <string name="fri">Pá</string>
+    <string name="sat">So</string>
+    <string name="apply">Použít</string>
+    <string name="all_day">Celý den</string>
+    <string name="start">Start</string>
+    <string name="end">Konec</string>
+    <string name="ok">OK</string>
+    <string name="cancel">zrušení</string>
+    <string name="select_start_endtime">Vyberte čas zahájení a čas ukončení</string>
+    <string name="setting_use_darktheme">Použijte tmavé téma</string>
+    <string name="privacy_policy">Zásady ochrany osobních údajů</string>
+    <string name="terms_of_use">Podmínky použití</string>
+</resources>

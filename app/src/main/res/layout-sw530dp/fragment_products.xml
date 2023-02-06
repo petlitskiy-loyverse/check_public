@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar_products" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <FrameLayout
+            android:background="@color/colorBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingStart="@dimen/edge_margin_reports"
+            android:paddingEnd="@dimen/edge_margin_reports">
+
+            <com.loyverse.dashboard.base.BoundedFrameLayout
+                android:layout_width="match_parent"
+                android:background="@color/colorBackground"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                app:boundedWidth="@dimen/max_width_container">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/products"
+                    android:background="@color/colorBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clipToPadding="false"
+                    android:paddingTop="@dimen/edge_margin_reports"
+                    android:overScrollMode="never"
+                    android:paddingBottom="@dimen/bottom_navigation_height"
+                    tools:ignore="MissingConstraints"
+                    tools:listitem="@layout/item_product" />
+            </com.loyverse.dashboard.base.BoundedFrameLayout>
+        </FrameLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

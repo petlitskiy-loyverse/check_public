@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="email">E-postadress</string>
+    <string name="password">Lösenord</string>
+    <string name="login">Logga in</string>
+    <string name="logout">Logga ut</string>
+    <string name="loading">Laddar...</string>
+    <string name="item">Artikel</string>
+    <string name="forward">Framåt</string>
+    <string name="backward">Bakåt</string>
+    <string name="top_5_products">Artiklar</string>
+    <string name="top_5_categories">Kategorier</string>
+    <string name="top_5_employees">Anställda</string>
+    <string name="forgot_password_text">Glömt lösenordet?</string>
+    <string name="new_to_loyverse_text">Ny till Loyverse?</string>
+    <!--Metrics name-->
+    <string name="sales_summary_gross_sales">Bruttoförsäljning</string>
+    <string name="sales_summary_refunds">Återbetalningar</string>
+    <string name="sales_summary_discounts">Rabatter</string>
+    <string name="sales_summary_net_sales">Nettoförsäljning</string>
+    <string name="sales_summary_cost_of_goods">Kostnaden av varor</string>
+    <string name="sales_summary_gross_profit">Bruttoresultat</string>
+    <string name="sales_summary_taxes">Skatter</string>
+    <string name="sales_summary_tips">Dricks</string>
+    <string name="sales_summary_total_tendered">Totalt anbud</string>
+    <string-array name="period_array">
+        <item>@string/today</item>
+        <item>@string/this_week</item>
+        <item>@string/this_month</item>
+        <item>@string/this_year</item>
+        <item>@string/custom_period</item>
+    </string-array>
+    <!--Reset password activity-->
+    <string name="reset_password_activity_title">Återställ lösenord</string>
+    <string name="reset_email">Skriv in din emailadress för att få instruktioner om hur du återställer ditt lösenord.</string>
+    <!--Send Email dialog-->
+    <string name="email_sent_dialog_title">E-mail skickat</string>
+    <string name="email_sent_dialog_msg">Kolla din e-post för följande instruktioner.</string>
+    <!--Logout dialog-->
+    <string name="logout_dialog_title">Logga ut</string>
+    <string name="logout_dialog_msg">Vill du verkligen logga ut?</string>
+    <!--Retry dialog-->
+    <string name="retry_dialog_no_internet_msg">Ingen internetanslutning.</string>
+    <string name="retry_dialog_msg">An unexpected error occurred. Please try again later.</string>
+    <string name="retry">Försök igen</string>
+    <!--Bottom bar tab titles-->
+    <string name="tab_reports">Försäljning</string>
+    <string name="tab_products">Artiklar</string>
+    <string name="tab_settings">Inställningar</string>
+    <!--Product item-->
+    <string name="product_item_stock">%s i lager</string>
+    <string name="product_divider">"\u200a\" | \"\u200a"</string>
+    <!--Product variants-->
+    <string name="product_variants">%s varianter</string>
+    <string name="variant_track_stock_off"> \"\u200a\"</string>
+    <!--Products activity-->
+    <string name="product_filter_type_empty_stock">Slutsåld</string>
+    <string name="product_filter_type_low_stock">Få i lager</string>
+    <string name="product_filter_type_all">Alla artiklar</string>
+    <!--Settings fragment-->
+    <string name="setting_stock_notification_title">Lager-notifikationer</string>
+    <string name="setting_stock_notification_description">Meddela när artiklar är i lågt antal eller är slutsålda.</string>
+    <string name="today">Idag</string>
+    <string name="this_week">Denna vecka</string>
+    <string name="this_month">Denna månad</string>
+    <string name="this_year">Det här året</string>
+    <string name="custom_period">Valfri period</string>
+    <string name="name">Anställd</string>
+    <string name="product">Artikel</string>
+    <string name="category">Kategori</string>
+    <string name="net">Nettoförsäljning</string>
+    <string name="main_indicators">Försäljningsöversikt</string>
+    <string name="total">Totalt</string>
+    <string name="select_range">Välj period</string>
+    <string name="send">Skicka</string>
+    <!--Main dashboard charts-->
+    <string name="main_operations_chart_title">Kvitton</string>
+    <string name="main_total_sales_chart_title">Nettoförsäljning</string>
+    <string name="main_average_ticket_chart_title">Genomsnittlig försäljning</string>
+    <string name="employees_sales">Försäljning per anställd</string>
+    <string name="categories_sales">Försäljning utifrån kategori</string>
+    <string name="products_sales">Försäljning per artikel</string>
+    <string name="sales_summary">Försäljningsöversikt</string>
+    <string name="outlet_selection">Välj butik</string>
+    <!--Error msg-->
+    <string name="error_invalid_email">Skriv in en giltig e-postadress.</string>
+    <string name="error_wrong_password">Fel e-post eller lösenord. Var vänlig försök igen.</string>
+    <string name="error_unknown">Ett okänt fel har inträffat.</string>
+    <string name="error_bad_auth">Auktoriseringsfel.</string>
+    <string name="error_email_not_exist">Ett konto med denna e-mail finns inte. Vänligen försök igen.</string>
+    <string name="error_owner_already_deleted">Kontot är blockerat. Kontakta supportteamet.</string>
+    <string name="no_network">Nätverk ej tillgängligt.</string>
+    <string name="no_such_device">Ett okänt fel har inträffat.</string>
+    <string name="no_connection">Ingen internetanslutning.</string>
+    <string name="unknown_login_email">Okänd e-mail.</string>
+    <string name="blocked_by_billing">Blocked by billing.</string>
+    <string name="user_was_blocked">Användare är blockerad.</string>
+    <string name="access_denied">Åtkomst nekad.</string>
+    <string name="access_rights_required">Tillgångsrättigheter behövs</string>
+    <string name="access_rights_required_msg">Du kan begära nödvändiga behörigheter från kontoägaren.</string>
+    <string name="default_zero_value">0</string>
+    <string name="hour">Timme</string>
+    <string name="day">Dag</string>
+    <string name="month">Månad</string>
+    <string name="quarter">Kvartal</string>
+    <string name="year">År</string>
+    <string-array name="large_value_suffixes">
+        <item></item>
+        <item>K</item>
+        <item>M</item>
+        <item>B</item>
+        <item>T</item>
+    </string-array>
+    <!--crowdin compatible tags?-->
+    <string name="low_stock_push">Artikel <xliff:g example="mango" id="ware">%s</xliff:g> börjar ta slut. <xliff:g example="5" id="count">%s</xliff:g> finns kvar.</string>
+    <string name="out_of_stock_push">Artikel <xliff:g example="mango" id="ware">%s</xliff:g> är slut.</string>
+    <string name="multishop_low_stock_push">Artikel <xliff:g example="mango" id="ware">%s</xliff:g> börjar ta slut vid <xliff:g example="Magic shop" id="outlet">%s</xliff:g>. <xliff:g example="5" id="count">%s</xliff:g> finns kvar.</string>
+    <string name="multishop_out_of_stock_push">Artikel <xliff:g example="mango" id="ware">%s</xliff:g> är slut vid <xliff:g example="Magic shop" id="outlet">%s</xliff:g>.</string>
+    <string name="stock_item_warning">Lagerartikel-varning</string>
+    <string name="search">Sök</string>
+    <!-- Billing-->
+    <string name="subscription">Åtkomst nekad</string>
+    <string name="upgrade_Account">Please update your account in the Back Office.</string>
+    <string name="update_Account">Uppdatera konto</string>
+    <string name="contact_account_owner">Contact account owner</string>
+    <string name="exit">Logga ut</string>
+    <string name="billing_out_dialog_msg">Är du säker på att du vill avsluta?</string>
+    <string name="confirmation_exit">Logga ut</string>
+    <string name="no">Avbryt</string>
+    <plurals name="variantCount">
+        <item quantity="one">%d variant</item>
+        <item quantity="other">%d varianter</item>
+    </plurals>
+    <!--New to Loyverse-->
+    <string name="description_kds_l1">Loyverse Dashboard är en kompletterande app till Loyverse POS.</string>
+    <string name="description_kds_l2">Installera Loyverse POS-appen för att komma igång.</string>
+    <!--Vertical Calendar-->
+    <string name="sun">Sön</string>
+    <string name="mon">Mån</string>
+    <string name="tue">Tis</string>
+    <string name="wed">Ons</string>
+    <string name="thu">Tor</string>
+    <string name="fri">Fre</string>
+    <string name="sat">Lör</string>
+    <string name="apply">Verkställ</string>
+    <string name="setting_use_darktheme">Använd mörkt tema</string>
+    <string name="all_day">Hela dagen</string>
+    <string name="start">Start</string>
+    <string name="end">Slutet</string>
+    <string name="ok">Okej</string>
+    <string name="cancel">Annullera</string>
+    <string name="select_start_endtime">Välj Starttid och sluttid</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+</resources>

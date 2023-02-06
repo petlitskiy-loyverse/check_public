@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="email">El. pašto adresas</string>
+    <string name="password">Slaptažodis</string>
+    <string name="login">Prisijungti</string>
+    <string name="logout">Atsijungti</string>
+    <string name="loading">Įkeliama...</string>
+    <string name="item">Prekė</string>
+    <string name="forward">Pirmyn</string>
+    <string name="backward">Atgal</string>
+    <string name="top_5_products">Prekės</string>
+    <string name="top_5_categories">Kategorijos</string>
+    <string name="top_5_employees">Darbuotojai</string>
+    <string name="forgot_password_text">Pamiršote slaptažodį?</string>
+    <string name="new_to_loyverse_text">Naujas Loyverse?</string>
+    <!--Metrics name-->
+    <string name="sales_summary_gross_sales">Bendrai parduota</string>
+    <string name="sales_summary_refunds">Grąžinimai</string>
+    <string name="sales_summary_discounts">Nuolaidos</string>
+    <string name="sales_summary_net_sales">Grynasis pardavimas</string>
+    <string name="sales_summary_cost_of_goods">Prekių savikainą</string>
+    <string name="sales_summary_gross_profit">Bendras pelnas</string>
+    <string name="sales_summary_taxes">Mokesčiai</string>
+    <string name="sales_summary_tips">Arbatpinigiai</string>
+    <string name="sales_summary_total_tendered">Iš viso</string>
+    <string-array name="period_array">
+        <item>@string/today</item>
+        <item>@string/this_week</item>
+        <item>@string/this_month</item>
+        <item>@string/this_year</item>
+        <item>@string/custom_period</item>
+    </string-array>
+    <!--Reset password activity-->
+    <string name="reset_password_activity_title">Atstatyti slaptažodį</string>
+    <string name="reset_email">Įveskite savo el. pašto adresą, kuriuo gausite instrukcijas slaptažodžio pakeitimui.</string>
+    <!--Send Email dialog-->
+    <string name="email_sent_dialog_title">El. laiškas išsiųstas</string>
+    <string name="email_sent_dialog_msg">Patikrinkite savo pašto dėžutę dėl tolesnių instrukcijų.</string>
+    <!--Logout dialog-->
+    <string name="logout_dialog_title">Atsijungti</string>
+    <string name="logout_dialog_msg">Ar tikrai norite atsijungti?</string>
+    <!--Retry dialog-->
+    <string name="retry_dialog_no_internet_msg">Nėra interneto ryšio.</string>
+    <string name="retry_dialog_msg">An unexpected error occurred. Please try again later.</string>
+    <string name="retry">Bandyti dar kartą</string>
+    <!--Bottom bar tab titles-->
+    <string name="tab_reports">Pardavimai</string>
+    <string name="tab_products">Prekės</string>
+    <string name="tab_settings">Nustatymai</string>
+    <!--Product item-->
+    <string name="product_item_stock">%s sandėlyje</string>
+    <string name="product_divider">"\u200a\" | \"\u200a"</string>
+    <!--Product variants-->
+    <string name="product_variants">%s variantai</string>
+    <string name="variant_track_stock_off"> \"\u200a\"</string>
+    <!--Products activity-->
+    <string name="product_filter_type_empty_stock">Išparduota</string>
+    <string name="product_filter_type_low_stock">Mažos atsargos</string>
+    <string name="product_filter_type_all">Visos prekės</string>
+    <!--Settings fragment-->
+    <string name="setting_stock_notification_title">Pranešimai apie atsargas</string>
+    <string name="setting_stock_notification_description">Praneškite, kada atsargos bus mažos.</string>
+    <string name="today">Šiandien</string>
+    <string name="this_week">Šią savaitę</string>
+    <string name="this_month">Šį mėnesį</string>
+    <string name="this_year">Šiais metais</string>
+    <string name="custom_period">Individualizuotos laikotarpis</string>
+    <string name="name">Darbuotojas</string>
+    <string name="product">Prekė</string>
+    <string name="category">Kategorija</string>
+    <string name="net">Grynasis pardavimas</string>
+    <string name="main_indicators">Pardavimų suvestinė</string>
+    <string name="total">Iš viso</string>
+    <string name="select_range">Pasirinkite laikotarpį</string>
+    <string name="send">Siųsti</string>
+    <!--Main dashboard charts-->
+    <string name="main_operations_chart_title">Kvitai</string>
+    <string name="main_total_sales_chart_title">Grynasis pardavimas</string>
+    <string name="main_average_ticket_chart_title">Vidutinis pardavimas</string>
+    <string name="employees_sales">Pardavimai pagal darbuotoją</string>
+    <string name="categories_sales">Pardavimai pagal kategorija</string>
+    <string name="products_sales">Pardavimai pagal prekes</string>
+    <string name="sales_summary">Pardavimų suvestinė</string>
+    <string name="outlet_selection">Pasirinkite parduotuvę</string>
+    <!--Error msg-->
+    <string name="error_invalid_email">Įveskite galiojantį el. pašto adresą.</string>
+    <string name="error_wrong_password">Neteisingas el-paštas arba slaptažodis. Bandykite dar kartą.</string>
+    <string name="error_unknown">Įvyko nežinoma klaida.</string>
+    <string name="error_bad_auth">Autorizavimo klaida.</string>
+    <string name="error_email_not_exist">Paskyra su šiuo el. pašto adresu neegzistuoja. Bandykite dar kartą.</string>
+    <string name="error_owner_already_deleted">Paskyra yra užblokuota. Susisiekite su administracija.</string>
+    <string name="no_network">Tinklas nepasiekiamas.</string>
+    <string name="no_such_device">Įvyko nežinoma klaida.</string>
+    <string name="no_connection">Nėra interneto ryšio.</string>
+    <string name="unknown_login_email">Nežinomas el. pašto adresas.</string>
+    <string name="blocked_by_billing">Blocked by billing.</string>
+    <string name="user_was_blocked">Vartotojas užblokuotas.</string>
+    <string name="access_denied">Prieiga negalima.</string>
+    <string name="access_rights_required">Privalomos prieigos teisės</string>
+    <string name="access_rights_required_msg">Leidimų gali prašyti paskyros savininko.</string>
+    <string name="default_zero_value">0</string>
+    <string name="hour">Valanda</string>
+    <string name="day">Diena</string>
+    <string name="month">Mėnuo</string>
+    <string name="quarter">Ketvirtis</string>
+    <string name="year">Metai</string>
+    <string-array name="large_value_suffixes">
+        <item></item>
+        <item>K</item>
+        <item>M</item>
+        <item>B</item>
+        <item>T</item>
+    </string-array>
+    <!--crowdin compatible tags?-->
+    <string name="low_stock_push">Prekės <xliff:g example="mango" id="ware">%s </xliff:g> senka. <xliff:g example="5" id="count"> %s </xliff:g> liko sandėlyje.</string>
+    <string name="out_of_stock_push">Prekė <xliff:g example="mango" id="ware">%s </xliff:g> išparduota.</string>
+    <string name="multishop_low_stock_push">Prekės <xliff:g example="mango" id="ware">%s </xliff:g> atsargos mažos <xliff:g example="Magic shop" id="outlet"> %s </xliff:g>. <xliff:g example="5" id="count"> %s </xliff:g> liko sandėlyje.</string>
+    <string name="multishop_out_of_stock_push">Prekės <xliff:g example="mango" id="ware">%s </xliff:g> nebėra atsargoje <xliff:g example="Magic shop" id="outlet"> %s </xliff:g>.</string>
+    <string name="stock_item_warning">Prekių atsargų ispėjimas</string>
+    <string name="search">Paieška</string>
+    <!-- Billing-->
+    <string name="subscription">Prieiga negalima</string>
+    <string name="upgrade_Account">Please update your account in the Back Office.</string>
+    <string name="update_Account">Update account</string>
+    <string name="contact_account_owner">Contact account owner</string>
+    <string name="exit">Atsijungti</string>
+    <string name="billing_out_dialog_msg">Ar tikrai norite išeiti?</string>
+    <string name="confirmation_exit">Atsijungti</string>
+    <string name="no">Atšaukti</string>
+    <plurals name="variantCount">
+        <item quantity="one">%d variantas</item>
+        <item quantity="few">%d variantai</item>
+        <item quantity="many">%d variantai</item>
+        <item quantity="other">%d variantai</item>
+    </plurals>
+    <!--New to Loyverse-->
+    <string name="description_kds_l1">Loyverse Dashboard is a complementary app to Loyverse POS.</string>
+    <string name="description_kds_l2">To get started, please install the Loyverse POS app.</string>
+    <!--Vertical Calendar-->
+    <string name="sun">Sek</string>
+    <string name="mon">Pir</string>
+    <string name="tue">Ant</string>
+    <string name="wed">Tre</string>
+    <string name="thu">Ket</string>
+    <string name="fri">Pen</string>
+    <string name="sat">Šeš</string>
+    <string name="apply">Pritaikyti</string>
+    <string name="setting_use_darktheme">Naudokite tamsią temą</string>
+    <string name="all_day">Visą dieną</string>
+    <string name="start">Pradėti</string>
+    <string name="end">Galas</string>
+    <string name="ok">Gerai</string>
+    <string name="cancel">Atšaukti</string>
+    <string name="select_start_endtime">Pasirinkite pradžios laiką ir pabaigos laiką</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+</resources>

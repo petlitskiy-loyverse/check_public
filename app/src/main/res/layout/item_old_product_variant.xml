@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_height"
+    android:background="@color/variant_item_color_expand">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:id="@+id/item_info_container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/common_item_margin_left"
+            android:layout_marginEnd="@dimen/small_margin"
+            android:layout_weight="1.8"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_options"
+                style="@style/BaseTextStyle.ItemName"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                tools:ignore="RtlCompat"
+                tools:text="Mango" />
+
+            <TextView
+                android:id="@+id/item_variant_count"
+                style="@style/BaseTextStyle.SecondaryName"
+                android:gravity="center_vertical"
+                android:textAlignment="viewStart"
+                android:textDirection="ltr"
+                tools:ignore="RtlCompat,UnusedAttribute"
+                tools:text="x451" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_variant_amount"
+                style="@style/BaseTextStyle"
+                android:layout_width="match_parent"
+                android:layout_marginEnd="@dimen/item_edge_margin"
+                android:gravity="end"
+                android:maxLength="12"
+                android:maxLines="1"
+                android:textColor="@color/main_font_color"
+                android:textSize="@dimen/item_text_size"
+                tools:text="1 234 567" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/variant_divider"
+        style="@style/HorizontalViewDivider"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/item_edge_margin"
+        android:layout_marginEnd="@dimen/item_edge_margin"
+        android:background="@color/light_grey" />
+</RelativeLayout>

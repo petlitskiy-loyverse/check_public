@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary1">#303f9f</color>
+    <color name="colorPrimary">#2F2F2F</color>
+    <color name="colorPrimaryDark">#2F2F2F</color>
+    <color name="colorPrimaryLight">#2F2F2F</color>
+    <color name="colorAccent">@color/colorPrimary</color>
+    <color name="colorBackground">#2A2A2A</color>
+    <color name="colorBackgroundLite">#262626</color>
+    <color name="calanderBackground">#2A2A2A</color>
+    <color name="calanderTextColor">#FFFFFF</color>
+    <color name="calanderDateSelectedColor">#44303f9f</color>
+    <color name="calanderTextColorDisabled">#80CCCCCC</color>
+    <color name="colorBackgroundWhite">#333333</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#424242</color>
+    <color name="text_gray">#FFFFFF</color>
+    <color name="lighter_grey">#A2A2A2</color>
+    <color name="light_grey">#424242</color>  <!--12%-->
+    <color name="widget_color_blue">#3F51B5</color>
+    <color name="blue">#3F51B5</color>
+    <color name="dialog_button_color">#F9F7FD</color>
+    <color name="black">#000</color>
+
+
+    <string-array name="employees_palette" translatable="false">
+        <item>#F54336</item>
+        <item tools:ignore="Typos">#EC1D63</item>
+        <item>#9C29B2</item>
+        <item>#663BB7</item>
+        <item>#2395F7</item>
+        <item>#04A9F5</item>
+        <item>#01BCD6</item>
+        <item>#009688</item>
+        <item>#4CB051</item>
+        <item>#8AC54B</item>
+        <item>#CDDC3A</item>
+        <item>#FFEC3C</item>
+        <item>#FEC108</item>
+        <item>#FD9802</item>
+        <item>#FD5722</item>
+        <item>#795644</item>
+        <item>#A0A0A0</item>
+    </string-array>
+
+    <color name="ripple_white">#42ffffff</color>
+    <color name="ripple_black">#42000000</color>
+
+    <!--Main dashboard char colors-->
+    <color name="main_operations_chart_left">#8CFA9F50</color>
+    <color name="main_operations_chart_right">#FA9F50</color>
+    <color name="main_operations_chart_arc_background">#16FA9F50</color>
+    <color name="main_operations_chart_text">#FA9F50</color>
+    <color name="main_total_sales_chart_left">#8C97BD43</color>
+    <color name="main_total_sales_chart_right">#97BD43</color>
+    <color name="main_total_sales_chart_arc_background">#1697BD43</color>
+    <color name="main_total_sales_chart_text">#97BD43</color>
+    <color name="main_avg_ticket_chart_left">#8C088DD0</color>
+    <color name="main_avg_ticket_chart_right">#088DD0</color>
+    <color name="main_avg_ticket_chart_arc_background">#16088DD0</color>
+    <color name="main_avg_ticket_chart_text">#088DD0</color>
+
+
+    <color name="main_font_color_login">#DE000000</color>
+    <color name="main_font_color">#FFFFFF</color>
+    <color name="hint_color_login">#8C000000</color>
+    <color name="text_primary_dark">#DF000000</color> <!--87% of black-->
+    <color name="light_main_font_color">#B3FFFFFF</color> <!--white 70%-->
+    <color name="toolbar_outlet_title_color">#B3FFFFFF</color>
+    <color name="button_toolbar_pressed">#40FFFFFF</color> <!--25% of white-->
+    <color name="very_light_white">#1EFFFFFF</color> <!--12% of white-->
+
+    <color name="earnings_chart_label_color">#FFFFFF</color>
+    <color name="earnings_chart_bar_color">#8BC34A</color>
+    <color name="earnings_chart_grid_color">#4A4A4A</color>
+    <color name="earnings_chart_border_color">#4A4A4A</color>
+    <color name="earnings_chart_axis_color">#333333</color>
+    <color name="earnings_chart_axis_zero_color">#4A4A4A</color>
+    <color name="earnings_chart_background_color">#333333</color>
+
+    <!--Product item warning msg-->
+    <!--    <color name="product_item_warning_out_of_stock_stock_color">#EF5350</color>-->
+    <!--    <color name="product_item_warning_low_stock_color">#FF9800</color>-->
+    <color name="product_item_warning_out_of_stock_stock_color">#C62828</color>
+    <color name="product_item_warning_low_stock_color">#EF6C00</color>
+    <color name="divider_color">#1E000000</color> <!--12% of black-->
+    <color name="variant_item_color">#303030</color>
+    <color name="variant_item_color_expand">#2b2b2b</color>
+    <color name="tab_color">#212121</color>
+    <color name="bottom_bar_active_color">@color/white</color> <!--100% of white-->
+    <color name="bottom_bar_inactive_color">#8AFFFFFF</color> <!--54% of white-->
+
+
+    <color name="color_setting_notificaiton_bg">#333333</color>
+    <color name="color_chart_bg">#333333</color>
+    <color name="filter_dropdown_color">#333333</color>
+    <color name="switch_active_color">#3f51b5</color>
+    <color name="transparent">#0000</color>
+</resources>

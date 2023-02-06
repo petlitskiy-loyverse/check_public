@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="email">Thư điện tử</string>
+    <string name="password">Mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="loading">Đang tải...</string>
+    <string name="item">Mặt hàng</string>
+    <string name="forward">Tiếp</string>
+    <string name="backward">Trước</string>
+    <string name="top_5_products">Mặt hàng</string>
+    <string name="top_5_categories">Danh mục</string>
+    <string name="top_5_employees">Nhân viên</string>
+    <string name="forgot_password_text">Quên mật khẩu?</string>
+    <string name="new_to_loyverse_text">Bạn mới sử dụng Loyverse?</string>
+    <!--Metrics name-->
+    <string name="sales_summary_gross_sales">Tổng doanh thu</string>
+    <string name="sales_summary_refunds">Hoàn tiền</string>
+    <string name="sales_summary_discounts">Chiết khấu</string>
+    <string name="sales_summary_net_sales">Doanh thu thuần</string>
+    <string name="sales_summary_cost_of_goods">Giá vốn hàng bán</string>
+    <string name="sales_summary_gross_profit">Lợi nhuận gộp</string>
+    <string name="sales_summary_taxes">Thuế</string>
+    <string name="sales_summary_tips">Tiền boa</string>
+    <string name="sales_summary_total_tendered">Tổng số đã thu tiền</string>
+    <string-array name="period_array">
+        <item>@string/today</item>
+        <item>@string/this_week</item>
+        <item>@string/this_month</item>
+        <item>@string/this_year</item>
+        <item>@string/custom_period</item>
+    </string-array>
+    <!--Reset password activity-->
+    <string name="reset_password_activity_title">Đặt lại mật khẩu</string>
+    <string name="reset_email">Nhập email để nhận hướng dẫn phục hồi mật khẩu.</string>
+    <!--Send Email dialog-->
+    <string name="email_sent_dialog_title">Email đã gửi</string>
+    <string name="email_sent_dialog_msg">Kiểm tra hộp thư đến để biết thêm thông tin hướng dẫn.</string>
+    <!--Logout dialog-->
+    <string name="logout_dialog_title">Đăng xuất</string>
+    <string name="logout_dialog_msg">Bạn có chắc chắn muốn đăng xuất không?</string>
+    <!--Retry dialog-->
+    <string name="retry_dialog_no_internet_msg">Không có kết nối internet.</string>
+    <string name="retry_dialog_msg">An unexpected error occurred. Please try again later.</string>
+    <string name="retry">Thử lại</string>
+    <!--Bottom bar tab titles-->
+    <string name="tab_reports">Doanh số</string>
+    <string name="tab_products">Mặt hàng</string>
+    <string name="tab_settings">Cài đặt</string>
+    <!--Product item-->
+    <string name="product_item_stock">%s trong kho</string>
+    <string name="product_divider">"\u200a\" | \"\u200a"</string>
+    <!--Product variants-->
+    <string name="product_variants">%s biến thể</string>
+    <string name="variant_track_stock_off"> \"\u200a\"</string>
+    <!--Products activity-->
+    <string name="product_filter_type_empty_stock">Hết hàng</string>
+    <string name="product_filter_type_low_stock">Tồn kho thấp</string>
+    <string name="product_filter_type_all">Tất cả mặt hàng</string>
+    <!--Settings fragment-->
+    <string name="setting_stock_notification_title">Thông báo Kho</string>
+    <string name="setting_stock_notification_description">Cảnh báo khi mặt hàng sắp hết hoặc đã hết.</string>
+    <string name="today">Hôm nay</string>
+    <string name="this_week">Tuần này</string>
+    <string name="this_month">Tháng này</string>
+    <string name="this_year">Năm nay</string>
+    <string name="custom_period">Tùy chỉnh thời gian</string>
+    <string name="name">Nhân viên</string>
+    <string name="product">Mặt hàng</string>
+    <string name="category">Danh mục</string>
+    <string name="net">Doanh thu thuần</string>
+    <string name="main_indicators">Báo cáo tổng hợp</string>
+    <string name="total">Tổng cộng</string>
+    <string name="select_range">Chọn khoảng thời gian</string>
+    <string name="send">Gửi</string>
+    <!--Main dashboard charts-->
+    <string name="main_operations_chart_title">Hóa đơn</string>
+    <string name="main_total_sales_chart_title">Doanh thu thuần</string>
+    <string name="main_average_ticket_chart_title">Doanh số trung bình</string>
+    <string name="employees_sales">Doanh thu theo nhân viên</string>
+    <string name="categories_sales">Doanh thu theo danh mục</string>
+    <string name="products_sales">Doanh thu theo mặt hàng</string>
+    <string name="sales_summary">Báo cáo tổng hợp</string>
+    <string name="outlet_selection">Chọn cửa hàng</string>
+    <!--Error msg-->
+    <string name="error_invalid_email">Nhập địa chỉ email hợp lệ.</string>
+    <string name="error_wrong_password">Email hoặc mật khẩu không đúng. Vui lòng thử lại.</string>
+    <string name="error_unknown">Đã xảy ra lỗi chưa xác định.</string>
+    <string name="error_bad_auth">Lỗi ủy quyền truy cập.</string>
+    <string name="error_email_not_exist">Tài khoản với email này không tồn tại. Vui lòng thử lại.</string>
+    <string name="error_owner_already_deleted">Tài khoản đã bị khóa. Vui lòng liên hệ hỗ trợ.</string>
+    <string name="no_network">Mạng không khả dụng.</string>
+    <string name="no_such_device">Đã xảy ra lỗi chưa xác định.</string>
+    <string name="no_connection">Không có kết nối internet.</string>
+    <string name="unknown_login_email">Email không xác định.</string>
+    <string name="blocked_by_billing">Blocked by billing.</string>
+    <string name="user_was_blocked">Tài khoản bị khóa.</string>
+    <string name="access_denied">Truy cập bị từ chối.</string>
+    <string name="access_rights_required">Cần có quyền truy cập</string>
+    <string name="access_rights_required_msg">Bạn có thể yêu cầu quyền cần thiết từ các chủ sở hữu tài khoản.</string>
+    <string name="default_zero_value">0</string>
+    <string name="hour">Giờ</string>
+    <string name="day">Ngày</string>
+    <string name="month">Tháng</string>
+    <string name="quarter">Quý</string>
+    <string name="year">Năm</string>
+    <string-array name="large_value_suffixes">
+        <item></item>
+        <item>K</item>
+        <item>M</item>
+        <item>B</item>
+        <item>T</item>
+    </string-array>
+    <!--crowdin compatible tags?-->
+    <string name="low_stock_push">Sản phẩm <xliff:g example="mango" id="ware">%s</xliff:g> đang ở mức thấp. Chỉ còn <xliff:g example="5" id="count">%s</xliff:g> sản phẩm trong kho.</string>
+    <string name="out_of_stock_push">Sản phẩm <xliff:g example="mango" id="ware">%s</xliff:g> đã hết hàng.</string>
+    <string name="multishop_low_stock_push">Sản phẩm <xliff:g example="mango" id="ware">%s</xliff:g> đã sắp hết tại <xliff:g example="Magic shop" id="outlet">%s</xliff:g>. Chỉ còn <xliff:g example="5" id="count">%s</xliff:g> sản phẩm trong kho.</string>
+    <string name="multishop_out_of_stock_push">Mặt hàng <xliff:g example="mango" id="ware">%s</xliff:g> đã hết tại <xliff:g example="Magic shop" id="outlet">%s</xliff:g>.</string>
+    <string name="stock_item_warning">Cảnh báo Kho</string>
+    <string name="search">Tìm kiếm</string>
+    <!-- Billing-->
+    <string name="subscription">Truy cập bị từ chối</string>
+    <string name="upgrade_Account">Please update your account in the Back Office.</string>
+    <string name="update_Account">Cập nhật tài khoản</string>
+    <string name="contact_account_owner">Liên hệ với chủ tài khoản</string>
+    <string name="exit">Đăng xuất</string>
+    <string name="billing_out_dialog_msg">Bạn có chắc bạn muốn thoát ra không?</string>
+    <string name="confirmation_exit">Đăng xuất</string>
+    <string name="no">Hủy</string>
+    <plurals name="variantCount">
+        <item quantity="other">%d biến thể</item>
+    </plurals>
+    <!--New to Loyverse-->
+    <string name="description_kds_l1">Loyverse Dashboard là ứng dụng bổ trợ cho Loyverse POS.</string>
+    <string name="description_kds_l2">Để bắt đầu, vui lòng cài đặt ứng dụng Loyverse POS.</string>
+    <!--Vertical Calendar-->
+    <string name="sun">CN</string>
+    <string name="mon">T2</string>
+    <string name="tue">T3</string>
+    <string name="wed">T4</string>
+    <string name="thu">T5</string>
+    <string name="fri">T6</string>
+    <string name="sat">T7</string>
+    <string name="apply">Áp dụng</string>
+    <string name="setting_use_darktheme">Sử dụng chủ đề tối</string>
+    <string name="all_day">Cả ngày</string>
+    <string name="start">Bắt đầu</string>
+    <string name="end">Chấm dứt</string>
+    <string name="ok">Được chứ</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="select_start_endtime">Vui lòng chọn Thời gian bắt đầu và Thời gian kết thúc</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+</resources>

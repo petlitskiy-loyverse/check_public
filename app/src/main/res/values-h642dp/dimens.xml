@@ -1,0 +1,8 @@
+<resources>
+
+    <!--login-->
+    <dimen name="ll_logo_bottom_margin">60dp</dimen>
+    <dimen name="height_logo_container">380dp</dimen>
+    <dimen name="sign_in_button_top_margin">29dp</dimen>
+
+</resources>

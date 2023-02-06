@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="email">E-post</string>
+    <string name="password">Passord</string>
+    <string name="login">Logg inn</string>
+    <string name="logout">Logg ut</string>
+    <string name="loading">Laster...</string>
+    <string name="item">Produkt</string>
+    <string name="forward">Fremover</string>
+    <string name="backward">Bakover</string>
+    <string name="top_5_products">Produkter</string>
+    <string name="top_5_categories">Kategorier</string>
+    <string name="top_5_employees">Ansatte</string>
+    <string name="forgot_password_text">Glemt passord?</string>
+    <string name="new_to_loyverse_text">Ny til Loyverse?</string>
+    <!--Metrics name-->
+    <string name="sales_summary_gross_sales">Bruttosalg</string>
+    <string name="sales_summary_refunds">Tilbakebetalt</string>
+    <string name="sales_summary_discounts">Rabatter</string>
+    <string name="sales_summary_net_sales">Nettosalg</string>
+    <string name="sales_summary_cost_of_goods">Produkt kostnader</string>
+    <string name="sales_summary_gross_profit">Brutto fortjeneste</string>
+    <string name="sales_summary_taxes">Skatt og avgifter</string>
+    <string name="sales_summary_tips">Tips</string>
+    <string name="sales_summary_total_tendered">Totalt anbudt</string>
+    <string-array name="period_array">
+        <item>@string/today</item>
+        <item>@string/this_week</item>
+        <item>@string/this_month</item>
+        <item>@string/this_year</item>
+        <item>@string/custom_period</item>
+    </string-array>
+    <!--Reset password activity-->
+    <string name="reset_password_activity_title">Tilbakestill passord</string>
+    <string name="reset_email">Angi din e-postadresse for å motta instruksjoner til å tilbakestille passordet.</string>
+    <!--Send Email dialog-->
+    <string name="email_sent_dialog_title">E-post sendt</string>
+    <string name="email_sent_dialog_msg">Sjekk innboksen din for ytterligere instruksjoner.</string>
+    <!--Logout dialog-->
+    <string name="logout_dialog_title">Logg ut</string>
+    <string name="logout_dialog_msg">Er du sikker på at du vil logge ut?</string>
+    <!--Retry dialog-->
+    <string name="retry_dialog_no_internet_msg">Ingen Internett-forbindelse.</string>
+    <string name="retry_dialog_msg">An unexpected error occurred. Please try again later.</string>
+    <string name="retry">Prøv på nytt</string>
+    <!--Bottom bar tab titles-->
+    <string name="tab_reports">Salg</string>
+    <string name="tab_products">Produkter</string>
+    <string name="tab_settings">Innstillinger</string>
+    <!--Product item-->
+    <string name="product_item_stock">%s på lager</string>
+    <string name="product_divider">"\u200a\" | \"\u200a"</string>
+    <!--Product variants-->
+    <string name="product_variants">%s varianter</string>
+    <string name="variant_track_stock_off"> \"\u200a\"</string>
+    <!--Products activity-->
+    <string name="product_filter_type_empty_stock">Ikke på lager</string>
+    <string name="product_filter_type_low_stock">Lavt lager</string>
+    <string name="product_filter_type_all">Alle produkter</string>
+    <!--Settings fragment-->
+    <string name="setting_stock_notification_title">Varebeholdningsvarsel</string>
+    <string name="setting_stock_notification_description">Varsle når produkter er lavt eller tomt på lager.</string>
+    <string name="today">Idag</string>
+    <string name="this_week">Denne uken</string>
+    <string name="this_month">Denne måneden</string>
+    <string name="this_year">Dette året</string>
+    <string name="custom_period">Valgfri tidsperiode</string>
+    <string name="name">Ansatt</string>
+    <string name="product">Produkt</string>
+    <string name="category">Kategori</string>
+    <string name="net">Nettosalg</string>
+    <string name="main_indicators">Salgssammendrag</string>
+    <string name="total">Totalt</string>
+    <string name="select_range">Velg periode</string>
+    <string name="send">Send</string>
+    <!--Main dashboard charts-->
+    <string name="main_operations_chart_title">Kvitteringer</string>
+    <string name="main_total_sales_chart_title">Nettosalg</string>
+    <string name="main_average_ticket_chart_title">Gjennomsnittlig salg</string>
+    <string name="employees_sales">Salg etter ansatt</string>
+    <string name="categories_sales">Salg etter kategori</string>
+    <string name="products_sales">Salg etter produkt</string>
+    <string name="sales_summary">Salgssammendrag</string>
+    <string name="outlet_selection">Velg butikk</string>
+    <!--Error msg-->
+    <string name="error_invalid_email">Angi en gyldig e-postadresse.</string>
+    <string name="error_wrong_password">Feil e-postadresse eller passord. Prøv igjen.</string>
+    <string name="error_unknown">Det oppstod en ukjent feil.</string>
+    <string name="error_bad_auth">Godkjenningsfeil.</string>
+    <string name="error_email_not_exist">Konto med denne e-posten finnes ikke. Prøv på nytt.</string>
+    <string name="error_owner_already_deleted">Kontoen er blokkert. Kontakt support.</string>
+    <string name="no_network">Nettverk ikke tilgjengelig.</string>
+    <string name="no_such_device">Det oppstod en ukjent feil.</string>
+    <string name="no_connection">Ingen Internett-forbindelse.</string>
+    <string name="unknown_login_email">Ukjent e-post.</string>
+    <string name="blocked_by_billing">Blocked by billing.</string>
+    <string name="user_was_blocked">Brukeren er blokkert.</string>
+    <string name="access_denied">Ingen tilgang.</string>
+    <string name="access_rights_required">Tilgangsrettigheter kreves</string>
+    <string name="access_rights_required_msg">Du kan be om nødvendig tillatelse fra eieren av kontoen.</string>
+    <string name="default_zero_value">0</string>
+    <string name="hour">Time</string>
+    <string name="day">Dag</string>
+    <string name="month">Måned</string>
+    <string name="quarter">Kvartal</string>
+    <string name="year">År</string>
+    <string-array name="large_value_suffixes">
+        <item></item>
+        <item>K</item>
+        <item>M</item>
+        <item>B</item>
+        <item>T</item>
+    </string-array>
+    <!--crowdin compatible tags?-->
+    <string name="low_stock_push">Produktet <xliff:g example="mango" id="ware">%s </xliff:g> er det lite igjen av. <xliff:g example="5" id="count"> %s </xliff:g> igjen på lager.</string>
+    <string name="out_of_stock_push">Produktet <xliff:g example="mango" id="ware">%s </xliff:g> er tomt på lager.</string>
+    <string name="multishop_low_stock_push">Produktet <xliff:g example="mango" id="ware">%s </xliff:g> er det lite igjen hos <xliff:g example="Magic shop" id="outlet"> %s </xliff:g>. <xliff:g example="5" id="count"> %s </xliff:g> igjen på lager.</string>
+    <string name="multishop_out_of_stock_push">Produktet <xliff:g example="mango" id="ware">%s </xliff:g> er tomt på lager hos <xliff:g example="Magic shop" id="outlet"> %s </xliff:g>.</string>
+    <string name="stock_item_warning">Lagervare varsel</string>
+    <string name="search">Søk</string>
+    <!-- Billing-->
+    <string name="subscription">Ingen tilgang</string>
+    <string name="upgrade_Account">Please update your account in the Back Office.</string>
+    <string name="update_Account">Oppgrader kontoen</string>
+    <string name="contact_account_owner">Kontakt kontoeieren</string>
+    <string name="exit">Logg ut</string>
+    <string name="billing_out_dialog_msg">Er du sikker på at du vil avslutte?</string>
+    <string name="confirmation_exit">Logg ut</string>
+    <string name="no">Avbryt</string>
+    <plurals name="variantCount">
+        <item quantity="one">%d variant</item>
+        <item quantity="other">%d varianter</item>
+    </plurals>
+    <!--New to Loyverse-->
+    <string name="description_kds_l1">Loyverse Dashboard is a complementary app to Loyverse POS.</string>
+    <string name="description_kds_l2">To get started, please install the Loyverse POS app.</string>
+    <!--Vertical Calendar-->
+    <string name="sun">Søn</string>
+    <string name="mon">Man</string>
+    <string name="tue">Tir</string>
+    <string name="wed">Ons</string>
+    <string name="thu">Tor</string>
+    <string name="fri">Fre</string>
+    <string name="sat">Lør</string>
+    <string name="apply">Bruk</string>
+    <string name="setting_use_darktheme">Bruk mørkt tema</string>
+    <string name="all_day">Hele dagen</string>
+    <string name="start">Start</string>
+    <string name="end">Slutt</string>
+    <string name="ok">Greit</string>
+    <string name="cancel">Avbryt</string>
+    <string name="select_start_endtime">Velg Starttid og sluttid</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+</resources>

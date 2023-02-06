@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="email">E-mail</string>
+    <string name="password">Parolă</string>
+    <string name="login">Conectare</string>
+    <string name="logout">Deconectare</string>
+    <string name="loading">Încarcă...</string>
+    <string name="item">Articol</string>
+    <string name="forward">Înainte</string>
+    <string name="backward">Înapoi</string>
+    <string name="top_5_products">Articole</string>
+    <string name="top_5_categories">Categorii</string>
+    <string name="top_5_employees">Angajați</string>
+    <string name="forgot_password_text">Ați uitat parola?</string>
+    <string name="new_to_loyverse_text">Sunteți nou la Loyverse?</string>
+    <!--Metrics name-->
+    <string name="sales_summary_gross_sales">Vânzări brute</string>
+    <string name="sales_summary_refunds">Restituiri</string>
+    <string name="sales_summary_discounts">Reduceri</string>
+    <string name="sales_summary_net_sales">Vânzări nete</string>
+    <string name="sales_summary_cost_of_goods">Costul bunurilor</string>
+    <string name="sales_summary_gross_profit">Profit brut</string>
+    <string name="sales_summary_taxes">Taxe</string>
+    <string name="sales_summary_tips">Ciubucuri</string>
+    <string name="sales_summary_total_tendered">Total servit</string>
+    <string-array name="period_array">
+        <item>@string/today</item>
+        <item>@string/this_week</item>
+        <item>@string/this_month</item>
+        <item>@string/this_week</item>
+        <item>@string/custom_period</item>
+    </string-array>
+    <!--Reset password activity-->
+    <string name="reset_password_activity_title">Resetare parola</string>
+    <string name="reset_email">Introduceți adresa de e-mail pentru a primi instrucțiuni pentru resetarea parolei.</string>
+    <!--Send Email dialog-->
+    <string name="email_sent_dialog_title">E-mail trimis</string>
+    <string name="email_sent_dialog_msg">Verificaţi inbox-ul pentru instrucţiuni suplimentare.</string>
+    <!--Logout dialog-->
+    <string name="logout_dialog_title">Deconectare</string>
+    <string name="logout_dialog_msg">Sunteți sigur că doriți să vă deconectați?</string>
+    <!--Retry dialog-->
+    <string name="retry_dialog_no_internet_msg">Nu există conexiune la internet.</string>
+    <string name="retry_dialog_msg">An unexpected error occurred. Please try again later.</string>
+    <string name="retry">Încercaţi din nou</string>
+    <!--Bottom bar tab titles-->
+    <string name="tab_reports">Vânzări</string>
+    <string name="tab_products">Articole</string>
+    <string name="tab_settings">Setări</string>
+    <!--Product item-->
+    <string name="product_item_stock">%s in stoc</string>
+    <string name="product_divider">"\u200a\" | \"\u200a"</string>
+    <!--Product variants-->
+    <string name="product_variants">%s variante</string>
+    <string name="variant_track_stock_off"> \"\u200a\"</string>
+    <!--Products activity-->
+    <string name="product_filter_type_empty_stock">Stoc epuizat</string>
+    <string name="product_filter_type_low_stock">Stoc redus</string>
+    <string name="product_filter_type_all">Toate articolele</string>
+    <!--Settings fragment-->
+    <string name="setting_stock_notification_title">Notificare stoc</string>
+    <string name="setting_stock_notification_description">Notifică atunci când articolele au stoc redus sau stoc epuizat.</string>
+    <string name="today">Astăzi</string>
+    <string name="this_week">În această săptămână</string>
+    <string name="this_month">Luna aceasta</string>
+    <string name="this_year">În acest an</string>
+    <string name="custom_period">Perioadă anume</string>
+    <string name="name">Angajat</string>
+    <string name="product">Articol</string>
+    <string name="category">Categorie</string>
+    <string name="net">Vânzări nete</string>
+    <string name="main_indicators">Raport vânzări</string>
+    <string name="total">Total</string>
+    <string name="select_range">Selectați perioada</string>
+    <string name="send">Trimite</string>
+    <!--Main dashboard charts-->
+    <string name="main_operations_chart_title">Bonuri</string>
+    <string name="main_total_sales_chart_title">Vânzări nete</string>
+    <string name="main_average_ticket_chart_title">Vânzare medie</string>
+    <string name="employees_sales">Vânzări per angajat</string>
+    <string name="categories_sales">Vânzări per categorie</string>
+    <string name="products_sales">Vânzări per articol</string>
+    <string name="sales_summary">Raport vânzări</string>
+    <string name="outlet_selection">Selectaţi magazin</string>
+    <!--Error msg-->
+    <string name="error_invalid_email">Introduceţi o adresă de e-mail validă.</string>
+    <string name="error_wrong_password">Adresă de e-mail sau parolă incorecte. Vă rugăm să încercaţi din nou.</string>
+    <string name="error_unknown">A apărut o eroare necunoscută.</string>
+    <string name="error_bad_auth">Eroare de autorizare.</string>
+    <string name="error_email_not_exist">Nu există un cont cu acest e-mail. Vă rugăm să încercaţi din nou.</string>
+    <string name="error_owner_already_deleted">Contul este blocat. Contactați echipa de suport.</string>
+    <string name="no_network">Reţeaua nu este disponibilă.</string>
+    <string name="no_such_device">A apărut o eroare necunoscută.</string>
+    <string name="no_connection">Nu există conexiune la internet.</string>
+    <string name="unknown_login_email">E-mail necunoscut.</string>
+    <string name="blocked_by_billing">Blocat pentru facturare.</string>
+    <string name="user_was_blocked">Utilizatorul este blocat.</string>
+    <string name="access_denied">Acces nepermis.</string>
+    <string name="access_rights_required">Drepturi de acces necesare</string>
+    <string name="access_rights_required_msg">Puteţi solicita permisiunile necesare de la proprietarul contului.</string>
+    <string name="default_zero_value">0</string>
+    <string name="hour">Oră</string>
+    <string name="day">Zi</string>
+    <string name="month">Lună</string>
+    <string name="quarter">Sfert</string>
+    <string name="year">An</string>
+    <string-array name="large_value_suffixes">
+        <item></item>
+        <item>K</item>
+        <item>M</item>
+        <item>B</item>
+        <item>T</item>
+    </string-array>
+    <!--crowdin compatible tags?-->
+    <string name="low_stock_push">Elementul <xliff:g example="mango" id="ware">%s </xliff:g> este pe terminate. <xliff:g example="5" id="count"> %s </xliff:g> rămâne în stoc.</string>
+    <string name="out_of_stock_push">Elementul <xliff:g example="mango" id="ware">%s </xliff:g> este epuizat din stoc.</string>
+    <string name="multishop_low_stock_push">Elementul <xliff:g example="mango" id="ware">%s </xliff:g> este pe terminate la <xliff:g example="Magic shop" id="outlet"> %s </xliff:g>. <xliff:g example="5" id="count"> %s </xliff:g> rămâne în stoc.</string>
+    <string name="multishop_out_of_stock_push">Elementul <xliff:g example="mango" id="ware">%s </xliff:g> este epuizat din stoc la <xliff:g example="Magic shop" id="outlet"> %s </xliff:g>.</string>
+    <string name="stock_item_warning">Avertisment pentru elementul de stoc</string>
+    <string name="search">Căutare</string>
+    <!-- Billing-->
+    <string name="subscription">Acces refuzat</string>
+    <string name="upgrade_Account">Vă rugăm să vă actualizați contul în Back Office.</string>
+    <string name="update_Account">Actualizare cont</string>
+    <string name="contact_account_owner">Contactați proprietarul contului</string>
+    <string name="exit">Deconectați-vă</string>
+    <string name="billing_out_dialog_msg">Sigur doriți să vă deconectați?</string>
+    <string name="confirmation_exit">Deconectați-vă</string>
+    <string name="no">Anulare</string>
+    <plurals name="variantCount">
+        <item quantity="one">%d variantă</item>
+        <item quantity="few">%d variante</item>
+        <item quantity="other">%d variante</item>
+    </plurals>
+    <!--New to Loyverse-->
+    <string name="description_kds_l1">Loyverse Dashboard este o aplicație complementară pentru Loyverse POS.</string>
+    <string name="description_kds_l2">Pentru a începe, instalați aplicația Loyverse POS.</string>
+    <!--Vertical Calendar-->
+    <string name="sun">Dum</string>
+    <string name="mon">Lun</string>
+    <string name="tue">Mar</string>
+    <string name="wed">Mie</string>
+    <string name="thu">Joi</string>
+    <string name="fri">Vin</string>
+    <string name="sat">Sâm</string>
+    <string name="apply">Aplicare</string>
+    <string name="setting_use_darktheme">Folosiți tema întunecată</string>
+    <string name="all_day">Toată ziua</string>
+    <string name="start">Start</string>
+    <string name="end">Sfârșit</string>
+    <string name="ok">Bine</string>
+    <string name="cancel">Anulare</string>
+    <string name="select_start_endtime">Vă rugăm să selectați Ora de început și Ora de încheiere</string>
+    <string name="privacy_policy">Politica de confidențialitate</string>
+    <string name="terms_of_use">Termeni de utilizare</string>
+</resources>

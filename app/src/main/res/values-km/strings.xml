@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="email">អ៊ីម៉ែល</string>
+    <string name="password">ពាក្យ​សម្ងាត់</string>
+    <string name="login">ចូល</string>
+    <string name="logout">ចាកចេញ</string>
+    <string name="loading">កំពុង​ផ្ទុក...</string>
+    <string name="item">ធាតុ</string>
+    <string name="forward">ទៅមុខ</string>
+    <string name="backward">ថយក្រោយ</string>
+    <string name="top_5_products">របស់របរ</string>
+    <string name="top_5_categories">ប្រភេទ</string>
+    <string name="top_5_employees">និយោជិក</string>
+    <string name="forgot_password_text">ភ្លេច​លេខសំងាត់​?</string>
+    <string name="new_to_loyverse_text">ថ្មីចំពោះ Loyverse?</string>
+    <!--Metrics name-->
+    <string name="sales_summary_gross_sales">ការ​លក់​សរុប</string>
+    <string name="sales_summary_refunds">ការសងប្រាក់វិញ</string>
+    <string name="sales_summary_discounts">ការបញ្ចុះតម្លៃ</string>
+    <string name="sales_summary_net_sales">ការលក់សុទ្</string>
+    <string name="sales_summary_cost_of_goods">ថ្លៃដើមនៃទំនិញដែលបានលក់</string>
+    <string name="sales_summary_gross_profit">ប្រាក់​ចំណេញ​ដុល</string>
+    <string name="sales_summary_taxes">ពន្</string>
+    <string name="sales_summary_tips">Tips</string>
+    <string name="sales_summary_total_tendered">ការដេញថ្លៃសរុប</string>
+    <string-array name="period_array">
+        <item>@string/today</item>
+        <item>@string/this_week</item>
+        <item>@string/this_month</item>
+        <item>@string/this_year</item>
+        <item>@string/custom_period</item>
+    </string-array>
+    <!--Reset password activity-->
+    <string name="reset_password_activity_title">កំណត់ពាក្យសម្ងាត់ឡើងវិញ</string>
+    <string name="reset_email">បញ្ចូលអាសយដ្ឋានអ៊ីមែលរបស់អ្នកដើម្បីទទួលការណែនាំដើម្បីកំណត់ពាក្យសម្ងាត់របស់អ្នកឡើងវិញ។</string>
+    <!--Send Email dialog-->
+    <string name="email_sent_dialog_title">អ៊ី​ម៉ែ​ល​ដែល​បាន​ផ្ញើ</string>
+    <string name="email_sent_dialog_msg">ពិនិត្យប្រអប់ទទួលរបស់អ្នកសម្រាប់ការណែនាំបន្ថែម.</string>
+    <!--Logout dialog-->
+    <string name="logout_dialog_title">ចាកចេញ</string>
+    <string name="logout_dialog_msg">តើអ្នកចង់ចាកចេញមែនទេ?</string>
+    <!--Retry dialog-->
+    <string name="retry_dialog_no_internet_msg">មិនមាន​ការតភ្ជាប់អ៊ីធឺណែត។</string>
+    <string name="retry_dialog_msg">An unexpected error occurred. Please try again later.</string>
+    <string name="retry">ព្យាយាម​ឡើងវិញ</string>
+    <!--Bottom bar tab titles-->
+    <string name="tab_reports">ការលក់</string>
+    <string name="tab_products">របស់របរ</string>
+    <string name="tab_settings">ការ​កំណត់</string>
+    <!--Product item-->
+    <string name="product_item_stock">%s នៅ​ក្នុង​ស្តុក</string>
+    <string name="product_divider">"\u200a\" | \"\u200a"</string>
+    <!--Product variants-->
+    <string name="product_variants">%s វ៉ារ្យ៉ង់</string>
+    <string name="variant_track_stock_off"> \"\u200a\"</string>
+    <!--Products activity-->
+    <string name="product_filter_type_empty_stock">អស់ពី​ស្តុក</string>
+    <string name="product_filter_type_low_stock">ស្តុកទាប</string>
+    <string name="product_filter_type_all">ធាតុទាំងអស់</string>
+    <!--Settings fragment-->
+    <string name="setting_stock_notification_title">ការជូនដំណឹងអំពីស្តុក</string>
+    <string name="setting_stock_notification_description">ជូនដំណឹងនៅពេលទំនិញមានកំរិតទាបរឺអស់ស្តុក។</string>
+    <string name="today">ថ្ងៃនេះ</string>
+    <string name="this_week">សប្តាហ៍នេះ</string>
+    <string name="this_month">ខែ​នេះ</string>
+    <string name="this_year">ឆ្នាំនេះ</string>
+    <string name="custom_period">រយៈពេល​តាមតម្រូវការ</string>
+    <string name="name">បុគ្គលិក</string>
+    <string name="product">ធាតុ</string>
+    <string name="category">ប្រភេទ</string>
+    <string name="net">ការលក់សុទ្</string>
+    <string name="main_indicators">ការសង្ខេបការលក់</string>
+    <string name="total">សរុប</string>
+    <string name="select_range">ជ្រើសរើសរយៈពេល</string>
+    <string name="send">ផ្ញើ</string>
+    <!--Main dashboard charts-->
+    <string name="main_operations_chart_title">បង្កាន់ដៃ</string>
+    <string name="main_total_sales_chart_title">ការលក់សុទ្</string>
+    <string name="main_average_ticket_chart_title">ការលក់ជាមធ្យម</string>
+    <string name="employees_sales">ការលក់ដោយនិយោជិក</string>
+    <string name="categories_sales">ការលក់តាមប្រភេទ</string>
+    <string name="products_sales">ការលក់តាមធាតុ</string>
+    <string name="sales_summary">ការសង្ខេបការលក់</string>
+    <string name="outlet_selection">ជ្រើសរើសហាង</string>
+    <!--Error msg-->
+    <string name="error_invalid_email">បញ្ចូលអ៊ីមែលដែលត្រឹមត្រូវ.</string>
+    <string name="error_wrong_password">អ៊ីមែលឬលេខសម្ងាត់មិនត្រឹមត្រូវ។ សូម​ព្យាយាម​ម្តង​ទៀត។</string>
+    <string name="error_unknown">កំហុស​មិនស្គាល់បានកើត​ឡើង។</string>
+    <string name="error_bad_auth">Authorization error.</string>
+    <string name="error_email_not_exist">មិនមានគណនីជាមួយអ៊ីមែលនេះទេ។ សូម​ព្យាយាម​ម្តង​ទៀត។</string>
+    <string name="error_owner_already_deleted">The account is blocked. Contact with the support team.</string>
+    <string name="no_network">បណ្ដាញមិនមាន</string>
+    <string name="no_such_device">កំហុស​មិនស្គាល់បានកើត​ឡើង។</string>
+    <string name="no_connection">មិនមាន​ការតភ្ជាប់អ៊ីធឺណែត។</string>
+    <string name="unknown_login_email">Unknown email.</string>
+    <string name="blocked_by_billing">Blocked by billing.</string>
+    <string name="user_was_blocked">User is blocked.</string>
+    <string name="access_denied">ដំណើរ​ការ​ត្រូវ​បាន​បដិសេធ។</string>
+    <string name="access_rights_required">ទាមទារសិទ្ធិទទួលបាន</string>
+    <string name="access_rights_required_msg">អ្នកអាចស្នើសុំការអនុញ្ញាតចាំបាច់ពីម្ចាស់គណនី</string>
+    <string name="default_zero_value">0</string>
+    <string name="hour">ម៉ោង</string>
+    <string name="day">ថ្ងៃ</string>
+    <string name="month">ខែ</string>
+    <string name="quarter">ត្រីមាស</string>
+    <string name="year">ឆ្នាំ</string>
+    <string-array name="large_value_suffixes">
+        <item></item>
+        <item>K</item>
+        <item>M</item>
+        <item>B</item>
+        <item>T</item>
+    </string-array>
+    <!--crowdin compatible tags?-->
+    <string name="low_stock_push">Item <xliff:g example="mango" id="ware">%s</xliff:g> is running low. <xliff:g example="5" id="count">%s</xliff:g> remain in stock.</string>
+    <string name="out_of_stock_push">Item <xliff:g example="mango" id="ware">%s</xliff:g> is out of stock.</string>
+    <string name="multishop_low_stock_push">Item <xliff:g example="mango" id="ware">%s</xliff:g> is running low at <xliff:g example="Magic shop" id="outlet">%s</xliff:g>. <xliff:g example="5" id="count">%s</xliff:g> remain in stock.</string>
+    <string name="multishop_out_of_stock_push">ធាតុ <xliff:g example="mango" id="ware">%s</xliff:g>អស់ស្តុកហើយ<xliff:g example="Magic shop" id="outlet">%s</xliff:g>។</string>
+    <string name="stock_item_warning">Stock item warning</string>
+    <string name="search">ស្វែងរក</string>
+    <!-- Billing-->
+    <string name="subscription">ដំណើរ​ការ​ត្រូវ​បាន​បដិសេធ</string>
+    <string name="upgrade_Account">Please update your account in the Back Office.</string>
+    <string name="update_Account">ធ្វើបច្ចុប្បន្នភាពគណនី</string>
+    <string name="contact_account_owner">ទាក់ទងម្ចាស់គណនី។</string>
+    <string name="exit">ចាកចេញ</string>
+    <string name="billing_out_dialog_msg">តើអ្នកចង់ចាកចេញមែនទេ?</string>
+    <string name="confirmation_exit">ចាកចេញ</string>
+    <string name="no">បោះបង់</string>
+    <plurals name="variantCount">
+        <item quantity="other">%d វ៉ារ្យ៉ង់</item>
+    </plurals>
+    <!--New to Loyverse-->
+    <string name="description_kds_l1">Loyverse Dashboard គឺជាកម្មវិធីបំពេញបន្ថែមមួយសម្រាប់ Loyverse POS ។</string>
+    <string name="description_kds_l2">ដើម្បីចាប់ផ្តើមសូមដំឡើងកម្មវិធី Loyverse POS ។</string>
+    <!--Vertical Calendar-->
+    <string name="sun">អាទិ</string>
+    <string name="mon">ច័ន្ទ</string>
+    <string name="tue">អង្គារ</string>
+    <string name="wed">ពុធ</string>
+    <string name="thu">ព្រហ</string>
+    <string name="fri">សុក្រ</string>
+    <string name="sat">សៅរ៍</string>
+    <string name="apply">អនុវត្តប្រើ</string>
+    <string name="setting_use_darktheme">ប្រើប្រធានបទងងឹត</string>
+    <string name="all_day">ពេញមួយថ្ងៃ</string>
+    <string name="start">ចាប់ផ្តើម</string>
+    <string name="end">បញ្ចប់</string>
+    <string name="ok">យល់ព្រម</string>
+    <string name="cancel">បោះបង់</string>
+    <string name="select_start_endtime">សូមជ្រើសរើសពេលវេលាចាប់ផ្តើមនិងពេលវេលាបញ្ចប់</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+</resources>

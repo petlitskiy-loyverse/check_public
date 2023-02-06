@@ -1,0 +1,104 @@
+<resources>
+    <!--margin-->
+    <dimen name="common_elevation">2dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+
+    <dimen name="product_item_warning_badge_margin">-3dp</dimen>
+    <dimen name="tiny_margin">4dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="common_margin">16dp</dimen>
+    <dimen name="edge_margin">4dp</dimen>
+    <dimen name="base_edge_margin">16dp</dimen>
+    <dimen name="edge_margin_start_end">0dp</dimen>
+    <dimen name="edge_margin_settings">6dp</dimen>
+    <dimen name="edge_margin_sales">0dp</dimen>
+    <dimen name="edge_margin_top">10dp</dimen>
+    <dimen name="edge_margin_reports">16dp</dimen>
+    <dimen name="shadow_bottom_edge_margin">4dp</dimen>
+    <dimen name="edge_margin_item_settings">@dimen/base_edge_margin</dimen>
+    <dimen name="edge_margin_item_sales_summary">@dimen/base_edge_margin</dimen>
+    <dimen name="item_edge_margin">16dp</dimen>
+    <dimen name="icon_edge_margin">16dp</dimen>
+    <dimen name="button_common_margin">10dp</dimen>
+    <dimen name="button_small_margin">2dp</dimen>
+    <dimen name="bar_chart_right_margin">6dp</dimen>
+    <dimen name="bar_chart_bottom_margin">22dp</dimen>
+    <dimen name="bar_chart_left_margin">18dp</dimen>
+    <dimen name="icon_back_margin">4dp</dimen>
+    <dimen name="apply_button_padding">16dp</dimen>
+    <dimen name="huc_margin_divider">4dp</dimen>
+
+    <dimen name="period_toolbar_title_right_margin">52dp</dimen>
+    <dimen name="email_field_margin_top">20dp</dimen>
+    <dimen name="common_item_margin_left">72dp</dimen>
+    <dimen name="common_padding_large">24dp</dimen>
+    <dimen name="item_setting_top_padding">16dp</dimen>
+    <dimen name="item_setting_bottom_padding">20dp</dimen>
+
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="button48_height">48dp</dimen>
+    <dimen name="item_height">72dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="medium_item_height">48dp</dimen>
+    <dimen name="card_title_height">56dp</dimen>
+    <dimen name="large_item_height">88dp</dimen>
+    <dimen name="filter_item_height">56dp</dimen>
+    <dimen name="splash_icon_size">200dp</dimen>
+    <dimen name="sort_height">48dp</dimen>
+    <dimen name="item_image_size">40dp</dimen>
+    <dimen name="chart_height">210dp</dimen>
+    <dimen name="main_dashboard_chart_thickness">3dp</dimen>
+    <dimen name="main_dashboard_chart_pointer_radius">5dp</dimen>
+    <dimen name="settings_email_height">48dp</dimen>
+
+    <!--text-->
+    <dimen name="card_title_text_size">16sp</dimen>
+    <dimen name="period_text_size">20sp</dimen>
+    <dimen name="toolbar_title_text_size">20sp</dimen>
+    <dimen name="hint_text_size">12sp</dimen>
+    <dimen name="sorting_text_size">14sp</dimen>
+    <dimen name="item_text_size">16sp</dimen>
+    <dimen name="item_secondary_text_size">14sp</dimen>
+    <dimen name="material_icon_size">24dp</dimen>
+    <dimen name="material_icon_button_size">48dp</dimen>
+    <dimen name="material_icon_button_padding_size">12dp</dimen>
+    <dimen name="material_icon_button_small_margin">4dp</dimen>
+    <dimen name="main_chart_title_text_size">14sp</dimen>
+    <dimen name="main_dashboard_chart_indicator_text_size">16sp</dimen>
+    <dimen name="bottombar_title_size_active">14sp</dimen>
+    <dimen name="bottombar_title_size_inactive">12sp</dimen>
+    <dimen name="product_icon_warning_badge_size">18dp</dimen>
+    <dimen name="adhoc_period_view_top_padding">13dp</dimen>
+    <dimen name="button_text_size">14sp</dimen>
+
+
+    <!--container-->
+    <dimen name="max_width_container">736dp</dimen>
+    <dimen name="max_width_container_settings">740dp</dimen>
+    <dimen name="max_width_card_reset_password">384dp</dimen>
+    <dimen name="max_width_login_container">336dp</dimen>
+
+
+    <!--login-->
+    <dimen name="parent_margin">12dp</dimen>
+    <dimen name="reset_dialog_width">312dp</dimen>
+    <dimen name="ll_logo_bottom_margin">35dp</dimen>
+    <dimen name="height_logo_container">250dp</dimen>
+    <dimen name="sign_in_button_top_margin">22dp</dimen>
+
+    <!--Vertical Calendar-->
+    <dimen name="text_size_day">16sp</dimen>
+    <dimen name="text_size_month">16sp</dimen>
+    <dimen name="text_size_day_name">10sp</dimen>
+    <dimen name="header_month_height">48dp</dimen>
+    <dimen name="selected_day_radius">30dp</dimen>
+    <dimen name="calendar_height">470dp</dimen>
+    <dimen name="spaceBottom">2dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="month_title_view_height">48dp</dimen>
+
+</resources>

@@ -1,0 +1,180 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+
+android {
+
+    compileSdkVersion project.ext.compileSdk
+    buildToolsVersion project.ext.buildTools
+
+    def buildVersionCode = System.getenv("BUILD_NUMBER") as Integer ?: project.ext.dashboardVersionCode
+    def buildJobName = System.getenv("JOB_NAME") as String ?: project.ext.dashboardVersionName
+
+    project.archivesBaseName = buildJobName + "-" + buildVersionCode
+
+    defaultConfig {
+        applicationId project.ext.dashboardPackage
+        minSdkVersion project.ext.minSdk
+        targetSdkVersion project.ext.compileSdk
+        versionCode project.ext.dashboardVersionCode
+        versionName project.ext.dashboardVersionName
+        buildConfigField "int", "SERVER_VERSION", project.ext.serverVersion
+        buildConfigField "String", "BRAND_NAME", "\"Loyverse\""
+        buildConfigField "String", "TYPE", "\"dashboard\""
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    dexOptions {
+        javaMaxHeapSize "2g"
+        preDexLibraries true
+    }
+
+    lintOptions {
+        abortOnError true
+        disable 'MissingTranslation'
+        disable 'ExtraTranslation'
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("debug_keystore.jks")
+            storePassword "qwerty"
+            keyAlias "devAlias"
+            keyPassword "qwerty"
+        }
+        release {
+            def propsFile = new File("local.properties")
+            if (propsFile.exists()) {
+                Properties props = new Properties()
+                props.load(new FileInputStream(propsFile))
+
+                if (props['keystore'] != null && !props['keystore'].isEmpty()) storeFile = file(props['keystore'])
+                else println("Keystore shouldn't be empty!")
+                keyAlias = props['keyAlias']
+                storePassword = props['keystore.password']
+                keyPassword = props['keyPassword']
+            } else println("Please provide signing credentials in " + propsFile.getAbsolutePath() + " file")
+        }
+    }
+
+    buildTypes {
+        debug {
+            def BUILD_NUMBER = System.getenv("BUILD_NUMBER") as String
+
+            minifyEnabled false
+            multiDexEnabled false
+            debuggable true
+            applicationIdSuffix ".debug"
+            versionNameSuffix ".debug" + (BUILD_NUMBER ? "-" + BUILD_NUMBER : "")
+            signingConfig signingConfigs.debug
+            buildConfigField "String", "SERVER_URL", "\"https://devdat.loyverse.com\""
+            buildConfigField "String", "PASSWORD_RSA_PUBLIC_KEY", "\"MIGfMA0GCSqGSIb3DQEBAQUAA4GNA" +
+                    "DCBiQKBgQDPIMOrXZlLk2WgiiIFuwvtz7qbeESwrxqtObX3sftZHzU4yGEAlI3gTK52M9fUY+uALO" +
+                    "+ShiZRsYPYzGqQ+oikUOIQ0AfzaTFVMOFm8n/Ep8MAPzydwd80jdZOyp++VhmfxKN4zDJ8y0eST8E" +
+                    "ktSPgFjkl7aWI1u6Ym275Fby9owIDAQAB\""
+            resValue "string", "app_name", "Dashb.dev"
+            buildConfigField "boolean", "DEBUG_BUILD", "true"
+
+        }
+        stage {
+            minifyEnabled false
+            multiDexEnabled false
+            debuggable true
+            applicationIdSuffix ".stage"
+            versionNameSuffix "-STG " + Calendar.getInstance().getTime()
+            signingConfig signingConfigs.debug
+            buildConfigField "String", "SERVER_URL", "\"https://stdata.loyverse.com:443\""
+            buildConfigField "String", "PASSWORD_RSA_PUBLIC_KEY", "\"MIGfMA0GCSqGSIb3DQEBAQUAA4GN" +
+                    "ADCBiQKBgQDPIMOrXZlLk2WgiiIFuwvtz7qbeESwrxqtObX3sftZHzU4yGEAlI3gTK52M9fUY+uA" +
+                    "LO+ShiZRsYPYzGqQ+oikUOIQ0AfzaTFVMOFm8n/Ep8MAPzydwd80jdZOyp++VhmfxKN4zDJ8y0eS" +
+                    "T8EktSPgFjkl7aWI1u6Ym275Fby9owIDAQAB\""
+            resValue "string", "app_name", "Dashb.stg"
+            buildConfigField "boolean", "DEBUG_BUILD", "true"
+        }
+        release {
+            minifyEnabled true
+            shrinkResources true
+            multiDexEnabled false
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+            buildConfigField "String", "SERVER_URL", "\"https://dat.loyverse.com:443\""
+            buildConfigField "String", "PASSWORD_RSA_PUBLIC_KEY", "\"MIGfMA0GCSqGSIb3DQEBAQUAA4G" +
+                    "NADCBiQKBgQC5ldsy/l4C75sCUsPn0jkivGHfgl5psUbVKOwkvwoMsuVO7bEgz943da+nJzz5bk" +
+                    "N2xFOtJa3HJiVpeKKIsyZTstsQ5NS3Lh/eBbPzGacPVRdKmI6K/Hcn3PVDmFdwfIFfn/2Fz4aSA" +
+                    "Xj6VnXn/LKb9F0+iTIbxF4uQT9a200kAQIDAQAB\""
+            resValue "string", "app_name", "Dashboard"
+            buildConfigField "boolean", "DEBUG_BUILD", "false"
+        }
+    }
+}
+
+dependencies {
+    //google
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.android.support:appcompat-v7:' + project.ext.supportLib
+    implementation 'com.android.support:support-v4:' + project.ext.supportLib
+    implementation 'com.android.support:design:' + project.ext.supportLib
+    implementation 'com.android.support:cardview-v7:' + project.ext.supportLib
+    implementation 'com.android.support:recyclerview-v7:' + project.ext.supportLib
+    implementation 'com.google.code.gson:gson:' + project.ext.gson
+    implementation 'com.google.dagger:dagger:' + project.ext.dagger
+    kapt 'com.google.dagger:dagger-compiler:' + project.ext.dagger
+    kapt 'javax.annotation:jsr250-api:' + project.ext.annotations
+    kapt 'com.jakewharton:butterknife-compiler:' + project.ext.butterKnife
+    //libs
+    implementation 'io.reactivex:rxandroid:' + project.ext.rxAndroid
+    implementation 'io.reactivex:rxjava:' + project.ext.rxJava
+    implementation 'org.greenrobot:eventbus:' + project.ext.eventBus
+    implementation 'com.jakewharton:butterknife:' + project.ext.butterKnife
+    implementation 'com.github.bumptech.glide:glide:' + project.ext.glide
+    implementation 'com.squareup.okhttp3:okhttp:' + project.ext.okHttp
+    implementation 'com.github.PhilJay:MPAndroidChart:v' + project.ext.mpAndroidChart
+    implementation 'me.grantland:autofittextview:' + project.ext.autofitTextView
+    implementation 'com.github.aurelhubert:ahbottomnavigation:' + project.ext.bottomBar
+    implementation 'com.android.support.constraint:constraint-layout:' + project.ext.constraintLayout
+    implementation platform('com.google.firebase:firebase-bom:' + project.ext.firebaseBom)
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation ('com.google.firebase:firebase-analytics') {
+        exclude group: 'com.google.android.gms', module: 'play-services-ads-identifier'
+    }
+
+
+    //debug
+    implementation 'io.palaima.debugdrawer:debugdrawer-base:' + project.ext.debugDrawer
+    debugImplementation 'io.palaima.debugdrawer:debugdrawer:' + project.ext.debugDrawer
+    stageImplementation 'io.palaima.debugdrawer:debugdrawer:' + project.ext.debugDrawer
+    releaseImplementation 'io.palaima.debugdrawer:debugdrawer-no-op:' + project.ext.debugDrawer
+    implementation 'io.palaima.debugdrawer:debugdrawer-commons:' + project.ext.debugDrawer
+    implementation 'io.palaima.debugdrawer:debugdrawer-okhttp:' + project.ext.debugDrawer
+    implementation 'io.palaima.debugdrawer:debugdrawer-okhttp3:' + project.ext.debugDrawer
+    implementation 'io.palaima.debugdrawer:debugdrawer-timber:' + project.ext.debugDrawer
+    implementation 'io.palaima.debugdrawer:debugdrawer-actions:' + project.ext.debugDrawer
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:' + project.ext.leakCanary
+    stageImplementation 'com.squareup.leakcanary:leakcanary-android:' + project.ext.leakCanary
+    implementation 'com.jakewharton.timber:timber:' + project.ext.timber
+    //tests
+    testImplementation 'junit:junit:' + project.ext.junit
+    testImplementation 'org.hamcrest:hamcrest-library:' + project.ext.hamcrest
+    testImplementation 'org.mockito:mockito-core:' + project.ext.mockito
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:' + project.ext.espresso, {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+
+}
+repositories {
+    mavenCentral()
+}

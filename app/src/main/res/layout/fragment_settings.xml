@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/item_height"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    app:theme="@style/AppTheme.SettingsTheme">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                style="@style/BaseTextStyle.ToolbarTitle"
+                android:layout_gravity="center"
+                android:text="@string/tab_settings" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/edge_margin_settings"
+            android:layout_marginTop="@dimen/edge_margin_settings"
+            android:layout_marginEnd="@dimen/edge_margin_settings"
+            android:layout_marginBottom="@dimen/edge_margin_settings"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintWidth_max="@dimen/max_width_container_settings"
+                tools:ignore="MissingConstraints">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/settings_wrapper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginBottom="@dimen/small_margin">
+
+                    <include layout="@layout/item_setting" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/account_email"
+                    style="@style/BaseTextStyle.SecondaryName"
+                    android:layout_height="@dimen/settings_email_height"
+                    android:gravity="center"
+                    android:text="@string/email" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/logout_button"
+                    style="@style/BaseTextStyle.TextOnButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="@string/logout_dialog_title"
+                    android:textAllCaps="true" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginTop="@dimen/parent_margin"
+            android:gravity="center|bottom"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/btnPrivacy"
+                style="@style/ShortLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="@dimen/dd_padding_small"
+                android:text="@string/privacy_policy" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/ShortLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:text="@string/symbol_bullet" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/btnTerms"
+                style="@style/ShortLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="@dimen/dd_padding_small"
+                android:text="@string/terms_of_use" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

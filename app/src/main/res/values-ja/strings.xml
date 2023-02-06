@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="email">Eメール</string>
+    <string name="password">パスワード</string>
+    <string name="login">ログイン</string>
+    <string name="logout">ログアウト</string>
+    <string name="loading">ロード中</string>
+    <string name="item">商品</string>
+    <string name="forward">進む</string>
+    <string name="backward">戻る</string>
+    <string name="top_5_products">商品</string>
+    <string name="top_5_categories">カテゴリ</string>
+    <string name="top_5_employees">従業員</string>
+    <string name="forgot_password_text">パスワードをお忘れですか？</string>
+    <string name="new_to_loyverse_text">Loyverse をご利用するのは初めてですか？</string>
+    <!--Metrics name-->
+    <string name="sales_summary_gross_sales">総売上</string>
+    <string name="sales_summary_refunds">返金</string>
+    <string name="sales_summary_discounts">割引</string>
+    <string name="sales_summary_net_sales">純売上</string>
+    <string name="sales_summary_cost_of_goods">商品の原価</string>
+    <string name="sales_summary_gross_profit">粗利益</string>
+    <string name="sales_summary_taxes">税</string>
+    <string name="sales_summary_tips">サービス料</string>
+    <string name="sales_summary_total_tendered">合計</string>
+    <string-array name="period_array">
+        <item>@string/today</item>
+        <item>@string/this_week</item>
+        <item>@string/this_month</item>
+        <item>@string/this_year</item>
+        <item>@string/custom_period</item>
+    </string-array>
+    <!--Reset password activity-->
+    <string name="reset_password_activity_title">パスワードをリセット</string>
+    <string name="reset_email">パスワードの再設定に関する案内を受け取るためには、メールアドレスを入力してください。</string>
+    <!--Send Email dialog-->
+    <string name="email_sent_dialog_title">送信済みメール</string>
+    <string name="email_sent_dialog_msg">詳しい説明については受信ボックスをご確認ください。</string>
+    <!--Logout dialog-->
+    <string name="logout_dialog_title">ログアウト</string>
+    <string name="logout_dialog_msg">ログアウトしてもよろしいですか？</string>
+    <!--Retry dialog-->
+    <string name="retry_dialog_no_internet_msg">インターネット接続がありません。</string>
+    <string name="retry_dialog_msg">An unexpected error occurred. Please try again later.</string>
+    <string name="retry">再試行</string>
+    <!--Bottom bar tab titles-->
+    <string name="tab_reports">販売</string>
+    <string name="tab_products">商品</string>
+    <string name="tab_settings">設定</string>
+    <!--Product item-->
+    <string name="product_item_stock">在庫数 %s</string>
+    <string name="product_divider">"\u200a\" | \"\u200a"</string>
+    <!--Product variants-->
+    <string name="product_variants">%s バリエーション</string>
+    <string name="variant_track_stock_off"> \"\u200a\"</string>
+    <!--Products activity-->
+    <string name="product_filter_type_empty_stock">在庫切れ</string>
+    <string name="product_filter_type_low_stock">低在庫</string>
+    <string name="product_filter_type_all">すべての商品</string>
+    <!--Settings fragment-->
+    <string name="setting_stock_notification_title">低在庫通知</string>
+    <string name="setting_stock_notification_description">低在庫の場合、または在庫切れの場合に通知します。</string>
+    <string name="today">今日</string>
+    <string name="this_week">今週</string>
+    <string name="this_month">今月</string>
+    <string name="this_year">今年</string>
+    <string name="custom_period">カスタム</string>
+    <string name="name">従業員</string>
+    <string name="product">商品</string>
+    <string name="category">カテゴリ</string>
+    <string name="net">純売上</string>
+    <string name="main_indicators">売上サマリー</string>
+    <string name="total">合計</string>
+    <string name="select_range">期間を選択</string>
+    <string name="send">送信</string>
+    <!--Main dashboard charts-->
+    <string name="main_operations_chart_title">レシート</string>
+    <string name="main_total_sales_chart_title">純売上</string>
+    <string name="main_average_ticket_chart_title">平均売上</string>
+    <string name="employees_sales">従業員別売上</string>
+    <string name="categories_sales">カテゴリ別売上</string>
+    <string name="products_sales">商品別売上</string>
+    <string name="sales_summary">売上サマリー</string>
+    <string name="outlet_selection">店舗を選択</string>
+    <!--Error msg-->
+    <string name="error_invalid_email">メールアドレスを正しく入力してください。</string>
+    <string name="error_wrong_password">メール アドレスまたはパスワードが正しくありません。再度やり直してください。</string>
+    <string name="error_unknown">不明なエラーが発生しました。</string>
+    <string name="error_bad_auth">認証エラー</string>
+    <string name="error_email_not_exist">このメールアドレスをもつアカウントは存在しません。再度やり直してください。</string>
+    <string name="error_owner_already_deleted">アカウントはブロックされています。サポートチームにお問い合わせください。</string>
+    <string name="no_network">有効なネットワークがありません。</string>
+    <string name="no_such_device">不明なエラーが発生しました。</string>
+    <string name="no_connection">インターネット接続がありません。</string>
+    <string name="unknown_login_email">不明なメールアドレス</string>
+    <string name="blocked_by_billing">有料登録プランの管理機能によりブロックされました</string>
+    <string name="user_was_blocked">ユーザーはブロックされています。</string>
+    <string name="access_denied">アクセスが拒否されました。</string>
+    <string name="access_rights_required">アクセス権限が必要です</string>
+    <string name="access_rights_required_msg">アカウント所有者にアクセス権限をリクエストしてください。</string>
+    <string name="default_zero_value">0</string>
+    <string name="hour">時</string>
+    <string name="day">日</string>
+    <string name="month">月</string>
+    <string name="quarter">四半期</string>
+    <string name="year">年</string>
+    <string-array name="large_value_suffixes">
+        <item></item>
+        <item>K</item>
+        <item>M</item>
+        <item>B</item>
+        <item>T</item>
+    </string-array>
+    <!--crowdin compatible tags?-->
+    <string name="low_stock_push">商品 &lt;xliff:g example="mango"id="ware"&gt;%s &lt;/xliff:g&gt; は、不足しています。&lt;xliff:g example="5"id="count"&gt; %s &lt;/xliff:g&gt; は、在庫があります。</string>
+    <string name="out_of_stock_push">商品 &lt;xliff:g example="mango"id="ware"&gt;%s &lt;/xliff:g&gt; は在庫切れです。</string>
+    <string name="multishop_low_stock_push">商品 &lt;xliff:g example="mango"id="ware"&gt;%s &lt;/xliff:g&gt; は、&lt;xliff:g example="Magic shop"id="outlet"&gt; %s &lt;/xliff:g&gt; で不足しています。&lt;xliff:g example="5"id="count"&gt; %s &lt;/xliff:g&gt; は、在庫があります。</string>
+    <string name="multishop_out_of_stock_push">商品 &lt;xliff:g example="mango"id="ware"&gt;%s &lt;/xliff:g&gt; は、&lt;xliff:g example="Magic shop"id="outlet"&gt; %s &lt;/xliff:g&gt; で在庫切れです。</string>
+    <string name="stock_item_warning">在庫商品警告</string>
+    <string name="search">検索</string>
+    <!-- Billing-->
+    <string name="subscription">アクセス拒否</string>
+    <string name="upgrade_Account">バックオフィスでアカウントを更新してください。</string>
+    <string name="update_Account">アカウントを更新する</string>
+    <string name="contact_account_owner">アカウントの所有者にお問い合わせください。</string>
+    <string name="exit">ログアウト</string>
+    <string name="billing_out_dialog_msg">ログアウトしてもよろしいですか？</string>
+    <string name="confirmation_exit">ログアウト</string>
+    <string name="no">キャンセル</string>
+    <plurals name="variantCount">
+        <item quantity="other">%d バリエーション</item>
+    </plurals>
+    <!--New to Loyverse-->
+    <string name="description_kds_l1">Loyverse Dashboardは、Loyverse POS を補完するアプリです。</string>
+    <string name="description_kds_l2">ご利用には、Loyverse POSアプリが必要です。</string>
+    <!--Vertical Calendar-->
+    <string name="sun">日</string>
+    <string name="mon">月</string>
+    <string name="tue">火</string>
+    <string name="wed">水</string>
+    <string name="thu">木</string>
+    <string name="fri">金</string>
+    <string name="sat">土</string>
+    <string name="apply">適用する</string>
+    <string name="setting_use_darktheme"> ダークテーマを使用する</string>
+    <string name="all_day">一日中</string>
+    <string name="start">始める</string>
+    <string name="end">終わり</string>
+    <string name="ok">わかった</string>
+    <string name="cancel">キャンセル</string>
+    <string name="select_start_endtime">開始時間と終了時間を選択してください</string>
+    <string name="privacy_policy">プライバシー ポリシー</string>
+    <string name="terms_of_use">利用規約</string>
+</resources>

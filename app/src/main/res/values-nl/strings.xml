@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="email">E-mail</string>
+    <string name="password">Wachtwoord</string>
+    <string name="login">Inloggen</string>
+    <string name="logout">Uitloggen</string>
+    <string name="loading">Laden...</string>
+    <string name="item">Artikel</string>
+    <string name="forward">Vooruit</string>
+    <string name="backward">Achteruit</string>
+    <string name="top_5_products">Artikelen</string>
+    <string name="top_5_categories">Categorieën</string>
+    <string name="top_5_employees">Werknemers</string>
+    <string name="forgot_password_text">Wachtwoord Vergeten?</string>
+    <string name="new_to_loyverse_text">Nieuw bij Loyverse?</string>
+    <!--Metrics name-->
+    <string name="sales_summary_gross_sales">Bruto-omzet</string>
+    <string name="sales_summary_refunds">Restituties</string>
+    <string name="sales_summary_discounts">Kortingen</string>
+    <string name="sales_summary_net_sales">Netto-omzet</string>
+    <string name="sales_summary_cost_of_goods">Kosten van goederen</string>
+    <string name="sales_summary_gross_profit">Bruto winst</string>
+    <string name="sales_summary_taxes">Btw</string>
+    <string name="sales_summary_tips">Tips</string>
+    <string name="sales_summary_total_tendered">Totaal aanbesteed</string>
+    <string-array name="period_array">
+        <item>‎@string/today</item>
+        <item>‎@string/this‎_week</item>
+        <item>‎@string/this‎_month</item>
+        <item>‎@string/this‎_year</item>
+        <item>‎@string/custom‎_period</item>
+    </string-array>
+    <!--Reset password activity-->
+    <string name="reset_password_activity_title">Reset wachtwoord</string>
+    <string name="reset_email">Voer hier je email adres in om een instructies te ontvangen om je wachtwoord te resetten.</string>
+    <!--Send Email dialog-->
+    <string name="email_sent_dialog_title">E-mail is verzonden</string>
+    <string name="email_sent_dialog_msg">Controleer uw e-mail voor verdere instructies.</string>
+    <!--Logout dialog-->
+    <string name="logout_dialog_title">Uitloggen</string>
+    <string name="logout_dialog_msg">Weet u zeker dat u wilt uitloggen?</string>
+    <!--Retry dialog-->
+    <string name="retry_dialog_no_internet_msg">Geen verbinding met internet.</string>
+    <string name="retry_dialog_msg">An unexpected error occurred. Please try again later.</string>
+    <string name="retry">Opnieuw</string>
+    <!--Bottom bar tab titles-->
+    <string name="tab_reports">Verkopen</string>
+    <string name="tab_products">Artikelen</string>
+    <string name="tab_settings">Instellingen</string>
+    <!--Product item-->
+    <string name="product_item_stock">%s in stock</string>
+    <string name="product_divider">"\u200a\" | \"\u200a"</string>
+    <!--Product variants-->
+    <string name="product_variants">%s varianten</string>
+    <string name="variant_track_stock_off"> \"\u200a\"</string>
+    <!--Products activity-->
+    <string name="product_filter_type_empty_stock">Niet voorradig</string>
+    <string name="product_filter_type_low_stock">Voorraad laag</string>
+    <string name="product_filter_type_all">Alle artikelen</string>
+    <!--Settings fragment-->
+    <string name="setting_stock_notification_title">Voorraad meldingen</string>
+    <string name="setting_stock_notification_description">Laat mij weten wanneer items weinig of niet in stock zijn.</string>
+    <string name="today">Vandaag</string>
+    <string name="this_week">Deze week</string>
+    <string name="this_month">Deze maand</string>
+    <string name="this_year">Dit jaar</string>
+    <string name="custom_period">Aangepaste Periode</string>
+    <string name="name">Werknemer</string>
+    <string name="product">Artikel</string>
+    <string name="category">Categorie</string>
+    <string name="net">Netto-omzet</string>
+    <string name="main_indicators">Overzicht verkopen</string>
+    <string name="total">Totaal</string>
+    <string name="select_range">Selecteer periode</string>
+    <string name="send">Verstuur</string>
+    <!--Main dashboard charts-->
+    <string name="main_operations_chart_title">Bonnen</string>
+    <string name="main_total_sales_chart_title">Netto-omzet</string>
+    <string name="main_average_ticket_chart_title">Gemiddeld verkoopbedrag</string>
+    <string name="employees_sales">Omzet per werknemer</string>
+    <string name="categories_sales">Omzet per categorie</string>
+    <string name="products_sales">Omzet per item</string>
+    <string name="sales_summary">Overzicht verkopen</string>
+    <string name="outlet_selection">Selecteer winkel</string>
+    <!--Error msg-->
+    <string name="error_invalid_email">Voer een geldig e-mailadres in.</string>
+    <string name="error_wrong_password">Fout e-mailadres of Wachtwoord. Probeer a. u. b. opnieuw.</string>
+    <string name="error_unknown">Er is een onverwachte fout opgetreden.</string>
+    <string name="error_bad_auth">Autorisatiefout.</string>
+    <string name="error_email_not_exist">Account met dit e-mailadres bestaat niet. Probeer het opnieuw.</string>
+    <string name="error_owner_already_deleted">Account is geblokkeerd. Neem contact op met het supportteam.</string>
+    <string name="no_network">Netwerk niet beschikbaar.</string>
+    <string name="no_such_device">Er is een onverwachte fout opgetreden.</string>
+    <string name="no_connection">Geen verbinding met internet.</string>
+    <string name="unknown_login_email">Onbekende email.</string>
+    <string name="blocked_by_billing">Blocked by billing.</string>
+    <string name="user_was_blocked">Gebruiker is geblokkeerd.</string>
+    <string name="access_denied">Toegang geweigerd.</string>
+    <string name="access_rights_required">Toegangsrechten vereist</string>
+    <string name="access_rights_required_msg">Kunt u de vereiste machtigingen aanvragen bij de eigenaar van het account.</string>
+    <string name="default_zero_value">0</string>
+    <string name="hour">Uur</string>
+    <string name="day">Dag</string>
+    <string name="month">Maand</string>
+    <string name="quarter">Kwartaal</string>
+    <string name="year">Jaar</string>
+    <string-array name="large_value_suffixes">
+        <item></item>
+        <item>K</item>
+        <item>M</item>
+        <item>B</item>
+        <item>Di</item>
+    </string-array>
+    <!--crowdin compatible tags?-->
+    <string name="low_stock_push">Item <xliff:g example="mango" id="ware">%s </xliff:g> bijna leeg is. <xliff:g example="5" id="count"> %s </xliff:g> blijven in voorraad.</string>
+    <string name="out_of_stock_push">Punt <xliff:g example="mango" id="ware">%s </xliff:g> is niet op voorraad.</string>
+    <string name="multishop_low_stock_push">Artikel <xliff:g example="mango" id="ware">%s</xliff:g> loopt laag op <xliff:g example="Magic shop" id="outlet">%s</xliff:g>. <xliff:g example="5" id="count">%s</xliff:g> in voorraad blijven.</string>
+    <string name="multishop_out_of_stock_push">Artikel <xliff:g example="mango" id="ware">%s</xliff:g> is niet op voorraad bij <xliff:g example="Magic shop" id="outlet">%s</xliff:g>.</string>
+    <string name="stock_item_warning">Voorraad item waarschuwing</string>
+    <string name="search">Zoek</string>
+    <!-- Billing-->
+    <string name="subscription">Toegang geweigerd</string>
+    <string name="upgrade_Account">Please update your account in the Back Office.</string>
+    <string name="update_Account">Account bijwerken</string>
+    <string name="contact_account_owner">Neem contact op met de accounteigenaar</string>
+    <string name="exit">Uitloggen</string>
+    <string name="billing_out_dialog_msg">Weet u zeker dat u wil afsluiten?</string>
+    <string name="confirmation_exit">Uitloggen</string>
+    <string name="no">Annuleer</string>
+    <plurals name="variantCount">
+        <item quantity="one">%d variant</item>
+        <item quantity="other">%d varianten</item>
+    </plurals>
+    <!--New to Loyverse-->
+    <string name="description_kds_l1">Loyverse Dashboard is a complementary app to Loyverse POS.</string>
+    <string name="description_kds_l2">To get started, please install the Loyverse POS app.</string>
+    <!--Vertical Calendar-->
+    <string name="sun">Zon</string>
+    <string name="mon">Maa</string>
+    <string name="tue">Din</string>
+    <string name="wed">Woe</string>
+    <string name="thu">Don</string>
+    <string name="fri">Vrij</string>
+    <string name="sat">Zat</string>
+    <string name="apply">Toepassen</string>
+    <string name="setting_use_darktheme">Donker thema gebruiken</string>
+    <string name="all_day">De hele dag</string>
+    <string name="start">Begin</string>
+    <string name="end">Einde</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuleren</string>
+    <string name="select_start_endtime">Selecteer Starttijd en Eindtijd</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+</resources>
